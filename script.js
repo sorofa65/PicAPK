@@ -71,11 +71,11 @@ const setupCategoryFilters = () => {
 // Load App Details
 const loadAppDetails = async () => {
   const slug = new URLSearchParams(window.location.search).get("slug");
-  if (!slug) return (location.href = "index.html");
+  if (!slug) return (location.href = "https://picapk.com");
 
   const apps = await fetchAPKData();
   const app = apps.find(a => a.slug === slug);
-  if (!app) return (location.href = "index.html");
+  if (!app) return (location.href = "https://picapk.com");
 
   // ✅ SEO Tags (safe replace if exists)
   document.title = `${app.name} APK Download - PicAPK`;
@@ -91,7 +91,7 @@ const loadAppDetails = async () => {
   if (existingCanonical) existingCanonical.remove();
   const canonical = document.createElement("link");
   canonical.rel = "canonical";
-  canonical.href = `https://yourdomain.netlify.app/details.html?slug=${app.slug}`;
+  canonical.href = `https://picapk.com/details.html?slug=${app.slug}`;
   document.head.appendChild(canonical);
 
   // Render content
