@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>https://your-domain.netlify.app/app/facebook</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+  <!-- You can auto-generate more URLs using a script or add them manually -->
+</urlset>
+

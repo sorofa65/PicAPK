@@ -1,0 +1,108 @@
+{
+    "apps": [
+      {
+        "id": 1,
+        "name": "WhatsApp Messenger",
+        "slug": "whatsapp-messenger",
+        "package": "com.whatsapp",
+        "version": "2.23.12.75",
+        "size": "45 MB",
+        "downloads": 1000000,
+        "rating": 4.5,
+        "icon": "assets/icons/whatsapp.png",
+        "apk_file": "assets/apks/whatsapp.apk",
+        "description": "WhatsApp Messenger is a FREE messaging app available for Android and other smartphones. WhatsApp uses your phone's Internet connection (4G/3G/2G/EDGE or Wi-Fi, as available) to let you message and call friends and family.",
+        "screenshots": [
+          "assets/screenshots/whatsapp1.jpg",
+          "assets/screenshots/whatsapp2.jpg",
+          "assets/screenshots/whatsapp3.jpg"
+        ],
+        "category": "Social",
+        "updated": "2023-07-10"
+      },
+      {
+        "id": 4,
+        "name": "ChatGPT",
+        "slug": "chatgpt",
+        "package": "com.openai.chatgpt",
+        "version": "1.0.0",
+        "size": "Varies with device",
+        "downloads": 50000000,
+        "rating": 4.8,
+        "icon": "https://play-lh.googleusercontent.com/lmG9HlI0awHie0cyBieWXeNjpyXvHPwDBb8MNOVIyp0P8VEh95AiBHtUZSDVR3HLe3A=w240-h480-rw",
+        "apk_file": "assets/apks/chatgpt.apk",
+        "description": "ChatGPT by OpenAI is your intelligent AI assistant designed to help with anything — from generating text and answering questions to brainstorming ideas and summarizing content. Whether you're a student, professional, or just curious, ChatGPT can assist you with writing help, coding support, general knowledge, and creative prompts. Experience the power of conversational AI in the palm of your hand, and boost your productivity with this smart and easy-to-use app.",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/eSCXG0tenlgO9df-3n_iLMcopOlhxMUgSjRV9N_GTsr02ST1J-87rA2I5bUIm7aPj4hF=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/r7g-UmRtdIB1nki1_IpDS3zAOAhKjfRRGFzsZZ1Caeek9jDRGK50Ha4i12owjNdAL3k=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/M6hPP-7qKvIWOB-MsS7JGIgPdejx2UO-xmCo3Y70ktq0vk4G5EMR0JVbnM6UwK69edJY=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/zYxgV8u7Y8JpFeXsOkm8vld6dCw03D659pkYsNCsraAfTEFqOcrwNdX7192x5vTX-g=w2560-h1440-rw"
+        ],
+        "category": "Tools",
+        "updated": "2023-11-15"
+      },
+      {
+        "id": 5,
+        "name": "Garena Free Fire",
+        "slug": "garena-free-fire",
+        "package": "com.dts.freefireth",
+        "version": "1.100.1",
+        "size": "Varies with device",
+        "downloads": 1000000000,
+        "rating": 4.2,
+        "icon": "https://play-lh.googleusercontent.com/6llpraFcTI0rEUuRpWEG9NWWblvm106y5JXcDzu60ACuaUYDD3i70a-p9_QM65NsGDE=s512-rw",
+        "apk_file": "assets/apks/freefire.apk",
+        "description": "Garena Free Fire is one of the most popular mobile battle royale games in the world, offering fast-paced survival gameplay and stunning visuals. Each match places 50 players on a remote island, where only one will survive. Players must search for weapons, stay in the safe zone, and eliminate opponents to become the last one standing. With modes like Clash Squad, ranked play, and regular in-game events, Free Fire keeps things fresh and competitive. Players can also unlock unique characters, costumes, emotes, and more. Whether you're teaming up with friends or going solo, Free Fire guarantees non-stop action, strategy, and adrenaline-pumping fun.",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/gEC9nhJSSFgGl-ngFXsUFqr-sFaLBGMFGBUaXy-Bb1T-wGTBgpBJn4qbRt8mdryRdVg=w526-h296-rw",
+          "https://play-lh.googleusercontent.com/r_27n1vejw0YmYXbs74syzZrH95PWd1YMVCxMDFWHqPWevHFHUlttPt3xPLKzz3g54UK=w526-h296-rw",
+          "https://play-lh.googleusercontent.com/Gz2ahDLhU3Ky8aAIHi5ctSGxgp4o0LJwDoYXc1Qc16qgeMIr-RqmLLm54337m26JBw=w526-h296-rw",
+          "https://play-lh.googleusercontent.com/CqupF5rE1A5KqJ5FRy3mEPMaeus7TsvInmdVlWNJG3VEhvxKUfAfMLECvFMjfNFN8B4=w526-h296-rw",
+          "https://play-lh.googleusercontent.com/lmDib4jXKZNs7YFciVlANFOG4KvnEw50KmG4l2qmqf4c9udag7zCDQHpcok1eqRmqSI=w526-h296-rw",
+          "https://play-lh.googleusercontent.com/NsFQ-g8-1uSokmHc9WGFY6d-WyptXoUCti2ThygtxviGYjFGM27Qgk5hhYtwo4B40A=w526-h296-rw"
+        ],
+        "category": "Games",
+        "updated": "2025-02-19"
+      },
+      {
+        "id": 6,
+        "name": "Subway Princess Runner",
+        "slug": "subway-princess",
+        "package": "com.subway.princess.runner",
+        "version": "7.5.3",
+        "size": "95 MB",
+        "downloads": 500000000,
+        "rating": 4.4,
+        "icon": "https://play-lh.googleusercontent.com/hrXVKx0z5tHoF_BbZTPgisqqHqmXkSKjpNEXN657lDMeDr4HamEySvRNPH6iauPvZcU=s212-rw",
+        "apk_file": "assets/apks/subwayprincess.apk",
+        "description": "Subway Princess Runner is a thrilling endless running game where you guide the princess through bustling subway tracks. Dash, dodge, and jump over obstacles as you race through vibrant cityscapes, snowy streets, and exciting locations. Unlock stylish outfits, upgrade your power-ups, and challenge your reflexes in high-speed action. Perfect for fans of fast-paced runners, the game combines colorful graphics, smooth controls, and non-stop fun. Whether you're collecting coins, avoiding trains, or using hoverboards and magnets, Subway Princess Runner delivers an exciting adventure you won’t want to miss!",
+        "screenshots": [
+          "https://play-lh.googleusercontent.com/JjgORRArpLdVCT8CYnX18RHFQdj9cbMrvWla_f27zHoZqA1fES4RkqRq5kVuSuHacQ=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/fWZ0gz_xxYopmZgwFUGiRHKizFhKTqQ-kXCS0bM0UqIb9gu5wLzw0SRH8p68UxTbSgg=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/at-oRW-rmEO9jEJkuVrfgHG238_NVU8GTH7WJlMCgY4PMyob_caKtd17ltwBcA8AtaQ=w2560-h1440-rw",
+          "https://play-lh.googleusercontent.com/SMRd5uu9x4kd3ZwWSzAD8yoicFcbei_9ntZN_4Oq-roWzEqXJT8igMW-5pZi_jTE_X4=w2560-h1440-rw"
+        ],
+        "category": "Games",
+        "updated": "2024-12-15"
+      },
+      {
+        "id": 10,
+        "name": "Facebook Lite",
+        "slug": "facebook-lite",
+        "icon": "icons/fb.png",
+        "version": "372.0.0.8.112",
+        "size": "2 MB",
+        "downloads": "100M+",
+        "rating": 4.2,
+        "category": "Social",
+        "description": "Lightweight version of Facebook.",
+        "apk_file": "apks/facebook-lite.apk",
+        "seo_title": "Download Facebook APK for Android - Latest Version",
+        "seo_description": "Get the latest version of Facebook APK for Android. Stay connected with friends, share updates, and more. Safe and fast download.",
+        "screenshots": ["ss1.jpg", "ss2.jpg"]
+    
+      }
+      
+      
+    ]
+  }
