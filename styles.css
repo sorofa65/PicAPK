@@ -314,6 +314,8 @@ footer {
     }
 
     .screenshot-slide {
-        flex: 0 0 calc( - 10px); /* Full-width slide for mobile */
+        flex: 0 0 calc(10px); /* Full-width slide for mobile */
+        object-fit: contain;
+        max-height: 180px;
     }
 }
