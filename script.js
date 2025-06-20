@@ -127,7 +127,7 @@ const loadAppDetails = async () => {
     </div>
     ${screenshotsHTML}
     <div class="description">
-      <h2>App About</h2>
+      <h2>About ${app.name} </h2>
       <p>${app.appabout}</p>
     </div>
   `;
