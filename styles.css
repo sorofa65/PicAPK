@@ -290,7 +290,7 @@ footer {
 /* === RESPONSIVE === */
 @media (max-width: 768px) { 
     #appList { display: grid;
-              grid-template-columns: repeat(3, 1fr);
+              grid-template-columns: repeat(5, 1fr);
               gap: 1rem; } }
 @media (max-width: 768px) {
     .header-content {
