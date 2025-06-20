@@ -183,6 +183,9 @@ header {
 .download-btn:hover {
     background-color: #3367d6;
 }
+#appList { display: grid;
+              grid-template-columns: repeat(5, 1fr);
+              gap: 1rem; }
 
 /* === DETAILS PAGE === */
 #appDetails {
