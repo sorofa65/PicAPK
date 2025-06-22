@@ -488,7 +488,7 @@
   "updated": "Varies with device"
 },
   {
-  "id": 23,
+  "id": 26,
   "name": "InShot – Video Editor & Maker",
   "slug": "inshot-video-editor",
   "package": "com.camerasideas.instashot",
@@ -514,6 +514,61 @@
   ],
   "category": "Video Players & Editors",
   "updated": "2025-06-23"
+},
+{
+  "id": 27,
+  "name": "Peachy – AI Face & Body Editor",
+  "slug": "peachy-ai-face-body-editor",
+  "package": "peachy.bodyeditor.faceapp",
+  "version": "1.151.41",
+  "size": "56.5 MB",
+  "downloads": 5000000,
+  "rating": 4.7,
+  "icon": "https://play-lh.googleusercontent.com/BDMEF9gzUOnYkagJ2QhywypUyVQ1CxSxnygYoQpNEGbmzLy1maLVO1_J8v6a34CS3bg=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=peachy.bodyeditor.faceapp&hl=en",
+  "description": "Peachy is a powerful AI-powered face and body editor—retouch skin, reshape your look, whiten teeth, tone lips, change hair color, and more—all watermark-free.",
+  "appabout": "<section>\n  <p><strong>Peachy – AI Face & Body Editor APK</strong> is a professional-grade photo editing app developed by InShot Video Editor, offering a wide range of AI-powered tools for flawless selfie and portrait enhancement. With its intuitive interface and powerful editing effects, Peachy turns ordinary photos into stunning visuals.</p>\n  <h3>🔧 Core Editing Features</h3>\n  <ul>\n    <li><strong>Photo Retouch:</strong> Smooth skin, remove acne and wrinkles, brighten eyes, whiten teeth, reduce shine using the matte tool.</li>\n    <li><strong>Face & Body Reshape:</strong> Fine-tune facial features and body shape—slim waist, enhance muscle tone, reshape arms or facial structure.</li>\n    <li><strong>Face Editor:</strong> Adjust lips, reshape nose and eyebrows, and edit up to 20 faces in group photos independently.</li>\n    <li><strong>AI Touch:</strong> Auto-retouch features like removing dark circles and applying natural whitening effects.</li>\n    <li><strong>Hair Color Changer:</strong> Try new looks instantly with full-tone, ombré, and vibrant hair color options.</li>\n  </ul>\n  <h3>🖌️ Basic Photo Tools & Effects</h3>\n  <ul>\n    <li><strong>Crop & Adjust:</strong> Crop, rotate, and fine-tune brightness, contrast, saturation, sharpness and vignette.</li>\n    <li><strong>Filters & Effects:</strong> Choose from vintage, trendy filters and dynamic light/sticker effects to enhance photo mood.</li>\n    <li><strong>Background Editing:</strong> Swap backgrounds or add decorative elements using Cutout and background effects.</li>\n  </ul>\n  <h3>📌 Why Choose Peachy?</h3>\n  <ul>\n    <li>No watermark and free to use—achieve professional edits without limitations.</li>\n    <li>Easy-to-use UI—ideal for both beginners and advanced editors.</li>\n    <li>Consistent updates—latest version 1.151.41 (updated June 20, 2025).</li>\n    <li>Multi-face editing support—perfect for group shots and event photos.</li>\n  </ul>\n  <p><strong>Peachy – AI Face & Body Editor</strong> has achieved over <strong>5 million downloads</strong> with a high rating of <strong>4.7★</strong>, making it one of the top choices for photo retouching and enhancement apps.</p>\n  <p>For secure usage, always download Peachy APK from trusted sources such as the official Google Play Store to ensure full functionality and privacy.</p>\n</section>",
+  "seo_title": "Download Peachy APK v1.151.41 – AI Face & Body Editor for Perfect Selfies",
+  "seo_description": "Download Peachy – AI Face & Body Editor APK (v1.151.41). Achieve flawless selfies with AI skin retouch, face & body reshaping, teeth whitening, hair color change, and more.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/G1LMi0PW3GlQrj1-nOy2hp9Cyqu-rcZYmiPKUtV0hC-9aCDAHKxy24xXFqzAAXLEOg4=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/rI0zDNG1tr7xF5cVg22vVXScJCRDuEJbK0mhPfdXrNmFWZNagAgzN0UkUhWecrr0Rvo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/7CBInrwMS8sXk8bgXiN3QC3XLYQJeA7q5drJYintU6CiXk3n3pQMj5UzWvZEj2QHTWo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/G7P5MwrWPmOkAaprTvbmOJhkeNIca9alLjkXSP64r7Kq6g9mt28ZbgdoT22NANjyMnw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/uyey_aiuoIVlmqa67CU-872xRdY2789KYPtLbJw0w040CIVYo917j8rTCJr9cNOVvrE=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/z1CvYf-zNEjPid3_oeEa6bpBnB5ASdjHhGhXFNeGEW7QNyiiPFn639VfwwUrj1Kz1qM=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/GnC8gO6OEMs90EHvoK3rd3Ox-sZvXeMDuUmVCh7HkTaqickLx_E6gTmLgOFpiGuXeSo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/H3MYYZUOi0rcow-u26AA-8GBS2RDS3y_omdtsOD1CYAvvR45Hdos7vW6x8eNMY_Klg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/UT70dOMnXL2ZoPpPPnxIRadeHn61AsUjM_6e6uLX8Me_ywKuH0iZUzVJfW73_igqfe89=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2025-06-20"
+},
+{
+  "id": 28,
+  "name": "Video Guru – Video Maker & Editor",
+  "slug": "video-guru-video-maker-editor",
+  "package": "videoeditor.videomaker.videoeditorforyoutube",
+  "version": "latest",
+  "size": "Varies with device",
+  "downloads": 10000000,
+  "rating": 4.8,
+  "icon": "https://play-lh.googleusercontent.com/HC96Bnc1a4YZBoAuZzJ0XFEonjBSPtQY4vTC_h0672zhwIOWxFirK9D43jRxbSzbeMA=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=videoeditor.videomaker.videoeditorforyoutube&hl=en",
+  "description": "Video Guru is a free, watermark‑free, all‑in‑one video editor and maker with powerful tools: trim, transitions, filters, music, 4K export, and more.",
+  "appabout": "<section>\n  <p><strong>Video Guru – Video Maker & Editor APK</strong> delivers a professional-quality, watermark-free video editing experience tailored for content creators, vloggers, and casual users alike. Packed with powerful tools, intuitive controls, and a vast media library, this app makes editing fast, fun, and flexible.</p>\n\n  <h3>Top Features:</h3>\n  <ul>\n    <li><strong>Multi-layer Editing:</strong> Edit using multiple video, audio, and overlay layers—including voiceovers, sound effects, stickers, and animated text.</li>\n    <li><strong>Fast & Slow Motion:</strong> Adjust playback speed from 0.2× to 100× for dramatic effects or cinematic slow motion.</li>\n    <li><strong>Transitions & Filters:</strong> Choose from over 50 stylish transitions, glitch and FX filters, and cinematic color presets.</li>\n    <li><strong>Audio Tools:</strong> Access a robust built‑in music library, import custom tracks, adjust volume, fade effects, or extract audio from existing clips.</li>\n    <li><strong>Watermark‑Free 4K Export:</strong> Export high-definition videos in up to 4K without watermarks, ideal for YouTube, Instagram, TikTok, and more.</li>\n    <li><strong>Photo‑to‑Video Conversion:</strong> Create dynamic photo slideshows from your images using music, transitions, and effect overlays.</li>\n    <li><strong>Video Trimmer & Cutter:</strong> Precisely trim or split clips, or merge multiple videos effortlessly.</li>\n    <li><strong>Creative Tools:</strong> Add custom color borders, adjust aspect ratio for multiple social platforms, and blur backgrounds for a polished look.</li>\n  </ul>\n\n  <p>The app also offers a smooth UI with easy drag-and-drop support, background processing for faster rendering, and no obligatory sign-in—making it accessible to beginner and advanced editors alike. And because it's free and watermark-free, it's perfect for everyday social media content.</p>\n\n  <p><em>Note:</em> Always download the APK from official or trusted sources to keep your device secure and functional.</p>\n</section>",
+  "seo_title": "Download Video Guru APK – Free Watermark‑Free Video Editor & Maker",
+  "seo_description": "Download Video Guru APK for Android. Trim, add music, transitions, filters, slow/fast motion, and export in 4K with no watermark. Perfect for vlogs and social media!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/AAr3jjpzxibYKeWfEpp28IXe7uXrlXDLQ5zRltxpgHP1_m0B-FIpya6RRV9gp0u2hOKk=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/iU8Af5PPc8y72PGUf0j6zPtrJlUhbUQAQq9ILNfTEDxpLCBEb5J8faVFwj7nw5ZFPjY=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/nui2hf--ZngQixjSlaJvIk2mxufb5XP18gR39C1fX7pkHUhQsLfO8Q4F-WVCUHYnjaM=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/SZN4YJnZCPd4L7MF4TFwop0in21CgXn_aHuymtLTkSYk26-V658nMvmZezif4qYR3w=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/vgEKIykOSlAVDGIauK4-e7LPCnPF5nVGMiYigbfmc0_T8kC-RbBDBNEl4pAi23y9hNA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/NWFEU0MOvJsaBsr8jZP8qMrP-UGdrgH2l9brVkB_BnRPgsV241BAkQT1hzTYLfFlWSM=w2560-h1440-rw"
+  ],
+  "category": "Video Players & Editors",
+  "updated": null
 }
   
       
