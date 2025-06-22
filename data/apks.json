@@ -324,6 +324,82 @@
   ],
   "category": "Casual",
   "updated": "2025-04-30"
+},
+{
+  "id": 20,
+  "name": "Bible Happy Art Jigsaw Puzzle",
+  "slug": "bible-happy-art-jigsaw-puzzle",
+  "package": "com.bible.happy.art.jigsaw.puzzle.free.game",
+  "version": "1.5.2",
+  "size": "55 MB",
+  "downloads": 1500000,
+  "rating": 4.6,
+  "icon": "https://play-lh.googleusercontent.com/69B56d0D6tpmJwngPFWP6BbYsodv5oVd1Qp5U7DWFgB36CsWE9Skq_KLuaLkHG3TvQ=w240-h480-rw",
+  "apk_file": "assets/apks/bible-happy-art-jigsaw-puzzle.apk",
+  "description": "Bible Happy Art Jigsaw Puzzle is an engaging jigsaw puzzle game featuring beautiful biblical art scenes. Relax and connect with your faith as you solve puzzles inspired by the Bible.",
+  "appabout": "<section>\n  <p><strong>Bible Happy Art Jigsaw Puzzle APK</strong> is a captivating and spiritually uplifting jigsaw puzzle game designed for puzzle enthusiasts and Bible lovers alike. This beautifully crafted mobile game offers an engaging way to relax, have fun, and connect with inspiring biblical art and themes through the timeless joy of puzzle-solving.</p>\n\n  <p>Whether you are a casual gamer looking for a calming pastime or a devoted follower seeking a meaningful connection through interactive gameplay, Bible Happy Art Jigsaw Puzzle offers something special for everyone. It combines the mental challenge of classic jigsaw puzzles with stunning imagery inspired by Bible stories, characters, and messages.</p>\n\n  <h3>Features That Make Bible Happy Art Jigsaw Puzzle Stand Out:</h3>\n  <ul>\n    <li><strong>Rich Collection of Biblical Art:</strong> Explore a wide range of beautifully illustrated Bible scenes and characters, from the Creation story to the life of Jesus, angels, and many more iconic moments.</li>\n    <li><strong>Multiple Puzzle Difficulties:</strong> Choose from a variety of difficulty levels, from easy puzzles with fewer pieces perfect for beginners and children, to highly challenging puzzles that will test the skills of even the most experienced puzzlers.</li>\n    <li><strong>Intuitive Touch Controls:</strong> Smooth drag-and-drop interface optimized for mobile devices makes assembling pieces enjoyable and effortless.</li>\n    <li><strong>Relaxing Background Music and Sound Effects:</strong> Immerse yourself in a soothing atmosphere with calming melodies designed to enhance your puzzle-solving experience.</li>\n    <li><strong>Save and Share Your Completed Puzzles:</strong> Once you finish a puzzle, save your masterpiece to your gallery or share it with friends and family via social media or messaging apps.</li>\n    <li><strong>Daily Challenges and New Puzzles:</strong> Stay engaged with regularly updated content, including daily puzzles and special themed events that keep the gameplay fresh and exciting.</li>\n    <li><strong>Offline Play Support:</strong> Enjoy puzzle solving anytime, anywhere — no internet connection needed.</li>\n  </ul>\n\n  <p>Besides being a fun and challenging game, Bible Happy Art Jigsaw Puzzle also serves as an educational tool, helping users deepen their knowledge and appreciation of biblical stories and teachings in a creative way. It’s a perfect activity for all ages — from children learning about Bible stories to adults seeking mindful relaxation.</p>\n\n  <p>The latest version of Bible Happy Art Jigsaw Puzzle APK offers improved performance, smoother animations, and bug fixes, ensuring a seamless and enjoyable user experience. With a moderate app size, it fits comfortably on most Android devices without compromising quality.</p>\n\n  <h3>Why Download Bible Happy Art Jigsaw Puzzle APK?</h3>\n  <ul>\n    <li><strong>Unique Combination of Faith and Fun:</strong> Experience the joy of puzzle games blended with inspirational Bible art.</li>\n    <li><strong>Enhances Cognitive Skills:</strong> Improve memory, concentration, and problem-solving abilities while enjoying spiritual content.</li>\n    <li><strong>Accessible for All Ages:</strong> Suitable for kids, teens, and adults looking for a peaceful, creative pastime.</li>\n    <li><strong>Beautiful Visuals:</strong> High-quality illustrations bring Bible stories to life in vibrant detail.</li>\n    <li><strong>Regular Content Updates:</strong> Keep your gameplay fresh with new puzzles and events added frequently.</li>\n  </ul>\n\n  <p>Whether you’re relaxing at home, taking a break during a busy day, or looking for a wholesome family-friendly game, Bible Happy Art Jigsaw Puzzle APK is an excellent choice. It combines the relaxing nature of puzzles with spiritual inspiration, making every completed puzzle a rewarding experience.</p>\n\n  <p><em>Note:</em> Please download the APK only from trusted sources to ensure the security of your device and to enjoy all features without interruption.</p>\n\n  <p>Start piecing together your favorite Bible-inspired images today with <strong>Bible Happy Art Jigsaw Puzzle</strong> — where faith and fun unite in perfect harmony.</p>\n</section>",
+  "seo_title": "Download Bible Happy Art Jigsaw Puzzle APK - Relaxing Bible-themed Puzzle Game",
+  "seo_description": "Download Bible Happy Art Jigsaw Puzzle APK for Android. Enjoy relaxing, faith-inspired jigsaw puzzles with beautiful biblical art scenes. Perfect for all ages and offline play.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/6uVJ5O1i-CihrahDCYdY9dJDXpm1JLhvVaHMX1iywRt9bdREfsWhldXl_BpG9PkSsbFb=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/7Ulb5csZqM6bwcXyl9hpIphZuXJtByuVxcZaKEp1-E1LG3a9VnKGzFxelL-IG3mSzEI=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/nq5dFTa-fjsYDNw7WWgU3k_7HqeALOIPGgV-_gpEwmIy5w_clxkh9menJqOSjmf3i9s=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/LS9mN8StxKSqoUhb4CR7Sg8O3--pT6T2ySSmixZIY72xx2p3opFaEvGhewGddQ48tA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/syWMQ8d_cIFVI-cWGoZQLrVW1uV8JfyHRXFzlGea9iOWGmBrexls7brq73MRgSsWRTA=w2560-h1440-rw"
+  ],
+  "category": "Puzzle",
+  "updated": "2025-06-22"
+},
+{
+  "id": 21,
+  "name": "Dream Home Happy Art Jigsaw Puzzle",
+  "slug": "dream-home-happy-art-jigsaw-puzzle",
+  "package": "com.dream.home.happy.art.jigsaw.puzzle.free.game",
+  "version": "1.7.0",
+  "size": "58 MB",
+  "downloads": 1200000,
+  "rating": 4.7,
+  "icon": "https://play-lh.googleusercontent.com/gWHpVOlz_PqctDOBbzIP7R4Zxg8yPvH89wIBho6MZc5gxwY6Z-zQtOIiwe7LX7lbal_u=w240-h480-rw",
+  "apk_file": "assets/apks/dream-home-happy-art-jigsaw-puzzle.apk",
+  "description": "Dream Home Happy Art Jigsaw Puzzle is a relaxing and fun puzzle game featuring beautiful artwork of cozy homes and interiors. Perfect for all ages to enjoy and unwind.",
+  "appabout": "<section>\n  <p><strong>Dream Home Happy Art Jigsaw Puzzle APK</strong> invites you to step into a world of beautiful, cozy homes and relaxing puzzle gameplay. Designed for puzzle enthusiasts and casual gamers alike, this game offers a delightful way to unwind while piecing together gorgeous images of charming houses, interior décor, and joyful living spaces.</p>\n\n  <p>Whether you want to take a break from a busy day or enjoy quality time with family, Dream Home Happy Art Jigsaw Puzzle delivers soothing entertainment combined with the satisfaction of completing intricate puzzles. With its user-friendly interface and diverse collection of puzzles, it appeals to players of all ages.</p>\n\n  <h3>Key Features of Dream Home Happy Art Jigsaw Puzzle:</h3>\n  <ul>\n    <li><strong>Wide Variety of Beautiful Images:</strong> Enjoy puzzles depicting elegant homes, cozy living rooms, beautiful gardens, and stylish décor, all rendered in high-quality artwork.</li>\n    <li><strong>Adjustable Difficulty Levels:</strong> From beginner-friendly puzzles with fewer pieces to challenging ones for advanced players, the game offers multiple difficulty options to suit everyone.</li>\n    <li><strong>Easy-to-Use Controls:</strong> Intuitive drag-and-drop mechanics ensure smooth puzzle assembly on any Android device.</li>\n    <li><strong>Calming Soundtrack and Effects:</strong> Relax with soft background music and subtle sound effects that enhance your gameplay experience.</li>\n    <li><strong>Daily Puzzle Challenges:</strong> Engage with new puzzles every day to keep your mind sharp and entertained.</li>\n    <li><strong>Offline Mode:</strong> Play anytime, anywhere, even without an internet connection.</li>\n    <li><strong>Save and Share Your Creations:</strong> Proudly save completed puzzles or share them with friends and family on social media.</li>\n  </ul>\n\n  <p>Dream Home Happy Art Jigsaw Puzzle not only provides a peaceful gaming experience but also nurtures cognitive skills such as problem-solving, concentration, and memory. It’s ideal for players seeking a calming, non-competitive way to pass the time while enjoying visually stunning puzzles.</p>\n\n  <p>The latest version includes performance improvements, smoother animations, and new puzzle packs to keep your gameplay experience fresh and enjoyable.</p>\n\n  <h3>Why Download Dream Home Happy Art Jigsaw Puzzle APK?</h3>\n  <ul>\n    <li><strong>Relaxing Gameplay:</strong> A perfect game for reducing stress and fostering mindfulness.</li>\n    <li><strong>Stunning Visuals:</strong> High-quality artwork brings warmth and beauty to every puzzle.</li>\n    <li><strong>Inclusive for All Ages:</strong> Suitable for kids, teens, adults, and seniors who enjoy casual gaming.</li>\n    <li><strong>Convenient Offline Play:</strong> Keep entertained even without internet access.</li>\n    <li><strong>Regular Updates:</strong> New puzzles and features added to enhance the game continuously.</li>\n  </ul>\n\n  <p>Whether you are a puzzle lover or someone looking for a charming way to relax, Dream Home Happy Art Jigsaw Puzzle APK is a wonderful addition to your Android device. Download today and start piecing together your dream home!</p>\n\n  <p><em>Note:</em> Always download the APK from trusted sources to protect your device and ensure full app functionality.</p>\n</section>",
+  "seo_title": "Download Dream Home Happy Art Jigsaw Puzzle APK - Relaxing Cozy Home Puzzle Game",
+  "seo_description": "Download Dream Home Happy Art Jigsaw Puzzle APK for Android. Enjoy beautiful, relaxing jigsaw puzzles featuring charming homes and interiors. Play offline and unwind with daily challenges.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/zMQJsAorTyeoH9nQgyz-HyvvXKYZ59DLI7CD8Q1H-x-Iqc8d--4v1bfB2GjAocwFKXo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/37EWmx0ew1sqZWeS1X7SJSQHOekzElUpUrxszUnDLbdKo2vuzO2dYC-oA6Gw1zV8tpQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/37EWmx0ew1sqZWeS1X7SJSQHOekzElUpUrxszUnDLbdKo2vuzO2dYC-oA6Gw1zV8tpQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Uu2dBfCME0RpUnf7hDXxZN_BXMYiEeOdR1q2gJOjDscE3CK3XDoPHPyj6lBPrtTaBzg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/JsH1xhaEcO8MqzdwX1_YAanmOfxYCN3bFMn3Le0zFDFJWsYaJXlasU0elcOzwNBQ87U9=w2560-h1440-rw"
+  ],
+  "category": "Puzzle",
+  "updated": "2025-06-22"
+},
+{
+  "id": 22,
+  "name": "CapCut - Video Editor",
+  "slug": "capcut-video-editor",
+  "package": "com.lemon.lvoverseas",
+  "version": "14.6.0",
+  "size": "322.7 MB",
+  "downloads": 1000000000,
+  "rating": 4.6,
+  "icon": "https://play-lh.googleusercontent.com/NafAciugdQk6L7_D0cmNq8cypX0pvA88h9DzlxIJQbPd3caZM3_S5-nZedHdnrcq_wCm=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=en",
+  "description": "CapCut is a powerful, all-in-one video editor for creating stunning videos with ease. Enjoy advanced editing features, trendy effects, music, and smooth sharing capabilities.",
+  "appabout": "<section>\n  <p><strong>CapCut - Video Editor APK</strong> is your go-to Android app for professional-quality video editing. Developed by ByteDance, it empowers users worldwide to create, edit, and share captivating videos with ease and style.</p>\n\n  <p>Whether you're a beginner or an experienced video creator, CapCut offers an intuitive interface and comprehensive tools — including trimming, splitting, reversing, and speed control — that turn your footage into engaging stories.</p>\n\n  <h3>Features of CapCut APK:</h3>\n  <ul>\n    <li><strong>Advanced Editing Tools:</strong> Use multi-layer editing, keyframe animation, smooth slow-motion, Chroma key, and PIP effects to bring your vision to life.</li>\n    <li><strong>Rich Effects & Filters:</strong> Explore hundreds of trendy effects like Glitch, Blur, 3D, and cinematic color filters to enhance your videos.</li>\n    <li><strong>Audio Library:</strong> Add music, sound effects, and sync your favorite TikTok audio for perfect video soundtracks.</li>\n    <li><strong>Auto Captions & Background Removal:</strong> Utilize speech recognition for subtitles and remove backgrounds automatically to create professional videos effortlessly.</li>\n    <li><strong>Collaborative Editing & Cloud Storage:</strong> Share projects and edit with your team online. Backup and store your media with cloud features.</li>\n    <li><strong>Export & Share:</strong> Export videos up to 4K 60fps and share instantly on TikTok, YouTube, Instagram, WhatsApp, and Facebook.</li>\n  </ul>\n\n  <p>With over 1 billion downloads, CapCut remains the preferred choice for video editors globally, delivering powerful performance, regular updates, and creative freedom.</p>\n\n  <p><em>Note:</em> Always download the CapCut APK from trusted sources to ensure your device’s safety and app reliability.</p>\n</section>",
+  "seo_title": "Download CapCut APK Latest Version 14.6.0 for Android - Best Video Editor App",
+  "seo_description": "Download CapCut APK (v14.6.0) for Android. Edit videos professionally with advanced tools, effects, music, and easy sharing. Join 1 billion+ users worldwide!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/ZcsY9cIDceYXBqc-zwSvgIUAJhlyDB1MATyBC3owxVu90ISrsxp37WuvIICGy-qdpET2=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/kDYjT_5HBD-Ybsy7ZMjKV_ZEimBkYNq-vUuoB5B89B99C8E9zWOmvTDR9e3fdwryCo4j=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/-fFu2ortaDbAbmwFbecqNSrhBvTly8WK9j39jmpJlC01Izs180g_SMICb2SlOkDXOt3q=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/64owiEpYVr924zKBk_sNukqce0rODxUsX1Zq8j2DobG9EajSdEjtbmw9yFr_UwWJGTw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/eX8F9fGFiIoU3SroWSJOUGLbB_X6OgHCUrqfOmn_HR5qKnhThsxV3pN27tJJBsl-9dc=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/ck8eiYweYRyz4iJevOagYFg1uQezX3FlXGUit7pUdnxvjfwgXpoAEE3x2ZQoQCwzlQ=w2560-h1440-rw"
+  ],
+  "category": "Video Players & Editors",
+  "updated": "2025-06-13"
 }
 
     
