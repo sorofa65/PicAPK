@@ -777,6 +777,46 @@
   ],
   "category": "Photography",
   "updated": "2024-06-01"
+},
+{
+  "id": 37,
+  "name": "PicsArt Photo & Video Editor",
+  "slug": "picsart-photo-video-editor",
+  "package": "com.picsart.studio",
+  "version": "24.6.5",
+  "size": "85 MB",
+  "downloads": 1000000000,
+  "rating": 4.3,
+  "icon": "https://play-lh.googleusercontent.com/hexunszQESgaMxZdfuGvYdNnS6fRebRqW5lECqadoqlTL3fbJbLL6NKceHlQ58ALXcE=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.picsart.studio&hl=en",
+  "description": "PicsArt: The ultimate AI-powered photo & video editor with 10M+ free stickers, filters, and advanced tools. Perfect for social media creators and designers!",
+  "appabout": "<section>\n  <p><strong>PicsArt APK</strong> is the go-to creative suite for Android, offering AI-driven editing, collage maker, and video tools. Trusted by 1B+ users, it combines professional features with social sharing.</p>\n  \n  <h3>✨ Key Features:</h3>\n  <ul>\n    <li><strong>AI Photo Tools:</strong> Background remover, AI avatar generator, and sky replacement.</li>\n    <li><strong>Pro Editing:</strong> Layers, curves, and blending modes (like Photoshop).</li>\n    <li><strong>Video Editor:</strong> Trim, merge, add music, and apply FX (up to 4K).</li>\n    <li><strong>Social Integration:</strong> Share edits directly to Instagram, TikTok, or PicsArt’s community.</li>\n    <li><strong>10M+ Assets:</strong> Free stickers, fonts, and templates updated daily.</li>\n  </ul>\n  \n  <h3>🆕 Latest Updates (v24.6.5):</h3>\n  <ul>\n    <li>New AI Sketch & Cartoon effects.</li>\n    <li>Enhanced neon and glitter stickers.</li>\n    <li>Faster rendering for large files.</li>\n  </ul>\n  \n  <p><em>Note:</em> Free version adds watermarks; <strong>PicsArt Gold</strong> unlocks premium tools.</p>\n</section>",
+  "seo_title": "PicsArt APK 24.6.5 Download (2024) - AI Photo Editor & Collage Maker",
+  "seo_description": "Download PicsArt APK: Edit photos/videos with AI tools, remove backgrounds, and access 10M+ stickers. Free for Android, no root required!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/vzZHqeXt_uzzClEF2cddxlaScoOPXl8ObqvfyiZAjE2uhxH_iEUfw4PNaPn4f79Uaw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/t9kti_uPVhCyHRt79FKpZQtiMTdbh9F3voxywBvUzkY4D0ughS72tkPhNPdETFuQmHc=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/0kp4aCQOb1Zj7q1Kvss_YGRBYzc6FeNpoer2iKp9XS9nma1izYTOh_5J3J_UXobNJCw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/rcl9CSFpCtUW_Rjm4W1IIUgD-LDLs1UjZBP4G-xiIX7TmmFk3OG1KnnBfPGIKvEMug=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/JaBJaE4ocduI4y7XWK0nTojt9rTXL8SGnj0UPOdhN2bsDWCnEANXXFFMOZ5_SCuWP3SG=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2024-06-15",
+  "developer": "PicsArt Inc.",
+  "price": "Free (In-App Purchases: $3.99–$99.99)",
+  "website": "https://picsart.com",
+  "security": {
+    "permissions": ["Camera", "Storage", "Microphone"],
+    "data_safety": "Encrypted in transit; user data optional"
+  },
+  "compatibility": {
+    "android": "7.0 and up",
+    "ram": "Recommended 2GB+"
+  },
+  "pros_cons": {
+    "pros": ["No login required", "Supports 4K exports", "Regular new stickers"],
+    "cons": ["Watermarks in free version", "Heavy ads without Gold"]
+  }
 }
     
     ]
