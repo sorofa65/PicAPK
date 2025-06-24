@@ -119,6 +119,18 @@ header {
 }
 
 /* === APP GRID === */
+#appList {
+      display: grid;
+      gap: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+    .app-card {
+       width: auto;
+       height: auto;
+       padding: 15px;
+    }
 .app-grid {
     display: flex;
     overflow-x: auto;
@@ -130,7 +142,6 @@ header {
 
 .app-card {
     flex: 0 0 auto;
-    width: 300px;
     scroll-snap-align: start;
     background-color: white;
     border-radius: 10px;
