@@ -288,10 +288,26 @@ footer {
 }
 
 /* === RESPONSIVE === */
-@media (max-width: 768px) { 
-    #appList { display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              gap: 1rem; } }
+/* For larger screens (e.g., PCs) */
+    @media (min-width: 1024px) {
+      #appList {
+        grid-template-columns: repeat(4, 1fr); /* Example: 4 columns on larger screens */
+      }
+    }
+
+    /* For medium screens */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #appList {
+        grid-template-columns: repeat(3, 1fr); /* Example: 3 columns on medium screens */
+      }
+    }
+
+    /* For smaller screens (e.g., mobile) */
+    @media (max-width: 767px) {
+      #appList {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Example: auto-fit columns on mobile */
+      }
+    }
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
