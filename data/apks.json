@@ -801,22 +801,35 @@
     "https://play-lh.googleusercontent.com/JaBJaE4ocduI4y7XWK0nTojt9rTXL8SGnj0UPOdhN2bsDWCnEANXXFFMOZ5_SCuWP3SG=w2560-h1440-rw"
   ],
   "category": "Photography",
-  "updated": "2024-06-15",
-  "developer": "PicsArt Inc.",
-  "price": "Free (In-App Purchases: $3.99–$99.99)",
-  "website": "https://picsart.com",
-  "security": {
-    "permissions": ["Camera", "Storage", "Microphone"],
-    "data_safety": "Encrypted in transit; user data optional"
+  "updated": "2024-06-15"
+
   },
-  "compatibility": {
-    "android": "7.0 and up",
-    "ram": "Recommended 2GB+"
-  },
-  "pros_cons": {
-    "pros": ["No login required", "Supports 4K exports", "Regular new stickers"],
-    "cons": ["Watermarks in free version", "Heavy ads without Gold"]
+ {
+  "id": 38,
+  "name": "PixelLab - Text on Pictures",
+  "slug": "pixellab-text-on-pictures",
+  "package": "com.imaginstudio.imagetools.pixellab",
+  "version": "2.0.9",
+  "size": "22 MB",
+  "downloads": 50000000,
+  "rating": 4.6,
+  "icon": "https://play-lh.googleusercontent.com/TqRTx4hbmOEeHz2PrH0lcWNNt83S5S22Qm06Epw5Ja-_0rPYgNYNQkAQRLaBKr2l4ew=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.imaginstudio.imagetools.pixellab&hl=en",
+  "description": "PixelLab: Add stunning 3D text, custom fonts, and artistic effects to your photos. Create professional social media graphics in seconds!",
+  "appabout": "<section>\n  <h2>PixelLab: Ultimate Text Design Studio for Android</h2>\n  <p>PixelLab revolutionizes photo text editing by combining typography mastery with intuitive design tools. Unlike basic editors, it offers advanced layer-based workflows, 3D text effects, and vector shape creation – all optimized for social media content creation.</p>\n\n  <h3>Advanced Text Customization</h3>\n  <p>PixelLab's text engine supports multi-layer compositions with granular control:\n  <ul>\n    <li><strong>3D Text Effects:</strong> Depth extrusion, lighting angles, and material finishes (metal/glass)</li>\n    <li><strong>1000+ Fonts:</strong> Integrated Google Fonts + custom TTF/OTF import</li>\n    <li><strong>Typography Tools:</strong> Letter spacing, line height, and paragraph alignment</li>\n    <li><strong>Text Animation:</strong> Create moving text GIFs with path animation</li>\n  </ul>\n  </p>\n\n  <h3>Professional Design Features</h3>\n  <p>Beyond text, PixelLab offers vector design capabilities:\n  <ul>\n    <li><strong>Shape Creation:</strong> Draw custom polygons, arrows, and speech bubbles</li>\n    <li><strong>Layer Effects:</strong> Shadows, glows, gradients, and pattern fills</li>\n    <li><strong>Blend Modes:</strong> Overlay, multiply, and screen for creative compositing</li>\n    <li><strong>QR Code Generator:</strong> Create scannable codes with custom designs</li>\n  </ul>\n  </p>\n\n  <h3>Social Media Optimization</h3>\n  <p>Pre-configured templates for all platforms:\n  <ul>\n    <li>Instagram Story (1080x1920)</li>\n    <li>YouTube Thumbnail (1280x720)</li>\n    <li>Twitter Header (1500x500)</li>\n    <li>TikTok Cover (1125x2000)</li>\n  </ul>\n  Export in JPG, PNG (transparent background), or GIF formats.</p>\n\n  <h3>Unique Tools</h3>\n  <p>Specialized features unavailable in competitors:\n  <ul>\n    <li><strong>Perspective Warp:</strong> Make text follow surfaces in photos</li>\n    <li><strong>Emoji Integration:</strong> Use emojis as design elements</li>\n    <li><strong>Background Remover:</strong> Auto subject isolation for text overlays</li>\n    <li><strong>Pattern Text:</strong> Fill letterforms with images/textures</li>\n  </ul>\n  </p>\n\n  <h3>Technical Specifications</h3>\n  <p>Version 2.0.9 improvements:\n  <ul>\n    <li>Reduced lag when working with 10+ layers</li>\n    <li>New material design icons</li>\n    <li>Fixed font rendering on Samsung devices</li>\n  </ul>\n  Works on Android 5.0+ with minimal storage requirements.</p>\n\n  <h3>Workflow Efficiency</h3>\n  <p>Time-saving features:\n  <ul>\n    <li>Save custom styles as presets</li>\n    <li>Project auto-recovery</li>\n    <li>Copy/paste layer attributes</li>\n    <li>Quick access toolbar customization</li>\n  </ul>\n  </p>\n\n  <h3>Pro vs Free Comparison</h3>\n  <p>Unlock with PixelLab Premium ($4.99):\n  <ul>\n    <li>Remove watermark</li>\n    <li>Access 500+ premium fonts</li>\n    <li>Export HD (4K resolution)</li>\n    <li>Advanced vector tools</li>\n  </ul>\n  </p>\n\n  <h3>Creative Applications</h3>\n  <p>Ideal for:\n  <ul>\n    <li>Social media managers creating branded content</li>\n    <li>Small businesses designing promotions</li>\n    <li>Educators making infographics</li>\n    <li>Photographers watermarking portfolios</li>\n  </ul>\n  </p>\n\n  <p><em>Tip:</em> Use 'Magnifier' tool for pixel-level text positioning precision.</p>\n</section>",
+  "seo_title": "PixelLab APK 2.0.9 Download (2024) - Add 3D Text to Photos, No Watermark",
+  "seo_description": "Download PixelLab APK: Create stunning text graphics, logos & social media designs with 1000+ fonts. Export transparent PNG - Free for Android!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/dxb45N-XXYRzDcV2pltfeFD7_nLdW7toExOZgOWXJrTW3YFms78V50jCTQe8CA0ZPEI=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/SbRnnUB4qH-9Du6CARTGrCtFqgdZNP0dcGedaPgubl62PjvnbuoZ48AkBXXO--yWk8Y=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/W0BmBNnbaZ1CuuTt2eXdrUrjq5mX4YX0JWbItvoaM0DMlQuTQixA5X1n0hB251egfg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/O5s7BWnM_3bvI3KEtQwEqGIku0G2FCjAsFzQv4vWmxTv23wmv_zDx0DWHxJCKjVb3fg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/OhbRV7Dzr1cqtYhbVKqjW-uZRqnIqrz9wT5DzoOlp-OGkwU0oEblbg6TDl0X2hiyAQ=w2560-h1440-rw"
+  ],
+  "category": "Design",
+  "updated": "2024-05-20"
   }
+  
 }
     
     ]
