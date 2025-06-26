@@ -1323,8 +1323,33 @@
   "seo_description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and editor. Capture perfect selfies with real-time filters, retouch tools, makeup, collages, and more. Download for Android!",
   "category": "Photography",
   "updated": "2025-06-20T00:00:00Z"
+},
+
+{
+  "id": 56,
+  "name": "Funny Camera: Face Filters",
+  "slug": "funny-camera-face-filters",
+  "package": "com.catchy.tools.funny.camera",
+  "version": "1.0.0",
+  "size": "N/A",
+  "downloads": "5,000,000+",
+  "rating": "3.3",
+  "icon": "https://play-lh.googleusercontent.com/vHr5rVZQfvS43OrBhe0l7hmTdCJa_VxPq-7QyTEayK92fIO6vIWKuLj-qC0sj2RqUP4=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.catchy.tools.funny.camera&hl=en",
+  "description": "Funny Camera: Face Filters is a lively app designed to add a humorous touch to your photos and videos using smart face filters and stickers. It features live face stickers, beauty filters, photo frames, and various editing tools to create funny and attractive selfies, ideal for sharing on social media.",
+  "appabout": "<section>\n  <p><strong>Funny Camera: Face Filters</strong> is a fun and lighthearted photo editor that brings your selfies and photos to life with quirky face filters, live stickers, and mirror effects. Whether you're looking to create hilarious content for TikTok, Instagram Reels, or just share a laugh with friends, this app offers easy-to-use tools for quick photo fun.</p>\n\n  <h3>🎭 Key Features:</h3>\n  <ul>\n    <li><strong>Live Face Stickers:</strong> Add fun to your selfies in real-time with animated stickers such as dog ears, funny glasses, beards, turbans, mustaches, and animal faces.</li>\n    <li><strong>Photo Frames & Overlays:</strong> Customize your photos with themed frames, lighting effects, and face overlays.</li>\n    <li><strong>Funny Mirror Effects:</strong> Stretch, squash, and warp your face with mirror effects that mimic carnival mirrors — for laugh-out-loud edits.</li>\n    <li><strong>Cartoon Filters:</strong> Transform yourself into a cartoon or anime character with just one tap.</li>\n    <li><strong>Beauty Adjustments:</strong> Apply basic beautification tools like brightness, contrast, saturation, and skin smoothening to enhance your photos.</li>\n    <li><strong>Live Camera Mode:</strong> Preview filters and stickers in real time as you take photos or videos directly from the app.</li>\n    <li><strong>Save & Share:</strong> Save your creations to the gallery or instantly share them on WhatsApp, Facebook, TikTok, or Instagram.</li>\n  </ul>\n\n  <h3>👥 User Experience:</h3>\n  <p>The app is built for quick fun rather than deep editing. It has a lightweight interface and doesn’t require advanced knowledge of photography or retouching. However, many users note the app is heavily ad-supported, which might disrupt the editing process. Some filters may not align perfectly with all face types, especially under low lighting.</p>\n\n  <h3>🧠 Face Changer Tools:</h3>\n  <ul>\n    <li>Stretch your face like rubber to mimic funny expressions.</li>\n    <li>Auto face detection and AR placement of stickers that track your face movements in real-time.</li>\n    <li>Funny background blur, shape face warp tools, and distortion modes.</li>\n  </ul>\n\n  <h3>📱 Performance & Support:</h3>\n  <p>The app works on most modern Android devices and does not require high processing power. It is best suited for casual users and children who enjoy taking selfies. The developer provides regular updates for stickers and frames, although the app may occasionally suffer from crashes or bugs as noted by some users.</p>\n\n  <h3>🔐 Data Safety:</h3>\n  <p>According to its Play Store listing, the app collects data like device or app IDs and user activity, which is not shared with third parties. However, users cannot delete collected data. Data transmission is encrypted. Always check the privacy policy for full details.</p>\n\n  <h3>🌟 Final Verdict:</h3>\n  <p><strong>Funny Camera: Face Filters</strong> is perfect for those who want a quick laugh or want to share entertaining content on social media. It’s ideal for kids, teens, and content creators looking for a low-effort way to inject humor into their selfies. While it may not be free from flaws, its large collection of stickers and effects makes it a worthwhile addition to your camera toolkit.</p>\n</section>",
+  "seo_title": "Download Funny Camera: Face Filters APK for Android",
+  "seo_description": "Add humor to your photos with Funny Camera: Face Filters APK. Apply live face stickers, funny effects, and photo frames. Create hilarious selfies for social media. Download for Android!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/Iict1xIny8mpqqG_RD9kxNKENvaiXP1vf77Q1c-ZNopPtm9v9oe7KU73oo0oEoYjaeg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/W8Ke715F5gExnmOo0DwZ18JqhaYiiBuHA1AXcaPnmtWWMNAiN-PedpolmZ8Mo73mAnJo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/5nvgXu6DmFUSo1NyxkKNhRatSQMOUHhuw8g9fGWNKo7ZGHH782Nj5NV7NZGhQ2Gr4A=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/90-M7AAtgibCkoMKP0ht1m9JeT2kOssY5OiFM-yIvG7sCdvgdcCSwNXOx0UuvScE_VU=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/VPnRvlu1wnBa0PaSCX3Pw4qYD5YHQC4WMRl_cLIMeQ8O4zXTXOwlo2Kd7q18drHWyQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/VfVBaUoc2SVQZGeIlEF_5ujxXAjmLzVcFVbDG2D7RjG7SuGepk2KgRsToU4BcJuC-cA=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2024-09-24"
 }
-
-
     ]
   }
