@@ -1244,13 +1244,14 @@
   "id": 55,
   "name": "Presets for Lightroom mobile",
   "slug": "presets-for-lightroom-mobile",
-  "package": "com.cerdillac.persetforlightroom",
+  "package": "com.cerdillac.presetforlightroom",
   "version": "1.13.0",
-  "size": "56.40 MB",
-  "downloads": "10,000,000+",
+  "size": "56.40",
+  "size_unit": "MB",
+  "downloads": 10000000,
   "rating": "4.5",
   "icon": "https://play-lh.googleusercontent.com/r3c5ngCuMROgTyiJj17Vu_GFG-RQ4MmmRgRDPzvvFBsg7u6zDO7uVDyQ61PRWC6gmw=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=com.cerdillac.persetforlightroom&hl=en",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.cerdillac.presetforlightroom&hl=en",
   "description": "Presets for Lightroom mobile is a free app offering a vast collection of professional presets and filters to enhance your photos directly within the Lightroom mobile app. It provides DNG presets for various categories like urban, fashion, natural, food, travel, and more, allowing users to apply stunning photo effects with ease and save them to their Lightroom collections.",
   "appabout": "<section>\n  <p><strong>Presets for Lightroom mobile</strong> is a popular and free application designed to significantly enhance your photo editing workflow within the Adobe Lightroom mobile app. Developed by CERDILLAC, it provides a comprehensive library of professional-grade presets and filters, making it easy for both amateur and experienced photographers to achieve stunning visual effects with just a few taps.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Extensive Free Presets:</strong> Access over 1000 premium photo presets and filters completely free of charge. This vast collection covers a wide range of styles and moods.</li>\n    <li><strong>DNG Presets for Lightroom:</strong> All presets are provided in DNG format, specifically designed for seamless integration with the Lightroom Mobile App. Simply open the DNG file in Lightroom and save the settings as a new preset.</li>\n    <li><strong>Diverse Categories:</strong> Explore presets categorized for various photography styles and scenes, including:\n      <ul>\n        <li>Urban</li>\n        <li>Fashion</li>\n        <li>Nature</li>\n        <li>Food</li>\n        <li>Travel</li>\n        <li>Film</li>\n        <li>Portrait</li>\n        <li>Wedding</li>\n        <li>Landscape</li>\n        <li>Autumn</li>\n        <li>Green & Orange</li>\n        <li>Dark & Moody</li>\n        <li>Retro</li>\n        <li>Cyberpunk</li>\n        <li>Black & White</li>\n        <li>Warm</li>\n        <li>Night</li>\n        <li>Winter</li>\n        <li>Popular</li>\n        <li>Aesthetic</li>\n        <li>Teal & Orange</li>\n      </ul>\n    </li>\n    <li><strong>User-Friendly Interface:</strong> Designed for ease of use, allowing quick Browse, previewing, and applying presets.</li>\n    <li><strong>Offline Access (after download):</strong> Once DNG files are downloaded, they can be used offline in Lightroom.</li>\n    <li><strong>Regular Updates:</strong> The app frequently adds new presets and filters to keep up with current trends and expand creative possibilities.</li>\n    <li><strong>Professional Results:</strong> Achieve high-quality, professional-looking photo edits without extensive manual adjustments.</li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>Users highly praise the app for its effectiveness and the quality of the free presets, often noting how it helps them achieve desired looks for their photos quickly. The integration with Lightroom mobile is a significant advantage. While the core functionality is free, some users might encounter ads, which is common for free applications.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the developer's information on Google Play, the app does not collect or share any user data. Data is encrypted in transit, and there is no provision for users to request data deletion.</p>\n</section>",
   "seo_title": "Download Presets for Lightroom mobile APK for Android - Free Lr Filters",
@@ -1266,7 +1267,7 @@
     "https://play-lh.googleusercontent.com/NhPPOBxOIR71doa0Zovo8hPj4dR-sadjAu4CCpbJtIGnc-DBhSU1errTwhNpB8i6KMYP=w2560-h1440-rw"
   ],
   "category": "Photography",
-  "updated": "2024-04-01"
+  "updated": "2024-04-01T00:00:00Z"
 }
     ]
   }
