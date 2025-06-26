@@ -1275,24 +1275,17 @@
   "slug": "b612-ai-photo-video-editor",
   "package": "com.linecorp.b612.android",
   "version": "14.2.10",
-  "size": "218 MB",
-  "downloads": "500,000,000+",
+  "size": 218.0,
+  "size_unit": "MB",
+  "downloads": 500000000,
   "rating": "4.2",
   "icon": "https://play-lh.googleusercontent.com/MZQJwhOkgsXWeR-5-dey7Ckras4a9xx2JN8ZfQ_Twz0otjKwUcT6qkPWo8OheOShWeg=w240-h480-rw",
   "apk_file": "https://play.google.com/store/apps/details?id=com.linecorp.b612.android&hl=en",
-  "description": "B612 AI Photo&Video Editor is an all-in-one camera and photo/video editing app offering a wide range of free features and tools. It includes real-time filters and beauty effects, AR effects, smart beauty recommendations, AR makeup, high-resolution and night modes, Gif Bounce, video editing with music, custom sound sources, and professional editing tools like advanced color editing, portrait retouching, borders, cropping, stickers, and texts. It aims to make every moment more special and help users create unique, trendy content.",
-  "appabout": "<section>\n  <p><strong>B612 AI Photo&Video Editor</strong> is a comprehensive and highly popular all-in-one camera and photo/video editing application developed by SNOW Corporation. It provides users with a vast array of free features and tools designed to transform ordinary moments into extraordinary visual content, making it a go-to app for enhancing photos and videos for social media platforms.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Create Your Own Filters:</strong> Users can design unique filters with ease and share them with friends, fostering a creative community. The app also features a diverse collection of filters from B612 creators.</li>\n    <li><strong>Smarter Camera:</strong>\n      <ul>\n        <li><strong>Real-time Filters & Beauty:</strong> Apply filters and beauty enhancements live while capturing photos, ensuring immediate, perfect results.</li>\n        <li><strong>Daily Updated AR Effects:</strong> Access a constantly refreshed library of AR effects and seasonal exclusive trendy filters.</li>\n        <li><strong>Smart Beauty & AR Makeup:</strong> Receive personalized beauty recommendations based on face shape and apply natural-looking AR makeup, adjustable to suit individual preferences.</li>\n        <li><strong>High-Resolution & Night Mode:</strong> Capture clear images anytime, anywhere, even in low-light conditions.</li>\n        <li><strong>Gif Bounce:</strong> Create fun GIFs from photos to share dynamic moments.</li>\n        <li><strong>Video Shooting & Editing:</strong> Shoot videos and enhance them with over 500 music tracks, turning daily life into music videos. Users can also extract custom sound sources from their own videos.</li>\n      </ul>\n    </li>\n    <li><strong>ALL-IN-ONE PRO Editing Features:</strong> Access professional-grade editing tools:\n      <ul>\n        <li><strong>Various Filters & Effects:</strong> Apply a wide range of styles, from retro to modern, to set the desired atmosphere for photos.</li>\n        <li><strong>Advanced Color Edit:</strong> Utilize precise color editing tools like professional curves, split tone, and HSL for detailed adjustments.</li>\n        <li><strong>More Natural Portrait Edit:</strong> Enhance portraits with natural beauty effects, body editing tools (including new Background Lock for smooth body shape correction, and tools for back and belly adjustments), and hair color styling. The 'Wrinkles' feature helps easily erase unwanted areas like eyes and nasolabial lines.</li>\n        <li><strong>Edit Videos:</strong> Simplify video editing with trendy effects and various music options.</li>\n        <li><strong>Borders & Crop:</strong> Easily adjust photo and video sizes and ratios for seamless social media uploads.</li>\n        <li><strong>Decoration Stickers & Texts:</strong> Personalize photos with a variety of stickers and text options, including custom sticker creation.</li>\n      </ul>\n    </li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>B612 is highly praised for its extensive features, user-friendly interface, and continuous updates that keep it aligned with current trends. Users appreciate its reliability and effectiveness in delivering high-quality photo and video edits. While the app is largely free, some premium filters and features may require in-app purchases or a VIP subscription. Some users have noted that the app does not allow processing of externally existing photos in some contexts, focusing more on its built-in camera capabilities for real-time effects. Recent updates have focused on advanced body correction tools and AI enhancements.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to information available, the developer (SNOW Corporation) states that no user data is shared with third parties. However, the app may collect data types such as personal info, financial info, and other identifiers. Data is encrypted in transit, and users have the option to request data deletion. For more detailed information, users are encouraged to review the developer's privacy policy.</p>\n</section>",
+  "description": "B612 AI Photo&Video Editor is an all-in-one camera and photo/video editing app offering a wide range of free features and tools...",
   "seo_title": "Download B612 AI Photo&Video Editor APK for Android",
   "seo_description": "Transform your photos and videos with B612 AI Photo&Video Editor APK. Enjoy real-time filters, AI beauty, advanced editing tools, and trendy effects. Download for Android now!",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/xAi9ZCGotQeDX77eYXx97cV9Pdj5IRITGls88SB6_mJOGBXswxqicrSP-lwtJPfb5A=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/ZauzFLJ00ZYUPRob9r8qUWXCX1faWBB6sfDd4wKOxersqY8wx4HBtopqCY3600oyHnM=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/ZauzFLJ00ZYUPRob9r8qUWXCX1faWBB6sfDd4wKOxersqY8wx4HBtopqCY3600oyHnM=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/lN9QUe5s5Ix_HuGe7SQaxvlRnXbBKodkG2Gb4BIXoum_S-FzpKnE1UCxeaUmMVD-12w=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/RDUp6kk3WpqU0iKTlFrNpJUf0X6kgyTdIoCuiTl8LFCPl2tDwX3IoxLGVBlojFERmA=w2560-h1440-rw"
-  ],
   "category": "Photography",
-  "updated": "2025-06-04"
+  "updated": "2025-06-04T00:00:00Z"
 },
 {
   "id": 58,
@@ -1300,25 +1293,17 @@
   "slug": "hd-camera-video-filter-editor",
   "package": "hd.camera.sticker.filter",
   "version": "3.1.9",
-  "size": "25.5MB",
-  "downloads": "Thousands+",
+  "size": 25.5,
+  "size_unit": "MB",
+  "downloads": 1000000,
   "rating": "4.8",
   "icon": "https://play-lh.googleusercontent.com/g7fyKspePb-etgdff7NSZSfV4uWMQtCEir6dejMfsyQBzw0AlayloikSouOXVQj6Tva-=w240-h480-rw",
   "apk_file": "https://play.google.com/store/apps/details?id=hd.camera.sticker.filter&hl=en",
-  "description": "HD Camera -Video Filter Editor is a free, full-featured selfie beauty camera app that supports quick snap, HD video shooting, panorama, and professional photo editing tools. It offers themed funny stickers, motion stickers, art filters, poster templates, photo collages, and video effects to help users create beautiful and natural-looking photos and videos.",
-  "appabout": "<section>\n  <p><strong>HD Camera -Video Filter Editor</strong> is a powerful and versatile camera and photo/video editing application designed to provide users with a comprehensive suite of tools for capturing and enhancing their visual content. This app is geared towards making it easy to shoot high-definition photos and videos, apply artistic filters, and perform professional-grade edits.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>High-Quality Camera Functionality:</strong>\n      <ul>\n        <li><strong>HD Video Shooting & Panorama:</strong> Capture crystal-clear videos and wide panoramic shots.</li>\n        <li><strong>Automatic Adjustments:</strong> The camera automatically adjusts for light and motion to ensure sharp results.</li>\n        <li><strong>Resolution & Ratios:</strong> Supports all resolutions and aspect ratios allowed by your device's camera.</li>\n        <li><strong>Fine-tuned Autofocus:</strong> Ensures photos come out sharp and clear.</li>\n        <li><strong>HDR+:</strong> Capture fantastic photos, especially in low-light or backlit scenes.</li>\n        <li><strong>Real-time Filters:</strong> Preview filter effects before taking pictures or shooting videos, with over 60 gorgeous filters for different scenes (e.g., modern, vintage, artistic).</li>\n        <li><strong>Essential Camera Controls:</strong> Front and back camera support, flash on/off/auto, fast zoom with pinch gestures, silent capture mode, optional GPS setting, and a timer for delayed shots.</li>\n        <li><strong>Professional Mode:</strong> Supports advanced settings like scene modes, ISO, white balance, and exposure adjustment.</li>\n      </ul>\n    </li>\n    <li><strong>Professional Photo & Video Editor:</strong>\n      <ul>
-        <li><strong>Full Editing Toolkit:</strong> Offers a wide range of tools to create photos with an all-in-one creativity suite.</li>\n        <li><strong>Text & Effects:</strong> Add catchy slogans or messages to pictures with customizable fonts, and adjust brightness, contrast, saturation, and color temperature.</li>\n        <li><strong>Filters & Editor:</strong> Hand-picked selection of beautiful camera filters, one-touch filters, mosaic pixelate for background blur, vignette, and HDR effect. Crop, rotate photos, and shorten videos with the video trimmer.</li>\n        <li><strong>Collages:</strong> Combine multiple photos into perfect collages with various templates.</li>\n        <li><strong>Background:</strong> Dozens of backgrounds of different images and colors are available.</li>\n        <li><strong>Frames & Stickers:</strong> Beautiful frames and over 100 styles of stickers to decorate photos.</li>\n        <li><strong>Beautify & Crop:</strong> Tools for beautification and precise cropping.</li>\n        <li><strong>Curve Toning & Brush:</strong> Advanced color adjustment with curves and freehand drawing.</li>\n      </ul>\n    </li>\n    <li><strong>Quick Capture & Sharing:</strong> Utilizes phone advantages for quick capture with zero shutter lag. Easily upload edited photos to Facebook, Instagram, or other social networks.</li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>Users generally appreciate HD Camera for its ease of use, comprehensive features, and the high quality of images it produces. Many reviews highlight its crisp image capture and clear focus. The app is noted for having a user-friendly interface and providing a good range of free features. Some users might experience minor delays or find certain features not as intuitive as expected, but overall, it's considered a reliable free camera alternative for Android. The app's 'What's new' section in recent updates indicates continuous improvements in zoom, gallery function, camera performance, and bug fixes.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the Google Play Store, the app collects data related to Device or other IDs and App activity. The developer states that no data is shared with third parties. However, it's explicitly mentioned that data collected cannot be deleted by users. Users are advised to review the developer's privacy policy.</p>\n</section>",
+  "description": "HD Camera -Video Filter Editor is a free, full-featured selfie beauty camera app...",
   "seo_title": "Download HD Camera -Video Filter Editor APK for Android",
   "seo_description": "HD Camera -Video Filter Editor is a free, full-featured selfie beauty camera app with HD video, panorama, photo editing tools, stickers, filters, and collages. Download for Android!",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/iTs4hvr4t1-DFKD8VnOK8oQR64ZN1eOU259YIDriCThiz7wFpff4w9gCA47k1BEZA4_Z=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/K6Z56QuEf5z2T9Cprlu0p7iO8IwGanxZNteFec1eqh3WhPeQo736Jf115uryrJZ6Ng=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/GXcNlZlObdOEQBbhMtHsseCtxVy86Hkj0WFGcxz43XBaz31gSQk82m3TEQetdnDDGU0=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/4NiViXxL8MyDY3x3ajskFcFCaIu-VDq0Gsun3IdmQpgcbzhlZnv2xp6KcXovHiOYuF0=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/7tSZ4-xm2JesJ4XwGeU8Wbk1TxIs_2awvuJmL6lFWjHI04RFu7KW1QIS4jcLNX_Holg=w2560-h1440-rw"
-  ],
   "category": "Photography",
-  "updated": "2025-06-23"
+  "updated": "2025-06-23T00:00:00Z"
 },
 {
   "id": 59,
@@ -1326,77 +1311,17 @@
   "slug": "beauty-camera-selfie-photo",
   "package": "photo.filter.selfie.beauty.camera",
   "version": "5.2.5",
-  "size": "83.76 MB",
-  "downloads": "50,000,000+",
+  "size": 83.76,
+  "size_unit": "MB",
+  "downloads": 50000000,
   "rating": "4.2",
   "icon": "https://play-lh.googleusercontent.com/eM_qWbEyWeJhq3Wp-pBT-UQTbwjo9HqL8-dD_SfB-T-nptYts73nGnnGTfEfkyMwHw=w240-h480-rw",
   "apk_file": "https://play.google.com/store/apps/details?id=photo.filter.selfie.beauty.camera&hl=en",
-  "description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and photo/video editing app designed to enhance selfies and photos with professional tools and various effects. It features real-time beauty filters, face retouching, makeup looks, AR stickers, collage maker, and a powerful photo editor. It helps users capture HD photos and videos, beautify their skin, reshape faces, and create stunning content for social media.",
-  "appabout": "<section>\n  <p><strong>Beauty Camera - Selfie, Photo</strong> (also known as Beauty Camera - Selfie, Sticker, or Sweet Selfie) is a comprehensive and versatile all-in-one beauty camera and photo/video editing application. It provides users with a rich set of tools and effects to capture, enhance, and transform their selfies and photos into shareable masterpieces for platforms like Instagram, Facebook, Snapchat, Twitter, and TikTok.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Real-time Beauty Camera:</strong>\n      <ul>\n        <li><strong>Beautify:</strong> Instantly apply beauty filters to make selfies more gorgeous with one tap.</li>\n        <li><strong>HD Retouch:</strong> Touch-up photos for a more natural, stunning look.</li>\n        <li><strong>Smooth:</strong> Easily smoothen skin and refine pores for a perfect complexion.</li>\n        <li><strong>Reshape:</strong> Adjust facial features like eyes, nose, lips, and more.</li>\n        <li><strong>Eyes:</strong> Enlarge and brighten eyes, and remove dark circles.</li>\n        <li><strong>Teeth Whitening:</strong> Enhance smiles by whitening teeth.</li>\n        <li><strong>Light Makeup Looks:</strong> Offers preset light makeup looks that automatically detect faces and apply effects in real-time, perfect for beginners.</li>\n        <li><strong>Funny Stickers & AR Stickers:</strong> Take selfies with a wide variety of real-time beauty filters, face stickers, and AR stickers.</li>\n        <li><strong>HD Camera:</strong> Easily shoot high-definition photos and videos.</li>\n      </ul>\n    </li>\n    <li><strong>Professional Photo Editor:</strong>\n      <ul>\n        <li><strong>Blur Photo Editor:</strong> An essential blur tool with an advanced blur photo brush for artistic effects.</li>\n        <li><strong>Crop Photo Editor:</strong> Resize and trim photos easily to achieve the perfect selfie or composition.</li>\n        <li><strong>Background Changer:</strong> Change photo backgrounds to various shapes like teardrop or corrugated.</li>\n        <li><strong>Adjustments:</strong> Fine-tune brightness, contrast, vignette, fade, temperature, saturation, sharpen, and other parameters.</li>\n        <li><strong>Art Filters:</strong> Add a wide range of artistic filters to make selfies pop.</li>\n        <li><strong>Video Editing:</strong> Offers tools for basic video editing, including adding stickers and effects.</li>\n      </ul>\n    </li>\n    <li><strong>Amazing Collages, Frames & Effects:</strong>\n      <ul>\n        <li><strong>Collage Maker:</strong> Select multiple pictures and instantly remix them into cool photo collages with tons of free preset templates and layouts.</li>\n        <li><strong>Customize Collages:</strong> Edit collages with filters, backgrounds, stickers, and text.</li>\n        <li><strong>Frames & Effects:</strong> Access a variety of frames and effects to enhance photo presentation.</li>\n      </ul>\n    </li>\n    <li><strong>Additional Features:</strong> Includes fonts, stickers, doodle, and other decorative elements to personalize photos.</li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>Users generally find Beauty Camera - Selfie, Photo to be a powerful and user-friendly app for quick and effective photo enhancements. Its all-in-one nature, combining a camera with robust editing tools, is frequently praised. While the app is free to download and offers many features, some premium filters and functionalities might require in-app purchases. Recent updates have focused on improving camera styles, performance, and adding more makeup effects and stickers.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the Google Play Store, the app collects data related to Location, App activity, and Device or other IDs. The developer states that no data is shared with third parties. However, it's noted that data collected cannot be deleted by users. For more information, users are advised to review the developer's privacy policy.</p>\n</section>",
+  "description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and photo/video editing app...",
   "seo_title": "Download Beauty Camera - Selfie, Photo APK for Android - Free Editor",
   "seo_description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and editor. Capture perfect selfies with real-time filters, retouch tools, makeup, collages, and more. Download for Android!",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/doBimKo50BD939gepNQQefRnFej85Z5GsFyvtbTdNhG9ZUSaLcfuRFgcysQWWKCDwOE=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/hxsuD-VKB_iP5mPabetbwjFV8YF1_22FzA8NvKhupqWTAabf0ZMIFwN2ZHni8XYhP2A=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/im-wyvhgpwF9z5GmN1ipCqMi0-z1pDfRrCQu25muueKcljBukUagp-dezsneOZLWd-k=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/BaNIEJyKoSfBp32lM3jSb3iwxydEZ2tcGStJWaS33tkEbEho3joKxAIYQtPIIKnGnNYg=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/xjVAAhbIypIQgRP0msrISkXtPfMfvEFb06NcSsjq5oAssEqUhdeByp_-2LRTrblFzL4=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/gBRUB-RpLlxYKqEiqUlZSQWKVhe1JmJU8V5UhItcGeBcTCcGefs36Zj3fDsfxkIt_x0=w2560-h1440-rw"
-  ],
   "category": "Photography",
-  "updated": "2025-06-20"
-},
-{
-  "id": 60,
-  "name": "Funny Camera: Face Filters",
-  "slug": "funny-camera-face-filters",
-  "package": "com.catchy.tools.funny.camera",
-  "version": "5.32K reviews (no explicit version number in snippets, using review count as placeholder)",
-  "size": "40 MB",
-  "downloads": "5,000,000+",
-  "rating": "3.3",
-  "icon": "https://play-lh.googleusercontent.com/vHr5rVZQfvS43OrBhe0l7hmTdCJa_VxPq-7QyTEayK92fIO6vIWKuLj-qC0sj2RqUP4=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=com.catchy.tools.funny.camera&hl=en",
-  "description": "Funny Camera: Face Filters is a lively app designed to add a humorous touch to your photos and videos using smart face filters and stickers. It features live face stickers, beauty filters, photo frames, and various editing tools to create funny and attractive selfies, ideal for sharing on social media.",
-  "appabout": "<section>\n  <p><strong>Funny Camera: Face Filters</strong> is an entertaining application developed by Catchy Tools, focused on bringing humor and creativity to your photos and videos through a variety of live face filters and stickers. It aims to provide users with an easy way to transform their selfies into funny and engaging content for sharing with friends and on social media.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Live Funny Stickers:</strong> Apply smart, all-new, and exciting stickers directly onto faces in real-time using the live camera. This includes head stickers, mustache face stickers, doggy face stickers, animojis, turbans, caps, and other accessories.</li>\n    <li><strong>Live Frames:</strong> Use various frames directly on the camera to enhance your photos instantly.</li>\n    <li><strong>Live Camera Filters:</strong> Experiment with a range of live camera filters to preview effects before capturing.</li>\n    <li><strong>Funny Mirror Effects:</strong> Utilize camera features with funny mirror effects for unique distortions.</li>\n    <li><strong>Photo Editing Tools:</strong> Beyond live effects, the app offers tools to make photos even more attractive, including adjustments for saturation, brightness, and contrast in filtered images.</li>\n    <li><strong>Face Changer Functionality:</strong> Acts as a face changer app, allowing users to alter facial features for humorous results.</li>\n    <li><strong>Save and Share:</strong> Easily save your funny photos and videos and share them directly on social media platforms.</li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>User reviews for Funny Camera: Face Filters are mixed. While some users find it fun and enjoyable, especially for entertaining children, others express dissatisfaction with the number and quality of filters, noting that many filters simply cover the face rather than subtly altering it. A common complaint revolves around the high frequency of advertisements, with users mentioning long ads between filter changes or saving actions, which significantly impacts the user experience. Some users also report issues with filters not fitting faces correctly or the camera darkening images. The app is generally considered simple and easy to use for its basic functions.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the Google Play Store listing, the app collects data related to Device or other IDs and App activity. The developer states that no data is shared with third parties. However, it's explicitly mentioned that data collected cannot be deleted by users. Users are advised to review the developer's privacy policy for more details.</p>\n</section>",
-  "seo_title": "Download Funny Camera: Face Filters APK for Android",
-  "seo_description": "Add humor to your photos with Funny Camera: Face Filters APK. Apply live face stickers, funny effects, and photo frames. Create hilarious selfies for social media. Download for Android!",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/Iict1xIny8mpqqG_RD9kxNKENvaiXP1vf77Q1c-ZNopPtm9v9oe7KU73oo0oEoYjaeg=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/W8Ke715F5gExnmOo0DwZ18JqhaYiiBuHA1AXcaPnmtWWMNAiN-PedpolmZ8Mo73mAnJo=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/5nvgXu6DmFUSo1NyxkKNhRatSQMOUHhuw8g9fGWNKo7ZGHH782Nj5NV7NZGhQ2Gr4A=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/90-M7AAtgibCkoMKP0ht1m9JeT2kOssY5OiFM-yIvG7sCdvgdcCSwNXOx0UuvScE_VU=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/VPnRvlu1wnBa0PaSCX3Pw4qYD5YHQC4WMRl_cLIMeQ8O4zXTXOwlo2Kd7q18drHWyQ=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/VfVBaUoc2SVQZGeIlEF_5ujxXAjmLzVcFVbDG2D7RjG7SuGepk2KgRsToU4BcJuC-cA=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "2024-09-24"
-},
-{
-  "id": 61,
-  "name": "Time Warp Scan - Face Warp",
-  "slug": "time-warp-scan-face-warp",
-  "package": "com.timewarp.scanface.selfiephotoeditor.videopopulartiktok",
-  "version": "1.0.3",
-  "size": "50 MB",
-  "downloads": "50,000,000+",
-  "rating": "4.1",
-  "icon": "https://play-lh.googleusercontent.com/fLw5gPYqjj4yuzeutrGcV5WJmHJ8lPy4B5qkjkEtdgQZJupFzHT2Zgau8Zxl--Zs7g=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=com.timewarp.scanface.selfiephotoeditor.videopopulartiktok&hl=en",
-  "description": "Time Warp Scan - Face Warp is a popular app that applies a 'blue line' filter to create funny and distorted photos and videos. It features a time warp scan filter with customizable scan directions (horizontal or vertical), face filters for a deformed look, and a photo filter for a melting effect. Users can create trending content for social media platforms like TikTok, Snapchat, and Instagram, and save/share their creations easily.",
-  "appabout": "<section>\n  <p><strong>Time Warp Scan - Face Warp</strong> is a highly popular and entertaining photo and video editing application that utilizes the trending 'blue line' filter to create unique and humorous distortions. Developed by Beauty Photo & Video Editor App, it allows users to produce viral content similar to those seen on platforms like TikTok, Snapchat, Instagram, and Facebook.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Time Warp Scan Filter:</strong> The core feature, applying a 'blue line' scan effect that freezes parts of the image as the line moves, resulting in hilarious and creative distortions.</li>\n    <li><strong>Customizable Scan Direction:</strong> Users can choose to apply the time warp scan either horizontally or vertically, enabling a wide range of creative effects.</li>\n    <li><strong>Face Filters & Deformed Face:</strong> Beyond the main scan, the app includes specific face filters to create intentionally deformed or comical facial expressions, adding to the fun.</li>\n    <li><strong>Photo Filter:</strong> Apply a 'melting effect' to photos, giving them a distinct and surreal appearance.</li>\n    <li><strong>Trending TikTok Content Creation:</strong> Designed to help users generate popular and viral content for TikTok and other social media, allowing them to participate in the latest trends.</li>\n    <li><strong>Easy to Use:</strong> Simple interface for quickly capturing photos or videos with the desired effect.</li>\n    <li><strong>Save and Share:</strong> Directly save creations to your device's gallery and share them with friends or upload to social media platforms.</li>\n    <li><strong>Time Warp Scan Challenges:</strong> Participate in and create your own time warp scan challenges, such as: 'Wavy Eyebrow', 'Fake Tree', 'Mirror Trick', 'Wavy Body', 'Floating Illusion', 'Slime Simulation', 'Smoke Trick', 'Androgenous Face', 'Arm Dance', 'Shrinking Head', 'Long Neck', 'Make me tall', 'Make me thin', and 'Melting face'.</li>\n  </ul>\n\n  <h3>User Experience and Notes:</h3>\n  <p>Users generally find the app highly entertaining and enjoy creating funny content with it. Its popularity stems from its ability to replicate the viral time warp scan effect. Reviews often highlight its ease of use and the humor it provides. However, like many free apps, some users may encounter advertisements. There are also mentions of the app potentially being resource-intensive on older devices or causing minor glitches, but overall, it delivers on its promise of fun, distorted photo/video creation.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the Google Play Store data safety section, the app collects data related to Device or other IDs and App activity. The developer states that no data is shared with third parties. However, it's explicitly mentioned that data collected cannot be deleted by users. Users are advised to review the developer's privacy policy for more details.</p>\n</section>",
-  "seo_title": "Download Time Warp Scan - Face Warp APK for Android - TikTok Filter",
-  "seo_description": "Create funny photos & videos with Time Warp Scan - Face Warp APK. Apply blue line filter, face warp effects, and trending TikTok challenges. Download for Android now!",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/35brbaIfIzZUxOgcbhc2IuSJu9dnBuW-ih5K9mFut8cAzLaZI0davI4SWi3djROQH0Y=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/D6HIZclCQYtcj8IFdAfFkOy7kdVb00mbS4sI0TFpLXxZpHKnSAEx6T17jfNXDtQ71V4=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/hxi6G-DgLEKk_TSU8CcAhUxEPCWxjAgW4jqPgmnG3QRqN7csgzrTmVeR0OYaptOJHTE=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/TacYrnnmsRuCZKte6VInwHJxk2RLTMW3ILHSodf5iXo-guN0zrYGBRQKS9XqebBoAU4W=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/4tzbrsvePI9M-JpGQbvDD1k6_JuEBMuxqvBwFoCv_oGurJlP2wT0h6YY3fyvWhYEIWA=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/7Ipskc8dGeG0AYbtAnBkQP42e0ZxGJGtQ3Lu7DCB8YY5ayxP6LjUdQg1EJrs3R-OoKc=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "2024-05-18"
+  "updated": "2025-06-20T00:00:00Z"
 }
     ]
   }
