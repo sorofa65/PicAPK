@@ -1275,7 +1275,7 @@
   "slug": "b612-ai-photo-video-editor",
   "package": "com.linecorp.b612.android",
   "version": "14.2.10",
-  "size": 218.0,
+  "size": "218.0",
   "size_unit": "MB",
   "downloads": 500000000,
   "rating": "4.2",
@@ -1286,42 +1286,6 @@
   "seo_description": "Transform your photos and videos with B612 AI Photo&Video Editor APK. Enjoy real-time filters, AI beauty, advanced editing tools, and trendy effects. Download for Android now!",
   "category": "Photography",
   "updated": "2025-06-04T00:00:00Z"
-},
-{
-  "id": 58,
-  "name": "HD Camera -Video Filter Editor",
-  "slug": "hd-camera-video-filter-editor",
-  "package": "hd.camera.sticker.filter",
-  "version": "3.1.9",
-  "size": 25.5,
-  "size_unit": "MB",
-  "downloads": 1000000,
-  "rating": "4.8",
-  "icon": "https://play-lh.googleusercontent.com/g7fyKspePb-etgdff7NSZSfV4uWMQtCEir6dejMfsyQBzw0AlayloikSouOXVQj6Tva-=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=hd.camera.sticker.filter&hl=en",
-  "description": "HD Camera -Video Filter Editor is a free, full-featured selfie beauty camera app...",
-  "seo_title": "Download HD Camera -Video Filter Editor APK for Android",
-  "seo_description": "HD Camera -Video Filter Editor is a free, full-featured selfie beauty camera app with HD video, panorama, photo editing tools, stickers, filters, and collages. Download for Android!",
-  "category": "Photography",
-  "updated": "2025-06-23T00:00:00Z"
-},
-{
-  "id": 59,
-  "name": "Beauty Camera - Selfie, Photo",
-  "slug": "beauty-camera-selfie-photo",
-  "package": "photo.filter.selfie.beauty.camera",
-  "version": "5.2.5",
-  "size": 83.76,
-  "size_unit": "MB",
-  "downloads": 50000000,
-  "rating": "4.2",
-  "icon": "https://play-lh.googleusercontent.com/eM_qWbEyWeJhq3Wp-pBT-UQTbwjo9HqL8-dD_SfB-T-nptYts73nGnnGTfEfkyMwHw=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=photo.filter.selfie.beauty.camera&hl=en",
-  "description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and photo/video editing app...",
-  "seo_title": "Download Beauty Camera - Selfie, Photo APK for Android - Free Editor",
-  "seo_description": "Beauty Camera - Selfie, Photo is an all-in-one beauty camera and editor. Capture perfect selfies with real-time filters, retouch tools, makeup, collages, and more. Download for Android!",
-  "category": "Photography",
-  "updated": "2025-06-20T00:00:00Z"
 }
     ]
   }
