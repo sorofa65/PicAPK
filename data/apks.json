@@ -1213,6 +1213,32 @@
   ],
   "category": "Video Players & Editors",
   "updated": "2024-06-25"
+},
+{
+  "id": 54,
+  "name": "Photo Editor - Square Pic, Splash",
+  "slug": "photo-editor-square-pic-splash",
+  "package": "com.photo.editor.square.pic.splash",
+  "version": "1.30",
+  "size": "27 MB",
+  "downloads": "10,000,000+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/adE2vqovDDQww9PBLkJqlEUu1XaOY61WDEMsEu7i6WD-Qa2V3xIi2pZgHcL-mNVOlw=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.photo.editor.square.pic.splash&hl=en",
+  "description": "Photo Editor - Square Pic, Splash is an all-in-one photo editor app that offers powerful tools to create amazing pictures. It includes features like Insta square size, blur background, color splash effects, mirror image effects, collage maker, photo filters, stickers, text, and doodle. It's designed for quick and easy photo editing for social media platforms like Instagram and Facebook.",
+  "appabout": "<section>\n  <p><strong>Photo Editor - Square Pic, Splash</strong> is a comprehensive and user-friendly photo editing application designed to help you transform your ordinary pictures into stunning visual masterpieces. With a wide array of powerful tools, it caters to both quick edits and more artistic enhancements, making your photos stand out on social media platforms like Instagram and Facebook.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Insta Square Size & No Crop:</strong> Easily create perfect square photos without cropping, ensuring your full image fits perfectly for Instagram.</li>\n    <li><strong>Blur Background:</strong> Apply professional blur effects to your photo backgrounds, giving your images a refined and artistic look.</li>\n    <li><strong>Color Splash Effect:</strong> Utilize the unique color splash feature to selectively add color to black and white photos, creating striking visual contrasts. This includes shape splash, smart splash, and freestyle splash.</li>\n    <li><strong>Mirror Image Effect:</strong> Create captivating mirror effects with various 2D and 3D mirror styles, adding an artistic dimension to your photos.</li>\n    <li><strong>Collage Maker:</strong> Combine multiple pictures into beautiful collages using over 100+ layout templates. Customize backgrounds, frames, and edit individual photos within the collage.</li>\n    <li><strong>Extensive Photo Filters & Effects:</strong> Choose from a wide range of filters (B&W, Neon, Oil Paint, Popart, Vintage, Blur, Tilt-shift, Grayscale, Gaussian, Light leaks, Duotone, Rainbow, Retro, Vignette, etc.) and apply overlay effects (Blend, Splash, Curves, Text, Draw, Frames, Sticker, Light, Lens, Texture, Adjust, etc.) to enhance your photos.</li>\n    <li><strong>Stickers & Text:</strong> Access a rich collection of funny stickers and emojis to personalize your photos. Add text with multiple fonts, colors, and styles.</li>\n    <li><strong>Doodle & Brush:</strong> Use the doodle feature to draw freely on your photos with different brush sizes and colors.</li>\n    <li><strong>Photo Adjustments:</strong> Fine-tune your images by adjusting brightness, contrast, hue, exposure, saturation, and more.</li>\n    <li><strong>Sharing Options:</strong> Easily save your edited photos in high resolution and share them directly to Instagram, Facebook, WhatsApp, and other social networks.</li>\n  </ul>\n\n  <h3>User Experience & Notes:</h3>\n  <p>Photo Editor - Square Pic, Splash is generally well-received for its rich feature set and ease of use. Users appreciate its ability to create professional-looking edits and collages. Some reviews might mention the presence of ads, common in free photo editing apps.</p>\n\n  <h3>Data Safety:</h3>\n  <p>According to the Google Play Store data safety section, the developer (Photo Editor & Collage Maker) collects data related to app activity, app info and performance, and device or other IDs for analytics and advertising purposes. This data is not encrypted in transit, and there is no direct user option to request data deletion.</p>\n</section>",
+  "seo_title": "Download Photo Editor - Square Pic, Splash APK for Android",
+  "seo_description": "Transform photos with Photo Editor - Square Pic, Splash APK. Enjoy square fit, blur background, color splash, mirror effects, collage maker, and filters. Download for Android!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/E-mRoZ6uu923FHSnNCOTh9VG_A5pid6Xwap99TsJNEiWLBvVbsBNj0CGlQ26HuJ7cg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/kbCQmXcifc6Z9tH0bnmWaaf4TuxUEhBHCoZVvfmkiHqoK_mdG6PTzQjsaQ_53JT8iNU=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/yZfH8IIUF4KknqDn_S841-gUtwGSo_A0X2IyWskk9fqL3MJIatGRWc86E9Zt5OTDKQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/90LIJjUJc6TGM6jzTaSXIrejYY_nBHJo6LtGML91uD1Dxiwn9dbrGf949T0M9BnuWmk=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/-EL6idHY9k9kWAEpLH3GyN6hBuQME7SqOfqm1ZwRoJ3e3K8K6IKu30fm0Jt4NqEwkAc=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Tiucad8c1l2rniKPYJ4h2mFPi4lxox9RN0ElCWRWWTX0w-cNRAv3BGxZcYb0e1twPMM=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2024-04-20"
 }
 
     ]
