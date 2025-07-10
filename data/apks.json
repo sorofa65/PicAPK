@@ -1688,8 +1688,84 @@
   ],
   "category": "Puzzle",
   "updated": "2024-03-07"
-}
-
+},
+{
+  "id": 73,
+  "name": "AiMagic - AI Learning Buddy",
+  "slug": "aimagic-ai-learning-buddy",
+  "package": "hk.starkid.aimagic.app",
+  "version": "1.21.4",
+  "size": "128.98 MB",
+  "downloads": "1,000,000+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/tFpUlV4GeJG6iGIHDhkQGj-rBKll4YXuh6QsRcR-r6CHDtAHp4NwWugIsly3rmJ37fU=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=hk.starkid.aimagic.app&hl=en",
+  "description": "AiMagic is an AI-powered English learning app designed for kids, featuring interactive tools like Magic Chat, AI-generated art, storybook creation, and real-time grammar correction.",
+  "appabout": "<section>\n  <p><strong>AiMagic - AI Learning Buddy</strong> is an innovative educational application developed by Starkid Limited, aimed at enhancing English language learning for children through engaging AI-driven tools.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Magic Chat:</strong> An interactive AI chatbot that allows children to converse in English, providing real-time responses to enhance conversational skills.</li>\n    <li><strong>AI-Generated Art:</strong> A creative tool enabling children to create unique artworks using AI, fostering creativity and artistic expression.</li>\n    <li><strong>Storybook Creation:</strong> A feature that assists children in crafting their own stories, integrating text and images, to promote literacy and imagination.</li>\n    <li><strong>Magic Writing:</strong> A grammar and spelling correction tool that helps children improve their writing skills by providing instant feedback.</li>\n  </ul>\n\n  <h3>User Experience:</h3>\n  <p>AiMagic offers an intuitive interface designed for young users, ensuring a seamless and enjoyable learning experience. The app's engaging features keep children motivated and excited about learning English.</p>\n\n  <h3>Data Safety:</h3>\n  <p>The developer states that AiMagic does not collect or share any user data, ensuring a secure environment for children to learn and explore.</p>\n</section>",
+  "seo_title": "Download AiMagic - AI Learning Buddy APK for Kids - English Learning App",
+  "seo_description": "AiMagic is an AI-powered English learning app for kids, featuring Magic Chat, AI-generated art, storybook creation, and real-time grammar correction. Download now!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/SMi2TAbMZ-PLlgYr1Av8zwSE8Ms6mz-RzwZq9e_9Om53W5ree4jyzNfGDcC7pb6mkA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/dfZAJz6T58CimneKCwsQf1WPNRgvVszOZ0TRQ0J16LhlW_QVHsKo82O3xVpO4-L-QMY=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/pM-9RLNMv5FOvXYcJ8h3SYHwzo2FWikADGphcivzeHxj5MUPtQzcHfrlyRN2wZDm5Xg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/uTs83GP-1oE5NUHgA6noRnkE_hjhfF1TOjTauCfWjrUF8Rtfzou1rhCWZ4hJokdYPw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/2JM-QVUFCVoWY1wmJ83_DoLF5t_gUhwys1Q7RcJLZE5khUNNROBaqRDaA_GH0Lh-ZCjR=w2560-h1440-rw"
+  ],
+  "category": "Education",
+  "updated": "2024-12-21"
+},
+{
+  "id": 74,
+  "name": "AR Drawing: Sketch & Trace",
+  "slug": "ar-drawing-sketch-trace",
+  "package": "ar.drawing.sketch.paint.trace.draw.picture.paper",
+  "version": "1.0.0",
+  "size": "Varies with device",
+  "downloads": "1,000,000+",
+  "rating": "4.4",
+  "icon": "https://play-lh.googleusercontent.com/VEW4p8iZnMoDdFFAgF6Ngbd2Gm6IBxas4EZUZ-g7lDxDhTpUxDJL0v4DfaE9-GjDkPo=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=ar.drawing.sketch.paint.trace.draw.picture.paper&hl=en",
+  "description": "Draw anything with your phone using AR! Sketch, trace, and paint easily on paper using augmented reality technology.",
+  "appabout": "<section>\n  <p><strong>AR Drawing: Sketch & Trace</strong> is a revolutionary mobile application that brings the power of augmented reality (AR) into the world of drawing and tracing. Perfect for beginners and hobby artists, this app allows users to trace any image onto real paper using their phone’s camera and AR technology. Whether you want to draw cartoons, portraits, animals, or logos, AR Drawing makes it incredibly easy and fun.</p>\n\n  <h3>🎨 Key Features:</h3>\n  <ul>\n    <li><strong>AR Tracing Mode:</strong> Project any image onto a real-world surface like paper or canvas using your phone. Just look at the screen and trace what you see.</li>\n    <li><strong>Import Any Image:</strong> Select any picture from your gallery or download from the web to begin tracing.</li>\n    <li><strong>Adjustable Transparency:</strong> Make the image lighter or darker for more accurate tracing results.</li>\n    <li><strong>Drawing Guides:</strong> Add grid lines, zoom features, or outline filters to assist with tracing details.</li>\n    <li><strong>Camera Stabilization:</strong> Lock your AR image in place so it doesn’t shake while you draw.</li>\n    <li><strong>Step-by-Step Tutorials:</strong> Learn how to draw various objects with built-in lessons and references.</li>\n  </ul>\n\n  <h3>👨‍🎨 Who Is It For?</h3>\n  <ul>\n    <li>Students and kids learning basic drawing skills</li>\n    <li>Hobby artists wanting to improve sketching ability</li>\n    <li>Anyone who loves tracing and painting by hand</li>\n    <li>Teachers using art in education or workshops</li>\n  </ul>\n\n  <h3>🛠️ Tools & Modes:</h3>\n  <ul>\n    <li>Outline mode: Automatically converts photos into sketch outlines</li>\n    <li>Grid mode: Helps map portions of a drawing accurately</li>\n    <li>Mirror mode: Perfect for drawing symmetrical objects</li>\n  </ul>\n\n  <h3>⚠️ Tips:</h3>\n  <ul>\n    <li>Use a tripod or stand to stabilize your phone while tracing</li>\n    <li>Use a pencil first, then go over your sketch with a pen or color</li>\n    <li>Better results are achieved in good lighting</li>\n  </ul>\n\n  <h3>🔐 Data Safety</h3>\n  <p>According to the developer, the app may collect device data but does not share information with third parties. Image data remains on your device unless you share or save it externally.</p>\n\n  <h3>🌟 Final Words</h3>\n  <p>AR Drawing: Sketch & Trace is the ideal app for anyone who wants to learn drawing in a fun, futuristic way. By blending traditional art with modern augmented reality, it opens up new possibilities for creativity and learning. Whether you're just beginning or want to trace complex designs, this app is your pocket art assistant.</p>\n</section>",
+  "seo_title": "Download AR Drawing: Sketch & Trace APK - Learn to Draw with AR",
+  "seo_description": "Use AR to sketch, trace, and draw easily! AR Drawing lets you project images onto paper and trace them in real-time. Download APK now!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/hHxOl3dIgI6GU7eD5bKc4Zwyt6lti13o-5MVGPZFo0WpXhorJkFn9GAPBhLel4N7M90=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/vxXI-zSw9iiD0OC4geCTrr9u6iNE0D8tZY1RFmYbeauG5a10joPNVOrzxmvgqh-zoj0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/ausagRdSUQqu-RvlT2iYZaHw-PBMUZWGel_kb59XFFUbgHasXUOWyyjPaHTegHpyI6I=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Ylobl1mmG9JzUnmC-h0ceue5ro4nw1mhuckRVCfgTq1l6zSvmIdo2klIsz-DCE_MMOA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/epg3cjAC77fZcMy1ownByeTduxii5hS069UlRMQHbgVWWHMFpsjycr6WSdhBiCP3eXvd=w2560-h1440-rw"
+  ],
+  "category": "Art & Design",
+  "updated": "2025-07-10"
+},
+{
+  "id": 75,
+  "name": "Zoomerang – AI Video Maker",
+  "slug": "zoomerang-ai-video-maker",
+  "package": "com.yantech.zoomerang",
+  "version": "latest",
+  "size": "approx. 90 MB",
+  "downloads": "25,000,000+",
+  "rating": "4.1",
+  "icon": "https://play-lh.googleusercontent.com/1qgVYq-gAltmxZVQ8de-F6WQd0knv97hw1oDcoZoqmjvLxnYWxZfIFoKX85C3t-qIX0=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.yantech.zoomerang&hl=en",
+  "description": "Zoomerang is an AI-powered video editor with trendy templates and one-tap tools to create viral short videos quickly.",
+  "appabout": "<section>\n  <p><strong>Zoomerang – AI Video Maker</strong> is a dynamic all‑in‑one video creation studio designed for users who want to shoot viral, short‑form videos with minimum effort. Featuring step‑by‑step templates, AI tools, and powerful editing capabilities, the app makes it simple to create polished, engaging content tailored for platforms like TikTok, Instagram Reels, Snapchat Spotlight, and YouTube Shorts.</p>\n\n  <h3>🎬 Main Highlights</h3>\n  <ul>\n    <li><strong>Template-Based Creation:</strong> Choose from hundreds of curated video templates, complete with built-in music and visual effects, plus guided tutorials to replicate the viral look step by step.</li>\n    <li><strong>Strong Community:</strong> Access a thriving community of over 200,000 template creators—submit your own, follow challenges, or send TikTok trends to the team for template integration.</li>\n    <li><strong>Advanced AI Studio:</strong> Enjoy AI‑powered features like Face Zoom, background removal, hard‑hitting filters, AI‑generated music, text‑to‑image, restyle, deform effects, and more, elevating creativity with minimal effort.</li>\n    <li><strong>Video Editing Tools:</strong> Trim, reverse, split, add animated text (30+ fonts), stickers, GIFs, emojis, and background music. The intuitive UI ensures beginners and pros alike can edit seamlessly.</li>\n    <li><strong>Live Recording & Effects:</strong> Film in parts while applying real‑time effects and filters—great for dynamic, multi‑scene content creation.</li>\n    <li><strong>300+ Effects & Filters:</strong> From Retro and B&M to AI Vins and Liquis, there's an aesthetic for every mood and trend.</li>\n    <li><strong>Export & Share:</strong> Easily save and share videos to TikTok, Instagram, YouTube, Snapchat, Likee, and more—no re-export needed for virality.</li>\n  </ul>\n\n  <h3>📱 User Experience & Interface</h3>\n  <p>The app is built for speed and simplicity. Every step—from choosing a template to exporting—is guided and effortless. The UI balances clean icons with powerful hidden tools, making it suitable for casual users while offering depth for those who want more control.</p>\n\n  <h3>🔒 Privacy & Data Usage</h3>\n  <p>Zoomerang collects device identifiers, crash logs, and app performance data which may be shared with third parties for analytics or advertising. The app uses encrypted data transit and offers a way to request data deletion. Users are advised to review the privacy policy for more information.</p>\n\n  <h3>💡 Pros</h3>\n  <ul>\n    <li>Easy “viral video” production with templates</li>\n    <li>AI tools extend creative possibilities</li>\n    <li>Large and engaged content creator base</li>\n    <li>Fast export to major social platforms</li>\n  </ul>\n\n  <h3>⚠️ Cons</h3>\n  <ul>\n    <li>Many advanced features behind subscription or coins</li>\n    <li>Ads can disrupt free usage</li>\n    <li>Performance may vary on older devices</li>\n  </ul>\n\n  <h3>🌟 Ideal For</h3>\n    <ul>\n      <li>Social media creators and influencers aiming for viral reach</li>\n      <li>Users with minimal editing skills who want polished videos fast</li>\n      <li>Trend followers who wish to replicate TikTok challenges effortlessly</li>\n    </ul>\n\n  <h3>📝 Summary</h3>\n  <p>With over 25 million global users and more than 199,000 ratings averaging 4.1, Zoomerang is a proven mobile video studio. If you're looking for a fast, template-driven way to join short-video trends—and don’t mind occasional ads or in-app purchases—Zoomerang is one of the top choices available.</p>\n</section>",
+  "seo_title": "Download Zoomerang – AI Video Maker APK for Android – Viral Video Editor",
+  "seo_description": "Zoomerang is an AI-powered video maker with viral templates, one‑tap effects, 300+ filters, and easy sharing. Create trending short videos in minutes.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/vm0-_BmiP6I23X3Cvpz1UWeERu-IpaTsnAE3dEcEv1ltHPgKT3G8f6cIrTCVbLOC6A=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/rshHocXyh0YIcLjRrdVK5TqvUGf7rPbRxzsZXShlAHO8NCAwf1myuUM3363aag_ihw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/1Or5PdJ9_DFOXEZkIdVcbHior_PtAqjND-op5lSwKMsh4JvOXNltTYTk9Op0GCEGKH8=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/AR6hoMH2G87aO8eXsyNcrRpn3xxZuTMuEjQ91AtT6JITPve2DvF8M-APVPg5RH5HBF0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/obG9nBHWOd3g3R0Cc7eZbrkB7rIoORPNuOyhZOYOwT17RqP77cWDNcmSG5KqIhAERME=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/lGOCyHEdnn_Sx9Nsk3jgbZxg2SqzqZcUxXvlCmxrgJw2a4fPUXteBcYstiqzPJEBd58=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/8oLOQU2PPSwqf2Sx7B_9DMQRIlosLEFI6duzPJ3Bxb9P14qj5vyvdUZlXcOP3r0VGsU=w2560-h1440-rw"
+  ],
+  "category": "Video Players & Editors",
+  "updated": "2025-06-24"
+},
 
     ]
   }
