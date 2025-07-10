@@ -1430,6 +1430,85 @@
   ],
   "category": "Photography",
   "updated": "2025-07-04"
+},
+{
+  "id": 64,
+  "name": "Photo Editor - Lumii",
+  "slug": "photo-editor-lumii",
+  "package": "photo.editor.photoeditor.filtersforpictures",
+  "version": "Latest",
+  "size": "Varies with device",
+  "downloads": "50,000,000+",
+  "rating": "4.8",
+  "icon": "https://play-lh.googleusercontent.com/nLAAQdazPetGMo17Jml4tVin5T37DTEI2mrV8lUwFFu_stKBTy5gAyrEuNotVBgFyQ=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=photo.editor.photoeditor.filtersforpictures&hl=en",
+  "description": "Lumii is a powerful photo editor offering over 100 stylish preset filters and effects. It provides tools for background erasure, AI enhancements, and advanced color adjustments, making it ideal for both beginners and professionals.",
+  "appabout": "<section>\n  <p><strong>Photo Editor - Lumii</strong> is a comprehensive photo editing application designed to cater to both novice and advanced users. With its user-friendly interface and a plethora of features, Lumii allows users to transform ordinary photos into stunning visuals effortlessly.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>100+ Stylish Preset Filters:</strong> Lumii offers a wide range of filters including Film, LOMO, Retro, and more, allowing users to apply aesthetic effects to their photos.</li>\n    <li><strong>Advanced Color Adjustments:</strong> The app provides HSL (Hue, Saturation, Luminance) controls across 8 color channels, enabling precise color tuning to achieve desired effects.</li>\n    <li><strong>AI-Powered Enhancements:</strong> Features like AI Photo Enhancer help in unblurring and enhancing image quality, while AI Avatar allows users to explore anime-style avatars.</li>\n    <li><strong>Background Eraser & Remover:</strong> Easily remove or replace backgrounds with preset options, offering a seamless editing experience.</li>\n    <li><strong>Double Exposure & Glitch Effects:</strong> Create artistic compositions using double exposure techniques and add glitch effects for a modern touch.</li>\n    <li><strong>Text & Sticker Integration:</strong> Add personalized text with various fonts and apply fun stickers to enhance the visual appeal of photos.</li>\n    <li><strong>Comprehensive Editing Tools:</strong> Adjust brightness, contrast, sharpness, exposure, and more, with selective editing options for targeted enhancements.</li>\n    <li><strong>Templates for Social Media:</strong> Utilize trendy templates tailored for platforms like Instagram, ensuring your photos stand out.</li>\n  </ul>\n\n  <h3>User Experience:</h3>\n  <p>Lumii is praised for its intuitive design and robust editing capabilities. Users appreciate the vast array of filters and effects, along with the advanced tools that cater to detailed photo editing needs. The app's performance is smooth, and it operates efficiently on various Android devices.</p>\n\n  <h3>Data Privacy:</h3>\n  <p>The app's data privacy practices align with standard industry protocols. Users are encouraged to review the privacy policy available on the Google Play Store for detailed information.</p>\n</section>",
+  "seo_title": "Download Photo Editor - Lumii APK for Android - Advanced Photo Editing App",
+  "seo_description": "Enhance your photos with Lumii's 100+ filters, AI tools, and advanced editing features. Download the Photo Editor - Lumii APK for Android now!",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/clzl8rnchSvU7R-Hly1DxHj-0JHHtZW6w_MMm2yQe-crvubtOLCfvU4nAmBFtGRw_6o=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/cP21d6aK9If90QXcjBqjMYDc0TQ3rlHRffyFIhFXTZklA7B-KFI22Y5H-0So3xRxLqk=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/w7J4bMDI9_MBsysXiv0JYU5gWgEE_wiapjCUu2PABPyzxizuZjvcoXNRj81w-n3vRns=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/uaDHF9Rxx0fUvvopDxJlxkwChCBFdtRfm4KzQrOxEIIL-pcGfxxs-5DIU9gwboYpeG8=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Cjt9mLrX4kiv3K7L5iilkxVg9nXva6ztIkqvEI--X3gSMhhudkMS4oBt9miX8Fwxxg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Frs-6OBDYcEh7Bc_zBYpu2l2X_EdkkLKgG-SFZQ9McjayvxDEVwDSFZGWwloAWXQsA=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2025-06-15"
+},
+{
+  "id": 63,
+  "name": "Magic Eraser - AI Background Remover",
+  "slug": "magic-eraser-ai-background-remover",
+  "package": "com.duygiangdg.magiceraser",
+  "version": "1.3.0",
+  "size": "25 MB",
+  "downloads": "100,000+",
+  "rating": "4.3",
+  "icon": "https://play-lh.googleusercontent.com/HG5dGjdTCjjx4cp4V1CTHiWPSDFkv7NE6trkihdG8UXQpxU_0mklsKYDjKxXDjRrv90=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.duygiangdg.magiceraser&hl=en",
+  "description": "Magic Eraser uses AI to instantly remove backgrounds from photos and create professional-looking images easily.",
+  "appabout": "<section>\n  <p><strong>Magic Eraser - AI Background Remover</strong> is a cutting-edge photo editing application designed to help users effortlessly remove backgrounds from any image using advanced artificial intelligence. Whether you’re a social media creator, marketer, or casual photographer, this app offers a quick, accurate, and user-friendly way to isolate subjects and create transparent backgrounds for creative projects.</p>\n\n  <h3>🌟 Key Features</h3>\n  <ul>\n    <li><strong>AI-Powered Background Removal:</strong> Automatically detect and erase complex backgrounds in just seconds with high precision.</li>\n    <li><strong>Manual Touch-up Tools:</strong> Refine edges or erase unwanted details with easy-to-use brushes and erasers to perfect your image.</li>\n    <li><strong>Multiple Background Options:</strong> Replace removed backgrounds with custom colors, gradients, or upload your own background images to create unique designs.</li>\n    <li><strong>High-Resolution Output:</strong> Export images in high quality suitable for printing, presentations, and professional use.</li>\n    <li><strong>Batch Processing:</strong> Remove backgrounds from multiple photos at once to save time on bulk editing tasks.</li>\n    <li><strong>Simple Interface:</strong> Designed with beginners in mind, the app offers an intuitive UI that makes background removal accessible to everyone.</li>\n    <li><strong>Instant Sharing:</strong> Save images to your gallery or share directly on social media platforms like Instagram, Facebook, and TikTok.</li>\n  </ul>\n\n  <h3>💁 User Experience & Benefits</h3>\n  <p>Magic Eraser transforms what used to be a tedious and complicated task into a seamless experience. Users report that the AI background remover performs well even on challenging photos with fine details such as hair or semi-transparent objects. The manual editing tools ensure you retain control over the final result, making it easy to produce polished, professional images without expert skills.</p>\n\n  <h3>🔒 Privacy & Data Security</h3>\n  <p>The app requests permission only for storage access to allow image imports and exports. According to the developer’s privacy policy, no user photos or data are shared with third parties, and all processing happens on-device to maximize privacy.</p>\n\n  <h3>🎯 Who Should Use Magic Eraser?</h3>\n  <ul>\n    <li><strong>Social Media Influencers:</strong> Create eye-catching thumbnails and profile images quickly.</li>\n    <li><strong>Small Business Owners:</strong> Prepare product images with clean backgrounds for online stores.</li>\n    <li><strong>Graphic Designers:</strong> Quickly isolate objects for composite images or marketing materials.</li>\n    <li><strong>Everyday Users:</strong> Enhance personal photos for scrapbooks, presentations, or fun edits.</li>\n  </ul>\n\n  <h3>📌 Pros & Cons</h3>\n  <ul>\n    <li>Fast and accurate AI background removal</li>\n    <li>User-friendly with manual editing controls</li>\n    <li>Supports batch editing</li>\n    <li>Free with optional in-app purchases</li>\n    <li>Some advanced features require premium upgrade</li>\n  </ul>\n\n  <h3>⚠️ Tips for Best Results</h3>\n  <ul>\n    <li>Use high-resolution photos for cleaner edges</li>\n    <li>Zoom in for detailed manual corrections</li>\n    <li>Experiment with different background replacements for creative effects</li>\n  </ul>\n\n  <h3>📈 Final Thoughts</h3>\n  <p>Magic Eraser – AI Background Remover is a powerful yet accessible tool that simplifies complex image editing tasks with AI assistance. Its combination of automatic and manual tools makes it suitable for users of all skill levels. Whether you need quick background removal for a business product photo or want to create fun edits for social media, this app delivers professional quality results with ease.</p>\n\n  <p>With steadily growing downloads and positive reviews, Magic Eraser stands as a top contender among mobile background removal apps. Its dedication to privacy and user control further enhances its appeal.</p>\n</section>",
+  "seo_title": "Download Magic Eraser - AI Background Remover APK for Android - Remove Background Easily",
+  "seo_description": "Magic Eraser is an AI-powered app that quickly removes photo backgrounds. Download the APK for Android and create professional images easily.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/AjYULeXAc3BUJVVkVO0XLEIaPT89yVrXX3sMWwuPNYFt8SEx7or9Y0uMZM0KkpSQa1cF=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/vFFeV7GqVk9Gb5_VBzxyFpQopxZKFW8PPzueSS1Evvn0o7R-poZxoL6E_1Ylywbsk0w=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/FuYgcUSnBfvlJ2g4vxAd-rr4IS2lzAMyvZ3bsTaDzFdmkIIkdDzx0N9x90UTYWF7cFOd=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/EbYe3XbHVADUuxIHmYOIHp_ZXLhN6_rrBOv4pVxBZ9E4vcMvkbtysj3fwB8UCI1TzRc=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/CNgTHrKMneJvioGRd-uJVD48oHnBWUJ8f2XFqSZFh6kOsz-9QKF4JCI3m6HhJwgkqQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/8f_GvFYTvDxYHdKtNuxXC7J2FJuHA98YoRrVdHF6Xr7Ztp6VvYFRQ3asgvfcYxNIh-ao=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "2025-07-10"
+},
+{
+  "id": 65,
+  "name": "Autodesk SketchBook",
+  "slug": "autodesk-sketchbook",
+  "package": "com.adsk.sketchbook",
+  "version": "Latest",
+  "size": "Varies with device",
+  "downloads": "10,000,000+",
+  "rating": "4.4",
+  "icon": "https://play-lh.googleusercontent.com/NIhaPLVMl69snWk7IOWADeBwU-8FG5VL1q41_fmd6TVa4FEIqXQw3Ar3BovrXvza2Q=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.adsk.sketchbook&hl=en",
+  "description": "Autodesk SketchBook is a professional-grade drawing and painting app with intuitive tools for artists and designers of all skill levels.",
+  "appabout": "<section>\n  <p><strong>Autodesk SketchBook</strong> is a powerful and versatile digital drawing and painting application developed by Autodesk, a leader in creative software. Designed for artists, illustrators, designers, and hobbyists, SketchBook offers a rich set of professional-grade tools in a sleek, intuitive interface. Whether you’re sketching ideas, creating detailed artwork, or designing concepts, this app makes digital creativity accessible and enjoyable.</p>\n\n  <h3>🎨 Key Features</h3>\n  <ul>\n    <li><strong>Full Brush Library:</strong> Access over 190 customizable brushes including pencils, markers, inks, and airbrushes. Each brush can be adjusted for size, opacity, flow, and blending modes, enabling precise control over your artwork.</li>\n    <li><strong>Layer Management:</strong> Organize your work with unlimited layers, layer groups, and blending modes. Use opacity controls and transform tools to refine your creations effortlessly.</li>\n    <li><strong>Predictive Stroke:</strong> The app offers stroke smoothing technology that corrects shaky lines and produces clean, polished strokes, perfect for precision drawing and inking.</li>\n    <li><strong>Advanced Selection Tools:</strong> Quickly select, move, and transform parts of your drawing with lasso, marquee, and magic wand tools.</li>\n    <li><strong>Rulers and Guides:</strong> Use customizable rulers including ellipse, symmetry, and French curve rulers to create perfect shapes and patterns.</li>\n    <li><strong>Intuitive Interface:</strong> A minimal and clean workspace optimized for touchscreens and stylus input. Supports pressure sensitivity for compatible devices, providing a natural drawing experience.</li>\n    <li><strong>Time-lapse Recording:</strong> Capture your creative process as a video, allowing you to share your artwork’s journey with others.</li>\n    <li><strong>Cross-platform Compatibility:</strong> Available on Android, iOS, Windows, and macOS, allowing seamless work across devices.</li>\n  </ul>\n\n  <h3>💡 Who is SketchBook For?</h3>\n  <p>SketchBook is perfect for professionals and beginners alike. Artists can use it for concept art, storyboarding, illustration, and detailed paintings, while hobbyists enjoy its easy-to-use interface for doodling and sketching. It supports creativity in many fields such as animation, graphic design, architecture, and fine arts.</p>\n\n  <h3>🖌️ User Experience</h3>\n  <p>Users praise SketchBook for its responsive brushes, ease of use, and powerful tools. The interface remains clean even with advanced features, making it accessible without overwhelming newcomers. Stylus support with pressure sensitivity enhances the natural feel, while customizable brushes and layers give artists extensive control. Regular updates bring performance improvements and new features, reflecting Autodesk’s commitment to quality.</p>\n\n  <h3>🔒 Data Privacy & Permissions</h3>\n  <p>The app requires standard permissions such as storage access to save your artwork. Autodesk adheres to strict data privacy policies, ensuring that your creative content and personal data are protected. Users should review the privacy policy for detailed information.</p>\n\n  <h3>⚙️ System Requirements</h3>\n  <p>SketchBook works best on devices with ample RAM and stylus support. While it runs on most Android devices, for the best experience, using a tablet or phone with a pressure-sensitive stylus is recommended.</p>\n\n  <h3>📌 Pros</h3>\n  <ul>\n    <li>Extensive brush and tool options</li>\n    <li>Clean, intuitive UI optimized for touch and stylus</li>\n    <li>Robust layer and selection management</li>\n    <li>Cross-platform syncing and compatibility</li>\n    <li>Free to use with optional in-app purchases</li>\n  </ul>\n\n  <h3>⚠️ Cons</h3>\n  <ul>\n    <li>Some advanced features require a subscription</li>\n    <li>Performance may vary on lower-end devices</li>\n  </ul>\n\n  <h3>🎯 Final Verdict</h3>\n  <p>Autodesk SketchBook is one of the best mobile drawing apps available, combining professional-level features with accessibility for beginners. It empowers artists to bring their ideas to life digitally with precision and ease. Whether you're sketching quick ideas or working on polished digital paintings, SketchBook provides a reliable and versatile platform for creative expression.</p>\n\n  <p>For anyone passionate about digital art, this app is a must-have tool in their creative toolkit.</p>\n</section>",
+  "seo_title": "Download Autodesk SketchBook APK for Android - Professional Drawing & Painting App",
+  "seo_description": "Autodesk SketchBook offers powerful brushes, layers, and tools for digital artists. Download the free APK and create stunning artwork on Android.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/b7i18n46S_t8d5I3lwaqZ_U7KT1NcIJN7Ht3x1wQ9BDTKJLYkqWd1VVDW5bo5vwQEQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/7ZDJZjQy8yBVv9S-jicemi7pGomqMMWyEpaiSt86v8FkoZzxvjcz10yZovRrq5GyZBY=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Bvn1WiAJ-nCatOUWofrP0IYGIkl63FOAXmYhUr3LbhsD-dl_cT3rkrla_DhKRSxq21A=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/20s8HI6vfVdC1cdarxN59Y6mOEhd7-V2Ttu3X_zW25puMNK0t4G_su5euTBnvrlEwQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/MwP_qUYk54QYvk7JHB2SqGgmCOA8geMa9Q3vRrePJOmdHle5rIvUq1Jicyq-UfyqIBs=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/0p2Z4Gj9mBb6OjdOzym-x_FANT7wuI7RiE52g3w5U9nFLkzSvkVa-_5uwGWNEopo6-8=w2560-h1440-rw"
+  ],
+  "category": "Art & Design",
+  "updated": "2025-07-10"
 }
+
     ]
   }
