@@ -1,300 +1,355 @@
- /* === RESET & GLOBAL === */
+/* === RESET & GLOBAL === */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  background-color: #f5f5f5;
-  color: #333;
-  line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
 }
 
+/* === UTILITIES === */
 .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 1rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
 }
 
 /* === HEADER === */
 header {
-  background-color: #4285f4;
-  color: white;
-  padding: 1rem 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #4285f4;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-/* === NAV LINKS === */
+/* === NAV LINKS (e.g. HOME) === */
 .nav-links {
-  display: flex;
-  gap: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
 .nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background 0.3s;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* === SEARCH BAR === */
 .search {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  flex: 1;
-  max-width: 500px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    max-width: 500px;
+    flex: 1;
 }
 
 .search input {
-  flex: 1;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 20px;
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
 }
 
 .search button {
-  padding: 0.5rem 1.5rem;
-  background-color: #34a853;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    padding: 0.5rem 1.5rem;
+    background-color: #34a853;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .search button:hover {
-  background-color: #2d8e47;
+    background-color: #2d8e47;
 }
 
 /* === CATEGORY FILTER === */
 .categories {
-  display: flex;
-  gap: 0.5rem;
-  padding: 1rem;
-  overflow-x: auto;
-  background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+    overflow-x: auto;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .category-btn {
-  padding: 0.5rem 1rem;
-  background-color: #e0e0e0;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.3s;
+    padding: 0.5rem 1rem;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.3s;
 }
 
 .category-btn.active {
-  background-color: #4285f4;
-  color: white;
+    background-color: #4285f4;
+    color: white;
 }
 
-/* === APP LIST GRID === */
+/* === APP GRID === */
 #appList {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+      display: grid;
+      gap: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+    .app-card {
+       width: auto;
+       height: auto;
+       padding: 15px;
+    }
+.app-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 1rem;
+    -webkit-overflow-scrolling: touch;
 }
 
 .app-card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
 .app-card:hover {
-  transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .app-icon {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .app-info {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .app-title {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .app-meta {
-  display: flex;
-  justify-content: space-between;
-  color: #666;
-  font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.9rem;
 }
 
 .download-btn {
-  display: block;
-  width: 100%;
-  padding: 0.5rem;
-  background-color: #4285f4;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #4285f4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .download-btn:hover {
-  background-color: #3367d6;
+    background-color: #3367d6;
 }
+#appList { display: grid;
+              grid-template-columns: repeat(5, 1fr);
+              gap: 1rem; }
 
 /* === DETAILS PAGE === */
 #appDetails {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
 .detail-header {
-  display: flex;
-  gap: 2rem;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    display: flex;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 .detail-icon {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 20px;
 }
 
 .detail-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .detail-meta {
-  color: #666;
-  margin-bottom: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
 }
 
 .detail-download {
-  padding: 0.8rem 2rem;
-  background-color: #34a853;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #34a853;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 /* === SCREENSHOT SLIDER === */
 .screenshot-slider {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  gap: 10px;
-  overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    gap: 10px;
 }
 
 .screenshot-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-  scroll-behavior: smooth;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-behavior: smooth;
 }
 
 .screenshot-slide {
-  flex: 0 0 calc(26.33% - 10px);
-  border-radius: 10px;
-  object-fit: contain;
-  max-height: 350px;
-  scroll-snap-align: start;
+    flex: 0 0 calc(26.33% - 10px);
+    border-radius: 10px;
+    object-fit: contain;
+    max-height: 350px;
+    scroll-snap-align: start;
 }
 
+/* arrows */
 .arrow {
-  background: #4285f4;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 5px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 /* === DESCRIPTION === */
 .description {
-  margin-top: 2rem;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* === FOOTER === */
 footer {
-  text-align: center;
-  padding: 1.5rem;
-  background-color: #333;
-  color: white;
-  margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
 }
 
 /* === RESPONSIVE === */
+/* For larger screens (e.g., PCs) */
+    @media (min-width: 1024px) {
+      #appList {
+        grid-template-columns: repeat(4, 1fr); /* Example: 4 columns on larger screens */
+      }
+    }
+
+    /* For medium screens */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      #appList {
+        grid-template-columns: repeat(3, 1fr); /* Example: 3 columns on medium screens */
+      }
+    }
+
+    /* For smaller screens (e.g., mobile) */
+    @media (max-width: 767px) {
+      #appList {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Example: auto-fit columns on mobile */
+      }
+    }
 @media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-  .search {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
+    .search {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
 
-  .detail-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .app-grid {
+        display: block;
+        overflow-x: unset;
+        scroll-snap-type: none;
+        -webkit-overflow-scrolling: auto;
+    }
+    .app-card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
 
-  .screenshot-slide {
-    flex: 0 0 70%;
-    max-height: 180px;
-  }
+    .detail-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .screenshot-slide {
+        flex: 0 0 calc(10px); /* Full-width slide for mobile */
+        object-fit: contain;
+        max-height: 180px;
+    }
 }
