@@ -1,300 +1,145 @@
-/* === RESET & GLOBAL === */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+/* General Styles */
 body {
-  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
   color: #333;
-  line-height: 1.6;
 }
 
+/* Container */
 .container {
+  width: 95%;
   max-width: 1200px;
   margin: auto;
-  padding: 0 1rem;
 }
 
-/* === HEADER === */
-header {
-  background-color: #4285f4;
-  color: white;
-  padding: 1rem 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+/* Navbar */
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.header-content {
+.nav-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  justify-content: space-between;
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-/* === NAV LINKS === */
-.nav-links {
   display: flex;
-  gap: 1rem;
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background 0.3s;
-}
-
-.nav-link:hover,
-.nav-link.active {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* === SEARCH BAR === */
-.search {
-  display: flex;
-  gap: 0.5rem;
   align-items: center;
-  flex: 1;
-  max-width: 500px;
+  text-decoration: none;
 }
 
-.search input {
-  flex: 1;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 20px;
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
 }
 
-.search button {
-  padding: 0.5rem 1.5rem;
-  background-color: #34a853;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.logo span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
 }
 
-.search button:hover {
-  background-color: #2d8e47;
+#searchInput {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+  outline: none;
 }
 
-/* === CATEGORY FILTER === */
-.categories {
-  display: flex;
-  gap: 0.5rem;
-  padding: 1rem;
-  overflow-x: auto;
-  background-color: white;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+#searchInput:focus {
+  border-color: #007bff;
 }
 
-.category-btn {
-  padding: 0.5rem 1rem;
-  background-color: #e0e0e0;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.3s;
+/* Category Section */
+.category-section {
+  margin-top: 30px;
 }
 
-.category-btn.active {
-  background-color: #4285f4;
-  color: white;
+.category-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
 }
 
-/* === APP LIST GRID === */
-#appList {
+/* App Cards */
+.category-apps {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
 }
 
 .app-card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.3s;
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
 .app-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
 .app-icon {
   width: 100%;
-  height: 150px;
-  object-fit: cover;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .app-info {
-  padding: 1rem;
+  text-align: center;
 }
 
 .app-title {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 6px 0;
 }
 
 .app-meta {
-  display: flex;
-  justify-content: space-between;
-  color: #666;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  color: #777;
 }
 
 .download-btn {
-  display: block;
-  width: 100%;
-  padding: 0.5rem;
-  background-color: #4285f4;
+  display: inline-block;
+  background: #007bff;
   color: white;
-  text-align: center;
+  padding: 6px 10px;
+  margin-top: 6px;
+  border-radius: 4px;
   text-decoration: none;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  font-size: 0.85rem;
 }
 
 .download-btn:hover {
-  background-color: #3367d6;
+  background: #0056b3;
 }
 
-/* === DETAILS PAGE === */
-#appDetails {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.detail-header {
-  display: flex;
-  gap: 2rem;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.detail-icon {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  border-radius: 20px;
-}
-
-.detail-title {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-
-.detail-meta {
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.detail-download {
-  padding: 0.8rem 2rem;
-  background-color: #34a853;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-top: 1rem;
-}
-
-/* === SCREENSHOT SLIDER === */
-.screenshot-slider {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  gap: 10px;
-  overflow: hidden;
-}
-
-.screenshot-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-  scroll-behavior: smooth;
-}
-
-.screenshot-slide {
-  flex: 0 0 calc(26.33% - 10px);
-  border-radius: 10px;
-  object-fit: contain;
-  max-height: 350px;
-  scroll-snap-align: start;
-}
-
-.arrow {
-  background: #4285f4;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-/* === DESCRIPTION === */
-.description {
-  margin-top: 2rem;
-  background-color: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* === FOOTER === */
-footer {
+/* Footer */
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #eaeaea;
+  padding: 15px 0;
   text-align: center;
-  padding: 1.5rem;
-  background-color: #333;
-  color: white;
-  margin-top: 2rem;
+  margin-top: 30px;
 }
 
-/* === RESPONSIVE === */
-@media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .search {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
-
-  .detail-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .screenshot-slide {
-    flex: 0 0 70%;
-    max-height: 180px;
-  }
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777;
 }
