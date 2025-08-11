@@ -1,4 +1,3 @@
-
 "use strict";
 
 let currentSlide = 0;
@@ -6,7 +5,7 @@ let currentSlide = 0;
 // DOM references
 const appListElement = document.getElementById("appList");
 const searchInput = document.getElementById("searchInput");
-const categoryButtonsContainer = document.getElementById("categoryButtons");
+const categoryButtons = document.querySelectorAll("[data-category]");
 const detailsElement = document.getElementById("appDetails");
 
 // Fetch APK data
@@ -54,24 +53,16 @@ const searchApps = async () => {
   renderAppList(filtered);
 };
 
-// Setup category filters dynamically from JSON
-const setupCategoryFilters = async () => {
-  const apps = await fetchAPKData();
-  const categories = ["All", ...new Set(apps.map(app => app.category))];
-
-  categoryButtonsContainer.innerHTML = categories.map(cat => `
-    <button class="category-btn${cat === "All" ? " active" : ""}" data-category="${cat}">
-      ${cat}
-    </button>
-  `).join("");
-
-  document.querySelectorAll(".category-btn").forEach(button => {
+// Category filters
+const setupCategoryFilters = () => {
+  categoryButtons.forEach(button => {
     button.addEventListener("click", async () => {
-      document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
+      categoryButtons.forEach(b => b.classList.remove("active"));
       button.classList.add("active");
 
       const category = button.dataset.category;
-      const filtered = category === "All" ? apps : apps.filter(app => app.category === category);
+      const apps = await fetchAPKData();
+      const filtered = category === "all" ? apps : apps.filter(app => app.category === category);
       renderAppList(filtered);
     });
   });
@@ -86,7 +77,7 @@ const loadAppDetails = async () => {
   const app = apps.find(a => a.slug === slug);
   if (!app) return (location.href = "https://picapk.com");
 
-  // ✅ SEO Tags
+  // ✅ SEO Tags (safe replace if exists)
   document.title = `${app.name} APK Download - PicAPK`;
 
   const existingMeta = document.querySelector("meta[name='description']");
