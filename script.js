@@ -1,3 +1,4 @@
+
 "use strict";
 
 let currentSlide = 0;
@@ -5,6 +6,7 @@ let currentSlide = 0;
 // DOM references
 const appListElement = document.getElementById("appList");
 const searchInput = document.getElementById("searchInput");
+const categoryButtonsContainer = document.getElementById("categoryButtons");
 const detailsElement = document.getElementById("appDetails");
 
 // Fetch APK data
@@ -19,56 +21,60 @@ const fetchAPKData = async () => {
   }
 };
 
-// Render grouped apps by category
-const renderGroupedApps = async (apps = null) => {
+// Render app cards
+const renderAppList = async (apps = null) => {
   const data = apps || await fetchAPKData();
   if (!appListElement || !data.length) return;
 
-  // Group apps by category
-  const categoryMap = {};
-  data.forEach(app => {
-    if (!categoryMap[app.category]) categoryMap[app.category] = [];
-    categoryMap[app.category].push(app);
-  });
-
-  // Sort categories by number of apps (descending)
-  const sortedCategories = Object.keys(categoryMap).sort(
-    (a, b) => categoryMap[b].length - categoryMap[a].length
-  );
-
-  appListElement.innerHTML = sortedCategories.map(category => `
-    <section class="category-section">
-      <h2 class="category-title">${category}</h2>
-      <div class="category-apps">
-        ${categoryMap[category].map(app => `
-          <div class="app-card" data-slug="${app.slug}">
-            <img src="${app.icon}" alt="${app.name}" class="app-icon" />
-            <div class="app-info">
-              <h3 class="app-title">${app.name}</h3>
-              <div class="app-meta">
-                <span>${app.version}</span>
-                <span>${app.size}</span>
-              </div>
-              <a href="details.html?slug=${app.slug}" class="download-btn">View Details</a>
-            </div>
-          </div>
-        `).join("")}
+  appListElement.innerHTML = data.map(app => `
+    <div class="app-card" data-slug="${app.slug}">
+      <img src="${app.icon}" alt="${app.name}" class="app-icon" />
+      <div class="app-info">
+        <h3 class="app-title">${app.name}</h3>
+        <div class="app-meta">
+          <span>${app.version}</span>
+          <span>${app.size}</span>
+        </div>
+        <a href="details.html?slug=${app.slug}" class="download-btn">View Details</a>
       </div>
-    </section>
-  `).join("");
+    </div>
+  `).join('');
 };
 
 // Search apps
 const searchApps = async () => {
   const query = searchInput?.value.trim().toLowerCase();
-  if (!query) return renderGroupedApps();
+  if (!query) return renderAppList();
 
   const apps = await fetchAPKData();
   const filtered = apps.filter(app =>
     [app.name, app.description, app.category].some(field =>
       field.toLowerCase().includes(query))
   );
-  renderGroupedApps(filtered);
+  renderAppList(filtered);
+};
+
+// Setup category filters dynamically from JSON
+const setupCategoryFilters = async () => {
+  const apps = await fetchAPKData();
+  const categories = ["All", ...new Set(apps.map(app => app.category))];
+
+  categoryButtonsContainer.innerHTML = categories.map(cat => `
+    <button class="category-btn${cat === "All" ? " active" : ""}" data-category="${cat}">
+      ${cat}
+    </button>
+  `).join("");
+
+  document.querySelectorAll(".category-btn").forEach(button => {
+    button.addEventListener("click", async () => {
+      document.querySelectorAll(".category-btn").forEach(b => b.classList.remove("active"));
+      button.classList.add("active");
+
+      const category = button.dataset.category;
+      const filtered = category === "All" ? apps : apps.filter(app => app.category === category);
+      renderAppList(filtered);
+    });
+  });
 };
 
 // Load App Details
@@ -161,7 +167,8 @@ const slideRight = () => {
 // Init app
 document.addEventListener("DOMContentLoaded", () => {
   if (appListElement) {
-    renderGroupedApps();
+    renderAppList();
+    setupCategoryFilters();
     searchInput?.addEventListener("keyup", e => e.key === "Enter" && searchApps());
 
     appListElement.addEventListener("click", e => {
