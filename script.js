@@ -1,254 +1,176 @@
 "use strict";
 
 let currentSlide = 0;
-let commCurrentPage = 0;
-const commAppsPerPage = 6;
 
 // DOM references
 const appListElement = document.getElementById("appList");
 const searchInput = document.getElementById("searchInput");
 const categoryButtons = document.querySelectorAll("[data-category]");
 const detailsElement = document.getElementById("appDetails");
-const commAppsGrid = document.querySelector(".communication-apps-grid");
-const commPagination = document.querySelector(".pagination-dots");
-const commLeftArrow = document.querySelector(".left-arrow");
-const commRightArrow = document.querySelector(".right-arrow");
-const commViewAllBtn = document.querySelector(".view-all-btn");
 
-// Communication Apps Data
-const commAppsData = [
-    {
-        id: "telegram",
-        name: "Telegram X",
-        description: "Fast and secure messaging app",
-        icon: "fab fa-telegram",
-        color: "linear-gradient(45deg, #0088cc, #00bcd4)",
-        rating: 3.9,
-        downloads: "500M+",
-        size: "45MB",
-        version: "9.4.1"
-    },
-    {
-        id: "proton",
-        name: "Proton Mail",
-        description: "Encrypted Email",
-        icon: "fas fa-lock",
-        color: "linear-gradient(45deg, #6D4AFF, #8E2DE2)",
-        rating: 4.2,
-        downloads: "50M+",
-        size: "85MB",
-        version: "3.0.5"
-    },
-    {
-        id: "zoom",
-        name: "Zoom Workplace",
-        description: "Video conferencing and collaboration",
-        icon: "fas fa-video",
-        color: "linear-gradient(45deg, #2D8CFF, #1E5EB6)",
-        rating: 4.3,
-        downloads: "1B+",
-        size: "210MB",
-        version: "5.15.0"
-    },
-    {
-        id: "zoom-controller",
-        name: "Zoom Rooms Controller",
-        description: "Control Zoom conference rooms",
-        icon: "fas fa-cogs",
-        color: "linear-gradient(45deg, #1E5EB6, #0d3a7d)",
-        rating: 4.0,
-        downloads: "10M+",
-        size: "75MB",
-        version: "5.15.0"
-    },
-    {
-        id: "kakao",
-        name: "KakaoTalk : Messenger",
-        description: "Popular messenger in South Korea",
-        icon: "fas fa-comment-dots",
-        color: "linear-gradient(45deg, #FFCD00, #FF9800)",
-        rating: 3.6,
-        downloads: "150M+",
-        size: "120MB",
-        version: "10.2.2"
-    },
-    {
-        id: "messages",
-        name: "Messages Lite",
-        description: "Text Messages",
-        icon: "fas fa-sms",
-        color: "linear-gradient(45deg, #4CAF50, #2E7D32)",
-        rating: 4.0,
-        downloads: "100M+",
-        size: "12MB",
-        version: "7.9.321"
-    },
-    {
-        id: "email",
-        name: "Email",
-        description: "Fast & Secure Mail",
-        icon: "fas fa-envelope",
-        color: "linear-gradient(45deg, #EA4335, #c5221f)",
-        rating: 4.7,
-        downloads: "500M+",
-        size: "65MB",
-        version: "6.0.45"
-    },
-    {
-        id: "gmail",
-        name: "Gmail Go",
-        description: "Lightweight version of Gmail",
-        icon: "fab fa-google",
-        color: "linear-gradient(45deg, #34A853, #0f9d58)",
-        rating: 4.1,
-        downloads: "1B+",
-        size: "25MB",
-        version: "2023.09.03"
-    }
-];
-
-// Initialize Communication Apps
-const initCommApps = () => {
-    if (!commAppsGrid) return;
-    
-    renderCommApps();
-    setupCommPagination();
-    
-    // Event listeners for arrows
-    if (commLeftArrow) {
-        commLeftArrow.addEventListener("click", () => {
-            const totalPages = Math.ceil(commAppsData.length / commAppsPerPage);
-            if (commCurrentPage > 0) {
-                commCurrentPage--;
-                renderCommApps();
-                updateCommPagination();
-            }
-        });
-    }
-    
-    if (commRightArrow) {
-        commRightArrow.addEventListener("click", () => {
-            const totalPages = Math.ceil(commAppsData.length / commAppsPerPage);
-            if (commCurrentPage < totalPages - 1) {
-                commCurrentPage++;
-                renderCommApps();
-                updateCommPagination();
-            }
-        });
-    }
-    
-    if (commViewAllBtn) {
-        commViewAllBtn.addEventListener("click", () => {
-            commCurrentPage = 0;
-            commAppsPerPage = commAppsData.length;
-            renderCommApps();
-            updateCommPagination();
-        });
-    }
+// Fetch APK data
+const fetchAPKData = async () => {
+  try {
+    const res = await fetch("data/apks.json");
+    const { apps = [] } = await res.json();
+    return apps;
+  } catch (err) {
+    console.error("❌ Failed to fetch APK data:", err);
+    return [];
+  }
 };
 
-// Render Communication Apps
-const renderCommApps = () => {
-    const startIndex = commCurrentPage * commAppsPerPage;
-    const endIndex = startIndex + commAppsPerPage;
-    const appsToShow = commAppsData.slice(startIndex, endIndex);
-    
-    commAppsGrid.innerHTML = appsToShow.map(app => `
-        <div class="comm-app-card" data-id="${app.id}">
-            <div class="comm-app-icon" style="background: ${app.color}">
-                <i class="${app.icon}"></i>
-            </div>
-            <h3 class="comm-app-name">${app.name}</h3>
-            <p class="comm-app-description">${app.description}</p>
-            <div class="comm-app-rating">
-                <div class="comm-stars">${generateStars(app.rating)}</div>
-                <span class="comm-rating-value">${app.rating}</span>
-            </div>
-            <a href="#" class="comm-download-btn" download>
-                <i class="fas fa-download me-1"></i> Download (${app.size})
-            </a>
+// Render app cards
+const renderAppList = async (apps = null) => {
+  const data = apps || await fetchAPKData();
+  if (!appListElement || !data.length) return;
+
+  appListElement.innerHTML = data.map(app => `
+    <div class="app-card" data-slug="${app.slug}">
+      <img src="${app.icon}" alt="${app.name}" class="app-icon" />
+      <div class="app-info">
+        <h3 class="app-title">${app.name}</h3>
+        <div class="app-meta">
+          <span>${app.version}</span>
+          <span>${app.size}</span>
         </div>
-    `).join("");
+        <a href="details.html?slug=${app.slug}" class="download-btn">View Details</a>
+      </div>
+    </div>
+  `).join('');
 };
 
-// Generate star ratings
-const generateStars = (rating) => {
-    const fullStars = Math.floor(rating);
-    const halfStar = rating % 1 >= 0.5;
-    let starsHTML = '';
-    
-    for (let i = 0; i < fullStars; i++) {
-        starsHTML += '<i class="fas fa-star"></i>';
-    }
-    
-    if (halfStar) {
-        starsHTML += '<i class="fas fa-star-half-alt"></i>';
-    }
-    
-    const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
-    for (let i = 0; i < emptyStars; i++) {
-        starsHTML += '<i class="far fa-star"></i>';
-    }
-    
-    return starsHTML;
+// Search apps
+const searchApps = async () => {
+  const query = searchInput?.value.trim().toLowerCase();
+  if (!query) return renderAppList();
+
+  const apps = await fetchAPKData();
+  const filtered = apps.filter(app =>
+    [app.name, app.description, app.category].some(field =>
+      field.toLowerCase().includes(query))
+  );
+  renderAppList(filtered);
 };
 
-// Setup Communication Apps Pagination
-const setupCommPagination = () => {
-    if (!commPagination) return;
-    
-    const totalPages = Math.ceil(commAppsData.length / commAppsPerPage);
-    commPagination.innerHTML = '';
-    
-    for (let i = 0; i < totalPages; i++) {
-        const dot = document.createElement("div");
-        dot.className = `pagination-dot ${i === commCurrentPage ? "active" : ""}`;
-        dot.dataset.page = i;
-        
-        dot.addEventListener("click", () => {
-            commCurrentPage = i;
-            renderCommApps();
-            updateCommPagination();
-        });
-        
-        commPagination.appendChild(dot);
-    }
-};
+// Category filters
+const setupCategoryFilters = () => {
+  categoryButtons.forEach(button => {
+    button.addEventListener("click", async () => {
+      categoryButtons.forEach(b => b.classList.remove("active"));
+      button.classList.add("active");
 
-// Update Communication Apps Pagination
-const updateCommPagination = () => {
-    const dots = document.querySelectorAll(".pagination-dot");
-    dots.forEach((dot, index) => {
-        if (index === commCurrentPage) {
-            dot.classList.add("active");
-        } else {
-            dot.classList.remove("active");
-        }
+      const category = button.dataset.category;
+      const apps = await fetchAPKData();
+      const filtered = category === "all" ? apps : apps.filter(app => app.category === category);
+      renderAppList(filtered);
     });
+  });
 };
 
-// Rest of your existing functions remain the same
-// fetchAPKData, renderAppList, searchApps, setupCategoryFilters, loadAppDetails, slideLeft, slideRight
+// Load App Details
+const loadAppDetails = async () => {
+  const slug = new URLSearchParams(window.location.search).get("slug");
+  if (!slug) return (location.href = "https://picapk.com");
 
-// Modified init function
+  const apps = await fetchAPKData();
+  const app = apps.find(a => a.slug === slug);
+  if (!app) return (location.href = "https://picapk.com");
+
+  // ✅ SEO Tags (safe replace if exists)
+  document.title = `${app.name} APK Download - PicAPK`;
+
+  const existingMeta = document.querySelector("meta[name='description']");
+  if (existingMeta) existingMeta.remove();
+  const metaDesc = document.createElement("meta");
+  metaDesc.name = "description";
+  metaDesc.content = `Download ${app.name} v${app.version} (${app.size}) APK for Android. ${app.description.slice(0, 140)}...`;
+  document.head.appendChild(metaDesc);
+
+  const existingCanonical = document.querySelector("link[rel='canonical']");
+  if (existingCanonical) existingCanonical.remove();
+  const canonical = document.createElement("link");
+  canonical.rel = "canonical";
+  canonical.href = `https://picapk.com/details.html?slug=${app.slug}`;
+  document.head.appendChild(canonical);
+
+  // Render content
+  if (!detailsElement) return;
+
+  const screenshotsHTML = (app.screenshots || []).length > 0 ? `
+    <div class="screenshots">
+      <h2>Screenshots</h2>
+      <div class="screenshot-slider">
+        <button class="arrow left" onclick="slideLeft()">←</button>
+        <div class="screenshot-container" id="screenshotContainer">
+          ${app.screenshots.map(img => `<img src="${img}" class="screenshot-slide" alt="Screenshot"/>`).join("")}
+        </div>
+        <button class="arrow right" onclick="slideRight()">→</button>
+      </div>
+    </div>
+  ` : "";
+
+  detailsElement.innerHTML = `
+    <div class="detail-header">
+      <img src="${app.icon}" alt="${app.name}" class="detail-icon" />
+      <div>
+        <h1 class="detail-title">${app.name}</h1>
+        <div class="detail-meta">
+          <span>Version: ${app.version}</span> • 
+          <span>Size: ${app.size}</span> • 
+          <span>Downloads: ${app.downloads}</span> • 
+          <span>Rating: ${app.rating}/5</span>
+        </div>
+        <p>${app.description}</p>
+        <a href="${app.apk_file}" class="detail-download" download>Download APK</a>
+      </div>
+    </div>
+    ${screenshotsHTML}
+    <div class="description">
+      <h2>About ${app.name} </h2>
+      <p>${app.appabout}</p>
+    </div>
+  `;
+};
+
+// Screenshot sliding
+const slideLeft = () => {
+  const container = document.getElementById("screenshotContainer");
+  if (!container) return;
+  const slideWidth = container.offsetWidth / 3;
+  if (currentSlide > 0) {
+    currentSlide--;
+    container.scrollTo({ left: currentSlide * slideWidth, behavior: "smooth" });
+  }
+};
+
+const slideRight = () => {
+  const container = document.getElementById("screenshotContainer");
+  const slides = container?.querySelectorAll(".screenshot-slide") || [];
+  const slideWidth = container.offsetWidth / 3;
+  const maxSlide = Math.max(0, slides.length - 3);
+  if (currentSlide < maxSlide) {
+    currentSlide++;
+    container.scrollTo({ left: currentSlide * slideWidth, behavior: "smooth" });
+  }
+};
+
+// Init app
 document.addEventListener("DOMContentLoaded", () => {
-    if (appListElement) {
-        renderAppList();
-        setupCategoryFilters();
-        searchInput?.addEventListener("keyup", e => e.key === "Enter" && searchApps());
+  if (appListElement) {
+    renderAppList();
+    setupCategoryFilters();
+    searchInput?.addEventListener("keyup", e => e.key === "Enter" && searchApps());
 
-        appListElement.addEventListener("click", e => {
-            const card = e.target.closest(".app-card");
-            if (card && !e.target.classList.contains("download-btn")) {
-                location.href = `details.html?slug=${card.dataset.slug}`;
-            }
-        });
-    }
+    appListElement.addEventListener("click", e => {
+      const card = e.target.closest(".app-card");
+      if (card && !e.target.classList.contains("download-btn")) {
+        location.href = `details.html?slug=${card.dataset.slug}`;
+      }
+    });
+  }
 
-    if (detailsElement) {
-        loadAppDetails();
-    }
-    
-    // Initialize Communication Apps
-    initCommApps();
+  if (detailsElement) {
+    loadAppDetails();
+  }
 });
