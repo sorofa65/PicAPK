@@ -261,8 +261,8 @@
             padding: 25px;
             border: 1px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(8px);
-            position: relative; /* For clickable area */
-            text-align: center; /* Center all content */
+            position: relative;
+            text-align: center;
         }
         
         .app-card:hover {
@@ -284,14 +284,14 @@
         .app-card-content {
             position: relative;
             z-index: 2;
-            pointer-events: none; /* Allow click through to link */
+            pointer-events: none;
             display: flex;
             flex-direction: column;
             height: 100%;
         }
         
         .app-card-content > * {
-            pointer-events: auto; /* Make children clickable */
+            pointer-events: auto;
         }
         
         .app-icon {
@@ -301,7 +301,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 20px; /* Centered */
+            margin: 0 auto 20px;
             font-size: 2rem;
             color: white;
             overflow: hidden;
@@ -320,7 +320,7 @@
             color: white;
             margin-bottom: 10px;
             line-height: 1.4;
-            text-align: center; /* Centered */
+            text-align: center;
         }
         
         .app-description {
@@ -329,21 +329,20 @@
             margin-bottom: 20px;
             line-height: 1.5;
             flex-grow: 1;
-            text-align: center; /* Centered */
+            text-align: center;
         }
         
         .app-meta {
             display: flex;
             justify-content: space-between;
-            color: #666;
             font-size: 0.9rem;
             margin-bottom: 15px;
             color: rgba(255, 255, 255, 0.7);
-            text-align: center; /* Centered */
+            text-align: center;
         }
         
         .app-downloads {
-            text-align: center; /* Centered */
+            text-align: center;
         }
         
         /* Hide download buttons */
@@ -410,7 +409,7 @@
         
         @media (max-width: 992px) {
             .apps-grid {
-                grid-template-columns: repeat(3, 1fr); /* 3 columns on tablets */
+                grid-template-columns: repeat(3, 1fr);
             }
             
             .stat-item {
@@ -429,7 +428,7 @@
         
         @media (max-width: 768px) {
             .apps-grid {
-                grid-template-columns: repeat(3, 1fr); /* 3 columns on mobile */
+                grid-template-columns: repeat(3, 1fr);
                 gap: 15px;
             }
             
@@ -485,13 +484,13 @@
             }
             
             .apps-grid {
-                grid-template-columns: repeat(2, 1fr); /* 2 columns on small mobile */
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         
         @media (max-width: 400px) {
             .apps-grid {
-                grid-template-columns: 1fr; /* Single column on very small screens */
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -630,14 +629,103 @@
         const searchInput = document.getElementById('searchInput');
         const categoryButtons = document.querySelectorAll('.category-btn');
 
+        // Sample app data - in production, this would come from apks.json
+        const sampleAppData = {
+            apps: [
+                {
+                    id: "ludo-king",
+                    name: "Ludo King",
+                    description: "The classic board game brought to life on your mobile device",
+                    icon: "https://play-lh.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP",
+                    version: "v4.5.0",
+                    size: "85 MB",
+                    downloads: "500M+",
+                    category: "games"
+                },
+                {
+                    id: "whatsapp",
+                    name: "WhatsApp Messenger",
+                    description: "Simple, reliable messaging and calling for free",
+                    icon: "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN",
+                    version: "v2.22.25",
+                    size: "45 MB",
+                    downloads: "5B+",
+                    category: "social"
+                },
+                {
+                    id: "camera-360",
+                    name: "Camera 360",
+                    description: "All-in-one photo editor with amazing filters and effects",
+                    icon: "https://play-lh.googleusercontent.com/1vz7j5QyDfR9Y3bFQeCQZtJkL6j7V5a0Z7b3Q3w3J3J3J3J3J3J3J3J3J3J3J3J3",
+                    version: "v9.8.7",
+                    size: "75 MB",
+                    downloads: "500M+",
+                    category: "photography"
+                },
+                {
+                    id: "clean-master",
+                    name: "Clean Master",
+                    description: "Clean junk files, boost phone speed and optimize performance",
+                    icon: "https://play-lh.googleusercontent.com/7U7S1QdC3b1jv3k7J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4",
+                    version: "v7.4.5",
+                    size: "45 MB",
+                    downloads: "1B+",
+                    category: "tools"
+                },
+                {
+                    id: "instagram",
+                    name: "Instagram",
+                    description: "Connect with friends, share photos and videos",
+                    icon: "https://play-lh.googleusercontent.com/h9jWMwqbH9m5w8eC4Q5dP1g3oQtapbumPHr8f2Zb6s3VJ9-3Z3Z3Z3Z3Z3Z3Z3Z3Z3",
+                    version: "v250.0.0.18",
+                    size: "65 MB",
+                    downloads: "5B+",
+                    category: "social"
+                },
+                {
+                    id: "spotify",
+                    name: "Spotify Music",
+                    description: "Stream millions of songs and podcasts for free",
+                    icon: "https://play-lh.googleusercontent.com/P2VMEenhpIsubG2oWbvuLGrs0GyyzLiDosGTg8bi8htRXg9Uf0eUtHiUjC28p1jgHzo",
+                    version: "v8.7.78",
+                    size: "55 MB",
+                    downloads: "1B+",
+                    category: "tools"
+                },
+                {
+                    id: "subway-surfers",
+                    name: "Subway Surfers",
+                    description: "Run as fast as you can to escape the inspector and his dog",
+                    icon: "https://play-lh.googleusercontent.com/SvQ5dJY1ZJ1Yy1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1y1",
+                    version: "v3.5.0",
+                    size: "150 MB",
+                    downloads: "1B+",
+                    category: "games"
+                },
+                {
+                    id: "snapseed",
+                    name: "Snapseed",
+                    description: "Professional photo editing made easy",
+                    icon: "https://play-lh.googleusercontent.com/8QmZR0n1O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0O0",
+                    version: "v2.19.1",
+                    size: "35 MB",
+                    downloads: "500M+",
+                    category: "photography"
+                }
+            ]
+        };
+
         // Fetch app data from JSON file
         async function fetchAppData() {
             try {
-                const response = await fetch('data/apks.json');
-                if (!response.ok) {
-                    throw new Error('Failed to load app data');
-                }
-                const data = await response.json();
+                // In production, use this:
+                // const response = await fetch('data/apks.json');
+                // if (!response.ok) throw new Error('Failed to load app data');
+                // const data = await response.json();
+                
+                // For demo purposes, use sample data
+                const data = sampleAppData;
+                
                 appData = data.apps || [];
                 
                 // Extract categories
@@ -708,23 +796,23 @@
             appsGrid.innerHTML = '';
             
             apps.forEach(app => {
-                const slug = app.id || app.name.toLowerCase().replace(/\s+/g, '-');
+                const slug = app.id;
                 const appCard = document.createElement('div');
                 appCard.className = 'app-card';
                 
                 appCard.innerHTML = `
-                    <a href="details.html?slug=${slug}" class="app-card-link"></a>
+                    <a href="https://picapk.com/details.html?slug=${slug}" class="app-card-link"></a>
                     <div class="app-card-content">
                         <div class="app-icon">
-                            <img src="${app.icon || 'https://via.placeholder.com/70'}" alt="${app.name}">
+                            <img src="${app.icon}" alt="${app.name}">
                         </div>
                         <h3 class="app-name">${app.name}</h3>
-                        <p class="app-description">${app.description || 'No description available'}</p>
+                        <p class="app-description">${app.description}</p>
                         <div class="app-meta">
-                            <span>${app.version || 'v1.0'}</span>
-                            <span>${app.size || 'Size N/A'}</span>
+                            <span>${app.version}</span>
+                            <span>${app.size}</span>
                         </div>
-                        <div class="app-downloads">Downloads: ${app.downloads || 'N/A'}</div>
+                        <div class="app-downloads">Downloads: ${app.downloads}</div>
                     </div>
                 `;
                 
@@ -742,23 +830,23 @@
             gamesGrid.innerHTML = '';
             
             games.forEach(game => {
-                const slug = game.id || game.name.toLowerCase().replace(/\s+/g, '-');
+                const slug = game.id;
                 const gameCard = document.createElement('div');
                 gameCard.className = 'app-card';
                 
                 gameCard.innerHTML = `
-                    <a href="details.html?slug=${slug}" class="app-card-link"></a>
+                    <a href="https://picapk.com/details.html?slug=${slug}" class="app-card-link"></a>
                     <div class="app-card-content">
                         <div class="app-icon">
-                            <img src="${game.icon || 'https://via.placeholder.com/70'}" alt="${game.name}">
+                            <img src="${game.icon}" alt="${game.name}">
                         </div>
                         <h3 class="app-name">${game.name}</h3>
-                        <p class="app-description">${game.description || 'No description available'}</p>
+                        <p class="app-description">${game.description}</p>
                         <div class="app-meta">
-                            <span>${game.version || 'v1.0'}</span>
-                            <span>${game.size || 'Size N/A'}</span>
+                            <span>${game.version}</span>
+                            <span>${game.size}</span>
                         </div>
-                        <div class="app-downloads">Downloads: ${game.downloads || 'N/A'}</div>
+                        <div class="app-downloads">Downloads: ${game.downloads}</div>
                     </div>
                 `;
                 
