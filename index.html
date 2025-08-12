@@ -126,7 +126,7 @@
     // Fetch app data from JSON file
     async function fetchAppData() {
       try {
-        const response = await fetch('apks.json');
+        const response = await fetch('data/apks.json');
         if (!response.ok) {
           throw new Error('Failed to load app data');
         }
