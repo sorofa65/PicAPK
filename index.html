@@ -262,6 +262,7 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(8px);
             position: relative; /* For clickable area */
+            text-align: center; /* Center all content */
         }
         
         .app-card:hover {
@@ -284,6 +285,9 @@
             position: relative;
             z-index: 2;
             pointer-events: none; /* Allow click through to link */
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
         
         .app-card-content > * {
@@ -297,7 +301,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 20px;
+            margin: 0 auto 20px; /* Centered */
             font-size: 2rem;
             color: white;
             overflow: hidden;
@@ -316,6 +320,7 @@
             color: white;
             margin-bottom: 10px;
             line-height: 1.4;
+            text-align: center; /* Centered */
         }
         
         .app-description {
@@ -324,6 +329,7 @@
             margin-bottom: 20px;
             line-height: 1.5;
             flex-grow: 1;
+            text-align: center; /* Centered */
         }
         
         .app-meta {
@@ -333,6 +339,11 @@
             font-size: 0.9rem;
             margin-bottom: 15px;
             color: rgba(255, 255, 255, 0.7);
+            text-align: center; /* Centered */
+        }
+        
+        .app-downloads {
+            text-align: center; /* Centered */
         }
         
         /* Hide download buttons */
@@ -708,7 +719,7 @@
                             <img src="${app.icon || 'https://via.placeholder.com/70'}" alt="${app.name}">
                         </div>
                         <h3 class="app-name">${app.name}</h3>
-                        <p class="app-description">${app.description}</p>
+                        <p class="app-description">${app.description || 'No description available'}</p>
                         <div class="app-meta">
                             <span>${app.version || 'v1.0'}</span>
                             <span>${app.size || 'Size N/A'}</span>
@@ -742,7 +753,7 @@
                             <img src="${game.icon || 'https://via.placeholder.com/70'}" alt="${game.name}">
                         </div>
                         <h3 class="app-name">${game.name}</h3>
-                        <p class="app-description">${game.description}</p>
+                        <p class="app-description">${game.description || 'No description available'}</p>
                         <div class="app-meta">
                             <span>${game.version || 'v1.0'}</span>
                             <span>${game.size || 'Size N/A'}</span>
@@ -779,7 +790,7 @@
                 <div class="error-message">
                     <h3><i class="fas fa-exclamation-triangle"></i> Error Loading Apps</h3>
                     <p>Failed to load app data. Please try again later.</p>
-                    <button class="download-btn" onclick="location.reload()">
+                    <button class="btn btn-primary" onclick="location.reload()">
                         <i class="fas fa-redo"></i> Reload Page
                     </button>
                 </div>
