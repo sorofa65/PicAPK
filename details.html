@@ -76,7 +76,7 @@
         }
         
         // Fetch app data
-        const response = await fetch('apks.json');
+        const response = await fetch('data/apks.json');
         if (!response.ok) {
           throw new Error('Failed to load app data');
         }
