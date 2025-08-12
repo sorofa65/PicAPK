@@ -708,7 +708,7 @@
             appsGrid.innerHTML = '';
             
             apps.forEach(app => {
-                const slug = app.id || app.name.toLowerCase().replace(/\s+/g, '-');
+                const slug = app.slug || app.name.toLowerCase().replace(/\s+/g, '-');
                 const appCard = document.createElement('div');
                 appCard.className = 'app-card';
                 
@@ -742,7 +742,7 @@
             gamesGrid.innerHTML = '';
             
             games.forEach(game => {
-                const slug = game.id || game.name.toLowerCase().replace(/\s+/g, '-');
+                const slug = game.slug || game.name.toLowerCase().replace(/\s+/g, '-');
                 const gameCard = document.createElement('div');
                 gameCard.className = 'app-card';
                 
