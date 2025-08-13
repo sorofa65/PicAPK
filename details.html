@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- Favicon -->
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/sorofa65/PicAPK/refs/heads/main/images/icon%20(1).png" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>App Details - Android APK </title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-   <meta name="description" content="Download safe and free APKs - Social, Games, Tools and more!" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Details - Android APK</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta name="description" content="Download safe and free APKs - Social, Games, Tools and more!" />
     <meta name="keywords" content="APK, Free APK, Android apps, Tools, Games, Download" />
     <meta name="author" content="PicAPK" />
     <link rel="canonical" href="https://picapk.com/" />
 
-    <!-- Open Graph (for social sharing) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="PicAPK - Free Android APKs" />
     <meta property="og:description" content="Download your favorite Android APKs safely and quickly." />
     <meta property="og:type" content="website" />
@@ -25,170 +26,201 @@
     <meta name="twitter:title" content="PicAPK - Free Android APKs" />
     <meta name="twitter:description" content="Download your favorite Android APKs safely and quickly." />
     <meta name="twitter:image" content="https://picapk.com/og-image.jpg" />
-
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-content">
-      <a href="index.html" class="navbar-brand">
-        <img src="https://raw.githubusercontent.com/sorofa65/PicAPK/c9608355d640327a7cd07ff542dbcef613580c8c/images/Logo.jpg" 
-             alt="PicAPK">
-      
-      </a>
-      <div class="nav-links">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Contact</a>
-      </div>
-      <form class="search-form">
-        <input class="form-control me-2" type="search" placeholder="Search apps..." aria-label="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
-  <!-- Details Page Content -->
-  <div class="container">
-    <a href="index.html" class="back-button">
-      <i class="fas fa-arrow-left"></i> Back to Home
-    </a>
-    
-    <div id="appDetailsContent">
-      <!-- App details will be rendered here -->
-    </div>
-    
-    <div class="not-found" id="notFoundMessage" style="display: none;">
-      <h2><i class="fas fa-exclamation-triangle"></i> App Not Found</h2>
-      <p>The app you're looking for doesn't exist or may have been removed.</p>
-      <a href="index.html" class="back-button">
-        <i class="fas fa-arrow-left"></i> Back to Home
-      </a>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-links">
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-      <div class="copyright">
-        &copy; 2025 Android APK Hub. All rights reserved.
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Fetch app data and display details
-    async function loadAppDetails() {
-      try {
-        // Get slug from URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const slug = urlParams.get('slug');
-        
-        if (!slug) {
-          showNotFound();
-          return;
-        }
-        
-        // Fetch app data
-        const response = await fetch('data/apks.json');
-        if (!response.ok) {
-          throw new Error('Failed to load app data');
-        }
-        const data = await response.json();
-        
-        // Find the app with matching slug
-        const app = data.apps.find(a => a.slug === slug);
-        
-        if (app) {
-          displayAppDetails(app);
-        } else {
-          showNotFound();
-        }
-      } catch (error) {
-        console.error('Error loading app details:', error);
-        showNotFound();
-      }
-    }
-    
-    // Display app details
-    function displayAppDetails(app) {
-      const appDetailsContent = document.getElementById('appDetailsContent');
-      
-      appDetailsContent.innerHTML = `
-        <div class="app-details">
-          <div class="details-header">
-            <div class="details-icon">
-              <img src="${app.icon}" alt="${app.name}">
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="index.html" class="navbar-brand">
+                <img src="https://raw.githubusercontent.com/sorofa65/PicAPK/c9608355d640327a7cd07ff542dbcef613580c8c/images/Logo.jpg" alt="PicAPK">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
             </div>
-            <div class="details-info">
-              <h1 class="details-title">${app.name}</h1>
-              <div class="details-developer">Package: ${app.package}</div>
-              
-              <div class="details-meta">
-                <div class="meta-item">
-                  <div class="meta-label">Version</div>
-                  <div class="meta-value">${app.version}</div>
-                </div>
-                <div class="meta-item">
-                  <div class="meta-label">Size</div>
-                  <div class="meta-value">${app.size}</div>
-                </div>
-                <div class="meta-item">
-                  <div class="meta-label">Downloads</div>
-                  <div class="meta-value">${app.downloads.toLocaleString()}</div>
-                </div>
-                <div class="meta-item">
-                  <div class="meta-label">Rating</div>
-                  <div class="meta-value">${app.rating}★</div>
-                </div>
-                <div class="meta-item">
-                  <div class="meta-label">Updated</div>
-                  <div class="meta-value">${app.updated}</div>
-                </div>
-              </div>
-              
-              <a href="${app.apk_file}" class="download-button" target="_blank">
-                <i class="fas fa-download"></i> Download APK
-              </a>
-            </div>
-          </div>
-          
-          <div class="details-content">
-            <h2 class="carousel-title"><i class="fas fa-info-circle"></i> About</h2>
-            <div class="details-description">
-              ${app.appabout}
-            </div>
-            
-            <h2 class="carousel-title"><i class="fas fa-images"></i> Screenshots</h2>
-            <div class="screenshots-grid">
-              ${app.screenshots.map(screenshot => `
-                <div class="screenshot">
-                  <img src="${screenshot}" alt="${app.name} screenshot">
-                </div>
-              `).join('')}
-            </div>
-          </div>
+            <form class="search-form">
+                <input class="form-control me-2" type="search" placeholder="Search apps..." aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
         </div>
-      `;
-      
-      // Set page title
-      document.title = `${app.name} - Android APK Hub`;
+    </nav>
+
+    <!-- Details Page Content -->
+    <div class="container">
+        <a href="index.html" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+        
+        <div id="appDetailsContent">
+            <!-- App details will be rendered here -->
+        </div>
+        
+        <div class="not-found" id="notFoundMessage" style="display: none;">
+            <h2><i class="fas fa-exclamation-triangle"></i> App Not Found</h2>
+            <p>The app you're looking for doesn't exist or may have been removed.</p>
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Android APK Hub. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    async function loadAppDetails() {
+        try {
+            const urlParams = new URLSearchParams(window.location.search);
+            const slug = urlParams.get('slug');
+            if (!slug) {
+                showNotFound();
+                return;
+            }
+            const response = await fetch('data/apks.json');
+            if (!response.ok) throw new Error('Failed to load app data');
+            const data = await response.json();
+            const app = data.apps.find(a => a.slug === slug);
+            if (app) {
+                displayAppDetails(app);
+                initScreenshotSlider(); // slider init
+            } else {
+                showNotFound();
+            }
+        } catch (error) {
+            console.error('Error loading app details:', error);
+            showNotFound();
+        }
     }
-    
-    // Show not found message
+
+    function displayAppDetails(app) {
+        const appDetailsContent = document.getElementById('appDetailsContent');
+        appDetailsContent.innerHTML = `
+            <div class="app-details">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <img src="${app.icon}" alt="${app.name}">
+                    </div>
+                    <div class="details-info">
+                        <h1 class="details-title">${app.name}</h1>
+                        <div class="details-developer">Package: ${app.package}</div>
+                        <div class="details-meta">
+                            <div class="meta-item"><div class="meta-label">Version</div><div class="meta-value">${app.version}</div></div>
+                            <div class="meta-item"><div class="meta-label">Size</div><div class="meta-value">${app.size}</div></div>
+                            <div class="meta-item"><div class="meta-label">Downloads</div><div class="meta-value">${app.downloads.toLocaleString()}</div></div>
+                            <div class="meta-item"><div class="meta-label">Rating</div><div class="meta-value">${app.rating}★</div></div>
+                            <div class="meta-item"><div class="meta-label">Updated</div><div class="meta-value">${app.updated}</div></div>
+                        </div>
+                        <a href="${app.apk_file}" class="download-button" target="_blank"><i class="fas fa-download"></i> Download APK</a>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <h2 class="carousel-title"><i class="fas fa-info-circle"></i> About</h2>
+                    <div class="details-description">${app.appabout}</div>
+                    
+                    <h2 class="carousel-title"><i class="fas fa-images"></i> Screenshots</h2>
+                    <div class="screenshot-container">
+                        <div class="screenshot-slider" id="screenshotSlider">
+                            ${app.screenshots.map(screenshot => `
+                                <div class="screenshot-slide">
+                                    <img src="${screenshot}" alt="${app.name} screenshot">
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots" id="sliderDots"></div>
+                </div>
+            </div>
+        `;
+        document.title = `${app.name} - Android APK Hub`;
+    }
+
     function showNotFound() {
-      document.getElementById('notFoundMessage').style.display = 'block';
-      document.getElementById('appDetailsContent').style.display = 'none';
+        document.getElementById('notFoundMessage').style.display = 'block';
+        document.getElementById('appDetailsContent').style.display = 'none';
     }
-    
-    // Initialize the details page
+
+    // Responsive slider
+    function initScreenshotSlider() {
+        const slider = document.getElementById('screenshotSlider');
+        if (!slider) return;
+        const slides = document.querySelectorAll('.screenshot-slide');
+        const dotsContainer = document.getElementById('sliderDots');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let currentSlide = 0;
+
+        function getSlidesPerView() {
+            return window.innerWidth <= 768 ? 3 : 4;
+        }
+
+        let slidesPerView = getSlidesPerView();
+        const totalPages = Math.ceil(slides.length / slidesPerView);
+
+        dotsContainer.innerHTML = "";
+        for (let i = 0; i < totalPages; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('slider-dot');
+            if (i === 0) dot.classList.add('active');
+            dot.dataset.index = i;
+            dotsContainer.appendChild(dot);
+        }
+
+        const dots = document.querySelectorAll('.slider-dot');
+
+        function updateSlider() {
+            const offset = (currentSlide * 100) / slidesPerView;
+            slider.style.transform = `translateX(-${offset}%)`;
+            dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSlide));
+        }
+
+        nextBtn.addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % totalPages;
+            updateSlider();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + totalPages) % totalPages;
+            updateSlider();
+        });
+
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                currentSlide = parseInt(dot.dataset.index);
+                updateSlider();
+            });
+        });
+
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % totalPages;
+            updateSlider();
+        }, 5000);
+
+        window.addEventListener('resize', () => {
+            slidesPerView = getSlidesPerView();
+            currentSlide = 0;
+            updateSlider();
+        });
+    }
+
     document.addEventListener('DOMContentLoaded', loadAppDetails);
-  </script>
+    </script>
 </body>
 </html>
