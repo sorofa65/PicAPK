@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta name="google-site-verification" content="fE2S8WiJZ1RiJ9k5TefLU6dnoxCQolcUqVbb-e2JScE" />
+  <meta name="google-site-verification" content="fE2S8WiJZ1RiJ9k5TefLU6dnoxCQolcUqVbb-e2JScE" />
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X77MHK2E59"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X77MHK2E59');
-</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X77MHK2E59"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X77MHK2E59');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Favicon -->
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/sorofa65/PicAPK/refs/heads/main/images/icon%20(1).png">
-
   <title>PicAPK</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <meta name="description" content="Download safe and free APKs - Social, Games, Tools and more!">
+  <meta name="description" content="Download safe and free APKs - Social, Games, Tools and more!">
   <meta name="keywords" content="APK, Free APK, Android apps, Tools, Games, Download">
   <meta name="author" content="PicAPK">
   <link rel="canonical" href="https://picapk.com/">
-  
-  <!-- Open Graph (for social sharing) -->
+
+  <!-- Open Graph -->
   <meta property="og:title" content="PicAPK - Free Android APKs">
   <meta property="og:description" content="Download your favorite Android APKs safely and quickly.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://picapk.com/">
   <meta property="og:image" content="https://picapk.com/og-image.jpg">
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="PicAPK - Free Android APKs">
   <meta name="twitter:description" content="Download your favorite Android APKs safely and quickly.">
   <meta name="twitter:image" content="https://picapk.com/og-image.jpg">
-</head>
-<body>
+
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
     <div class="navbar-content">
       <a href="index.html" class="navbar-brand">
-        <img src="https://raw.githubusercontent.com/sorofa65/PicAPK/c9608355d640327a7cd07ff542dbcef613580c8c/images/Logo.jpg" 
-             alt="PICAPK">
-       
+        <img src="https://raw.githubusercontent.com/sorofa65/PicAPK/c9608355d640327a7cd07ff542dbcef613580c8c/images/Logo.jpg" alt="PICAPK">
       </a>
       <div class="nav-links">
         <a href="index.html" class="nav-link active">Home</a>
@@ -66,65 +59,30 @@
     <header class="home-header">
       <h1>PicAPK</h1>
       <p class="subtitle">Discover thousands of free, safe Android APKs across various categories. Find your next favorite app today!</p>
-      
-      <div class="stats">
-        <div class="stat-item">
-          <div class="stat-value">1.5M+</div>
-          <div class="stat-label">Total Apps</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">250+</div>
-          <div class="stat-label">Categories</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">98%</div>
-          <div class="stat-label">User Satisfaction</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-value">4.7★</div>
-          <div class="stat-label">Average Rating</div>
-        </div>
-      </div>
-      
+
       <div class="category-nav" id="categoryNav">
-        <button class="category-btn active" data-category="all">
-          <i class="fas fa-layer-group"></i> All Apps
-        </button>
-        <button class="category-btn" data-category="games">
-          <i class="fas fa-gamepad"></i> Games
-        </button>
-        <button class="category-btn" data-category="photography">
-          <i class="fas fa-camera"></i> Photography
-        </button>
-        <button class="category-btn" data-category="social">
-          <i class="fas fa-share-alt"></i> Social
-        </button>
-        <button class="category-btn" data-category="tools">
-          <i class="fas fa-tools"></i> Tools
-        </button>
+        <button class="category-btn active" data-category="all"><i class="fas fa-layer-group"></i> All Apps</button>
+        <button class="category-btn" data-category="photography"><i class="fas fa-camera"></i> Photography</button>
+        <button class="category-btn" data-category="art & design"><i class="fa-solid fa-pen-nib"></i> Art & Design</button>
+        <button class="category-btn" data-category="video players & editors"><i class="fas fa-video"></i> Video Players & Editors</button>
+        <button class="category-btn" data-category="games"><i class="fas fa-gamepad"></i> Games</button>
+        <button class="category-btn" data-category="social"><i class="fas fa-share-alt"></i> Social</button>
+        <button class="category-btn" data-category="tools"><i class="fas fa-tools"></i> Tools</button>
       </div>
     </header>
-    
+
+    <!-- Popular Apps -->
     <div class="carousel-container">
-      <div class="carousel-header">
-        <h2 class="carousel-title">
-          <i class="fas fa-star"></i> Popular Apps
-        </h2>
-      </div>
-      
+      <div class="carousel-header"><h2 class="carousel-title"><i class="fas fa-star"></i> Popular Apps</h2></div>
       <div class="apps-grid" id="appsGrid">
         <div class="loading-spinner"></div>
         <div class="loading-text">Loading apps...</div>
       </div>
     </div>
-    
+
+    <!-- Top Games -->
     <div class="carousel-container">
-      <div class="carousel-header">
-        <h2 class="carousel-title">
-          <i class="fas fa-gamepad"></i> Top Games
-        </h2>
-      </div>
-      
+      <div class="carousel-header"><h2 class="carousel-title"><i class="fas fa-gamepad"></i> Top Games</h2></div>
       <div class="apps-grid" id="gamesGrid">
         <div class="loading-spinner"></div>
         <div class="loading-text">Loading games...</div>
@@ -141,14 +99,11 @@
         <a href="#">Terms & Conditions</a>
         <a href="#">Privacy Policy</a>
       </div>
-      <div class="copyright">
-        &copy; 2025 Android APK Hub. All rights reserved.
-      </div>
+      <div class="copyright">&copy; 2025 Android APK Hub. All rights reserved.</div>
     </div>
   </footer>
 
   <script>
-    // DOM Elements
     const appsGrid = document.getElementById('appsGrid');
     const gamesGrid = document.getElementById('gamesGrid');
     const searchForm = document.getElementById('searchForm');
@@ -156,174 +111,91 @@
     const categoryButtons = document.querySelectorAll('.category-btn');
     let appData = [];
 
-    // Fetch app data from JSON file
     async function fetchAppData() {
       try {
         const response = await fetch('data/apks.json');
-        if (!response.ok) {
-          throw new Error('Failed to load app data');
-        }
+        if (!response.ok) throw new Error('Failed to load app data');
         const data = await response.json();
         appData = data.apps || [];
-        
-        // Initialize the app
         initApp();
       } catch (error) {
-        console.error('Error loading app data:', error);
+        console.error(error);
         showError();
       }
     }
 
-    // Initialize the app
     function initApp() {
-      // Render all apps
       renderApps(appData);
-      
-      // Render top games
       const games = appData.filter(app => app.category && app.category.toLowerCase() === "games");
       renderGames(games);
-      
-      // Set up event listeners
       setupEventListeners();
     }
 
-    // Set up event listeners
     function setupEventListeners() {
-      // Category filter buttons
       categoryButtons.forEach(button => {
         button.addEventListener('click', () => {
           const category = button.dataset.category;
-          
-          // Update active button
           categoryButtons.forEach(btn => btn.classList.remove('active'));
           button.classList.add('active');
-          
-          // Filter apps
-          if (category === 'all') {
-            renderApps(appData);
-          } else {
-            const filteredApps = appData.filter(app => 
-              app.category && app.category.toLowerCase() === category
-            );
-            renderApps(filteredApps);
+          if (category === 'all') renderApps(appData);
+          else {
+            const filtered = appData.filter(app => app.category && app.category.toLowerCase() === category);
+            renderApps(filtered);
           }
         });
       });
-      
-      // Search form
-      searchForm.addEventListener('submit', (e) => {
+
+      searchForm.addEventListener('submit', e => {
         e.preventDefault();
-        searchApps();
+        const query = searchInput.value.trim().toLowerCase();
+        if (!query) { renderApps(appData); return; }
+        const filtered = appData.filter(app => (app.name && app.name.toLowerCase().includes(query)) ||
+                                               (app.category && app.category.toLowerCase().includes(query)));
+        renderApps(filtered);
+        categoryButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector('[data-category="all"]').classList.add('active');
       });
     }
 
-    // Render apps
     function renderApps(apps) {
-      if (!apps || apps.length === 0) {
-        appsGrid.innerHTML = '<div class="error-message">No apps found. Try another search or category.</div>';
-        return;
-      }
-      
+      if (!apps || apps.length === 0) { appsGrid.innerHTML = '<div class="error-message">No apps found.</div>'; return; }
       appsGrid.innerHTML = '';
-      
       apps.forEach(app => {
-        const appCard = document.createElement('div');
-        appCard.className = 'app-card';
-        appCard.dataset.slug = app.slug;
-        
-        appCard.innerHTML = `
-          <div class="app-icon">
-            <img src="${app.icon}" alt="${app.name}">
-          </div>
+        const card = document.createElement('div');
+        card.className = 'app-card';
+        card.dataset.slug = app.slug;
+        card.innerHTML = `
+          <div class="app-icon"><img src="${app.icon}" alt="${app.name}"></div>
           <h3 class="app-name">${app.name}</h3>
-          <p class="app-description">${app.description}</p>
-          <div class="app-meta">
-            <span>${app.version}</span>
-            <span>${app.size}</span>
-          </div>
-          <div class="app-downloads">Downloads: ${app.downloads.toLocaleString()}</div>
+          <div class="app-rating">${app.rating ? app.rating + '★' : '★'}</div>
         `;
-        
-        appCard.addEventListener('click', () => {
-          window.location.href = `details.html?slug=${app.slug}`;
-        });
-        
-        appsGrid.appendChild(appCard);
+        card.addEventListener('click', () => window.location.href = `details.html?slug=${app.slug}`);
+        appsGrid.appendChild(card);
       });
     }
 
-    // Render games
     function renderGames(games) {
-      if (!games || games.length === 0) {
-        gamesGrid.innerHTML = '<div class="error-message">No games found at the moment.</div>';
-        return;
-      }
-      
+      if (!games || games.length === 0) { gamesGrid.innerHTML = '<div class="error-message">No games found.</div>'; return; }
       gamesGrid.innerHTML = '';
-      
       games.forEach(game => {
-        const gameCard = document.createElement('div');
-        gameCard.className = 'app-card';
-        gameCard.dataset.slug = game.slug;
-        
-        gameCard.innerHTML = `
-          <div class="app-icon">
-            <img src="${game.icon}" alt="${game.name}">
-          </div>
+        const card = document.createElement('div');
+        card.className = 'app-card';
+        card.dataset.slug = game.slug;
+        card.innerHTML = `
+          <div class="app-icon"><img src="${game.icon}" alt="${game.name}"></div>
           <h3 class="app-name">${game.name}</h3>
-          <p class="app-description">${game.description}</p>
-          <div class="app-meta">
-            <span>${game.version}</span>
-            <span>${game.size}</span>
-          </div>
-          <div class="app-downloads">Downloads: ${game.downloads.toLocaleString()}</div>
+          <div class="app-rating">${game.rating ? game.rating + '★' : '★'}</div>
         `;
-        
-        gameCard.addEventListener('click', () => {
-          window.location.href = `details.html?slug=${game.slug}`;
-        });
-        
-        gamesGrid.appendChild(gameCard);
+        card.addEventListener('click', () => window.location.href = `details.html?slug=${game.slug}`);
+        gamesGrid.appendChild(card);
       });
     }
 
-    // Search apps
-    function searchApps() {
-      const query = searchInput.value.trim().toLowerCase();
-      if (!query) {
-        renderApps(appData);
-        return;
-      }
-      
-      const filteredApps = appData.filter(app => 
-        (app.name && app.name.toLowerCase().includes(query)) || 
-        (app.description && app.description.toLowerCase().includes(query)) ||
-        (app.category && app.category.toLowerCase().includes(query))
-      );
-      
-      renderApps(filteredApps);
-      
-      // Reset category buttons
-      categoryButtons.forEach(btn => btn.classList.remove('active'));
-      document.querySelector('[data-category="all"]').classList.add('active');
-    }
-
-    // Show error message
     function showError() {
-      appsGrid.innerHTML = `
-        <div class="error-message">
-          <h3><i class="fas fa-exclamation-triangle"></i> Error Loading Apps</h3>
-          <p>Failed to load app data. Please try again later.</p>
-          <button class="btn btn-primary" onclick="location.reload()">
-            <i class="fas fa-redo"></i> Reload Page
-          </button>
-        </div>
-      `;
-      
+      appsGrid.innerHTML = `<div class="error-message"><h3><i class="fas fa-exclamation-triangle"></i> Error Loading Apps</h3></div>`;
       gamesGrid.innerHTML = '';
     }
 
-    // Initialize the app by fetching data
     document.addEventListener('DOMContentLoaded', fetchAppData);
   </script>
 </body>
