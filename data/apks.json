@@ -2765,32 +2765,6 @@
   "category": "Video Players & Editors",
   "updated": "August 19, 2025"
 },
-{
-  "id": 115,
-  "name": "Gallery - Photo Gallery Album",
-  "slug": "gallery-photo-gallery-album",
-  "package": "gallery.photomanager.picturegalleryapp.imagegallery",
-  "version": "6.0.3",
-  "size": "23.6 MB",
-  "downloads": "10,000,000+",
-  "rating": "4.7",
-  "icon": "https://play-lh.googleusercontent.com/joJ9c93sLgHTIgkK3Um6vkXKtv4lA9Am3WECHkZCdLAALlzB8CiyUoEE4urjWZbYIA=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=gallery.photomanager.picturegalleryapp.imagegallery",
-  "description": "Gallery is a simple, modern, light, and fast photo gallery and picture manager app for viewing and organizing your photos and videos. It offers a beautiful and intuitive interface, quick search capabilities, and seamless sharing options.",
-  "appabout": "<section>\n  <p><strong>Gallery - Photo Gallery, Album</strong> is designed to provide a fast and efficient way to manage your media files. Whether you're organizing photos, GIFs, or videos, this app offers a user-friendly experience with a focus on speed and simplicity.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Quick Search:</strong> Easily find pictures, GIFs, videos, and albums with the built-in search functionality.</li>\n    <li><strong>File Management:</strong> Rename, delete, copy, and move pictures, videos, and GIFs effortlessly.</li>\n    <li><strong>Sharing Options:</strong> Share your media via social media, email, or other platforms.</li>\n    <li><strong>Wallpaper Setting:</strong> Set any picture as your device's wallpaper.</li>\n    <li><strong>Gesture Zoom:</strong> Zoom into photos and GIFs using intuitive gestures.</li>\n    <li><strong>Slideshow:</strong> Enjoy your photos in a dynamic slideshow format.</li>\n    <li><strong>Dark Mode:</strong> Switch to dark mode for a more comfortable viewing experience in low-light environments.</li>\n  </ul>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may collect and share personal information and app activity data. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
-  "seo_title": "Gallery - Photo Gallery, Album – Manage and View Your Photos and Videos",
-  "seo_description": "Gallery is a fast and intuitive photo and video manager app that allows you to organize, view, and share your media files with ease. Download now to experience a seamless gallery experience.",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/G2IghslDIMR1iw7-WTLby1sBE4IvM5O3g_mTtgZy26CeFJw9oEqidqByjkcZ2lqmjg=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/SSfkm3lwek_uoKINuRMj1kfqWYXN_Ej4iDdxpFGWkqvGhSdw3FTAjkzSF0XOMhzjs6Jg=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/QpHrBnGXXV8Hzg1GfogorwraVoSkXs064P8Ri3PbW3RDioAWz-Nd8wf6omBYsIG_9_Zw=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/pCU2JXA-sPxE78JI0plWmkzZ2w1ZDiEShzntSNwyymcTrMYmWYqKw8dTIN9TYzYpKTY=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/SnCyScGsUuA3QM0hJGKUFvPbGr3HG2xMogzPgueJgGP71G6Rqnh_P8oycQfz8gH9NGn6=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/VOVsqO0dp1Nr_PpaJ7MDjGcsed4-fjD8-Np--DYeCJHYu3REgsJYnQ1KjttG-jkllg=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "August 4, 2025"
- }
         
     ]
   }
