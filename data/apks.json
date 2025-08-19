@@ -2790,33 +2790,7 @@
   ],
   "category": "Photography",
   "updated": "August 4, 2025"
-},
-{
-  "id":116,
-  "name": "Remove Objects - Photo Editor",
-  "slug": "remove-objects-photo-editor",
-  "package": "photoeditor.photoretouch.removeobjects.retouch",
-  "version": "5.9.7",
-  "size": "Varies with device",
-  "downloads": "10M+",
-  "rating": "4.8",
-  "icon": "https://play-lh.googleusercontent.com/X4Vf15swbVtqeyBkdmWxXJafb4qKWPXN_2_WXrtAyQV2jMtXHCNM0EiyNInhuImUmA=w240-h480-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=photoeditor.photoretouch.removeobjects.retouch",
-  "description": "Effortlessly remove unwanted objects, blemishes, and video watermarks with Remove Objects - Photo Editor. This simple yet powerful photo editor allows you to enhance images professionally in seconds, giving you full control over your photos and videos.",
-  "appabout": "<section>\n  <p><strong>Remove Objects - Photo Editor</strong> is a powerful and easy-to-use app that helps you erase unwanted objects, blemishes, or watermarks from photos and videos. Achieve professional-quality edits instantly with intuitive tools.</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Object Removal:</strong> Quickly erase people, objects, or blemishes with one touch.</li>\n    <li><strong>Video Watermark Removal:</strong> Remove distracting watermarks from videos effortlessly.</li>\n    <li><strong>Blemish & Pimple Remover:</strong> Smooth skin and remove imperfections easily.</li>\n    <li><strong>Clone Stamp Tool:</strong> Duplicate or remove areas with precision.</li>\n    <li><strong>Brush Control:</strong> Adjust size, hardness, and opacity for perfect editing.</li>\n    <li><strong>Add Text & Graphics:</strong> Customize your images with text, stickers, and shapes.</li>\n    <li><strong>Easy Sharing:</strong> Save and share your edited photos and videos directly to social media.</li>\n  </ul>\n  <h3>How to Use:</h3>\n  <ol>\n    <li>Select a photo or video.</li>\n    <li>Mark the object you want to remove.</li>\n    <li>Tap 'Process' to remove it instantly.</li>\n    <li>Save and share your finished work.</li>\n  </ol>\n  <p><em>Developer:</em> Shenzhen Leyuan Shentu Technology Co., Ltd</p>\n</section>",
-  "seo_title": "Remove Objects - Photo Editor – Professional Photo Retouching",
-  "seo_description": "Remove unwanted objects, blemishes, and watermarks effortlessly using Remove Objects - Photo Editor. Simple, fast, and professional photo and video editing in one app.",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/ftN4MfcrE7Lv5Jdzi6bT12KFvC6GNdA1jTj7nHE2vzRmqb5MLvr0w4lBw5I1f5HwzIlG=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/FCmT7acJaiB75fTzGu8OKO-kpm56W7pj_y7m0pMVLjL6NVuHYo-QeU00GMKfyjzFyKaO=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/MFjNbETdhbZdFqEHJfRJcEJyd_fUJSGZNY2NRoM0DTCRS4gfBi61kfk0_8DOhq62DYQ=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/eruLJ12gf7uQp--XOnvydnjM-l0c8MeL7707Hsx_FNk114gynygbz-QV448llF-dnHWa=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/UGTorBN3td8SO1wivFGkrzdQLS5jSJE-4Gl8BbdCqNQfOey0sCYYM7PP6oUCddmiNBI=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/nTtQMZ6ZWV_Vav9Tq7u66zARtQzyAhnfdBFY4d59qqS_6sV6qBZzZWze2ZzTHDnHiQ=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "August 20, 2025"
 }
-        }
+        
     ]
   }
