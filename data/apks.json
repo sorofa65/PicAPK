@@ -2400,7 +2400,61 @@
   ],
   "category": "Art & Design",
   "updated": "May 26, 2025"
+},
+{
+  "id": 101,
+  "name": "Collage Maker | Photo Editor",
+  "slug": "collage-maker-photo-editor",
+  "package": "photoeditor.layout.collagemaker",
+  "version": "Varies with device",
+  "size": "Varies with device",
+  "downloads": "100,000,000+",
+  "rating": "4.9",
+  "icon": "https://play-lh.googleusercontent.com/3q696xyUBgAIkBLV1EAqmpFI_DNwoG4ID0P2Spby4WBvI_z2sXQDxhmqBRD96rzqHgA=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=photoeditor.layout.collagemaker&hl=en",
+  "description": "Collage Maker | Photo Editor হলো একটি শক্তিশালী কিন্তু সহজ-ব্যবহারযোগ্য কোলাজ ও ফটো এডিটিং অ্যাপ। শতাধিক গ্রিড লেআউট, ফ্রিস্টাইল স্ক্র্যাপবুক, স্টোরি টেমপ্লেট, ফিল্টার, স্টিকার, ফ্রেম, টেক্সট—সবকিছু এক জায়গায়। এক ট্যাপে AI Photo Enhancer দিয়ে পুরনো বা ব্লারি ছবিও HD মানে উন্নত করা যায়। ইনস্টা স্কোয়ার, সাইড-বাই-সাইড কম্পেয়ার, হাই-রেজ সেভ—সবই থাকছে দ্রুত শেয়ার করার সুবিধাসহ।",
+  "appabout": "<section>\n  <p><strong>Collage Maker | Photo Editor</strong> একটি জনপ্রিয় ফটো কোলাজ ও এডিটিং অ্যাপ, যা নতুন থেকে প্রফেশনাল—সবার জন্যই উপযোগী। শতাধিক রেডিমেড গ্রিড, কাস্টম রেশিও, বর্ডার ও ব্যাকগ্রাউন্ড দিয়ে মুহূর্তেই ঝকঝকে কোলাজ বানানো যায়।</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Grid & Freestyle:</strong> 100+ গ্রিড/ফ্রেম, ফ্রিস্টাইল স্ক্র্যাপবুক ক্যানভাস, কাস্টম রেশিও ও বর্ডার কন্ট্রোল।</li>\n    <li><strong>Up to 100 Photos:</strong> এক কোলাজে সর্বোচ্চ 100টি ছবি যুক্ত করে স্মার্ট অটো-লেআউট।</li>\n    <li><strong>AI Tools:</strong> এক ট্যাপে <em>AI Photo Enhancer</em>, ব্যাকগ্রাউন্ড রিমুভ/অবজেক্ট রিমুভ টাইপ টুলের সহায়তা।</li>\n    <li><strong>Templates:</strong> Instagram/Facebook স্টোরির জন্য 100+ স্টাইলাইজড টেমপ্লেট (Film, Magazine, Ripped Paper ইত্যাদি)।</li>\n    <li><strong>Side-by-Side:</strong> Before/After, থাম্বনেইল বা আউটফিট কম্পারিজনের জন্য পারফেক্ট।</li>\n    <li><strong>Creative Kit:</strong> ফিল্টার, স্টিকার, ফ্রেম, টেক্সট, ডুডল, ক্রপ, রোটেট—অল-ইন-ওয়ান টুলকিট।</li>\n    <li><strong>Hi-Res Export:</strong> হাই রেজোলিউশনে সেভ ও সরাসরি সোশ্যাল শেয়ার।</li>\n  </ul>\n  <h3>User Experience:</h3>\n  <p>সিম্পল UI, মিনিমাল স্টেপ, দ্রুত রেন্ডার—এগুলো কনটেন্ট ক্রিয়েটর ও সোশ্যাল মিডিয়া ইউজারদের জন্য দারুণ সুবিধাজনক।</p>\n  <h3>Data Safety & Permissions:</h3>\n  <p>ছবি এডিট ও সেভ করার জন্য স্টোরেজ পারমিশন প্রয়োজন। ডেটা ইন-ট্রানজিট এনক্রিপ্টেড থাকে এবং ডিলিট রিকোয়েস্ট সাপোর্ট করে।</p>\n  <p><em>Developer:</em> Photo Editor & Collage Maker</p>\n</section>",
+  "seo_title": "Collage Maker | Photo Editor – 100+ Grid, Freestyle & AI Enhancer",
+  "seo_description": "Collage Maker দিয়ে 100+ গ্রিড, ফ্রিস্টাইল স্ক্র্যাপবুক, স্টোরি টেমপ্লেট ও AI Photo Enhancer সহ সহজে কোলাজ বানান। HD এক্সপোর্ট ও সোশ্যাল শেয়ার—সব এক অ্যাপে।",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/VvEaglnhNXTPaYXNfS0tv7cj1q0yZCyvWe2QP5i48FSBegIICxAM7PJelI5J_f4MbK0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Tp9e9-TpRZRK42_DoTwtn9ysQiLre_QcBkWSGS7eLBMbHodg4Fzcl-e8gtTQwEJ4qYg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/-J9wWWPb7HvWXtyISohD5KJuz1rTBs4hpiqS_NkEHrx_4c8n9-av9O8kmesLngPGFRE=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/374ol4EWiTYVryMGwrrRAtW8dvaCEiOXayZ_xMDPRg_TM4uex5M4HLNe2OYTfm_NLrs=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/KnxJjySkMfZvgLUpv0gsUjgZzlzS-e2dOTRJMlK7PTvxWX_ZEGubh79FbjSHVCi4GXk=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "July 14, 2025"
+},
+{
+  "id": 102,
+  "name": "AI Photo Enhancer – PixLift",
+  "slug": "ai-photo-enhancer-pixlift",
+  "package": "photoeditor.enhancer.ai.photo",
+  "version": "1.294.48",
+  "size": "47MB",
+  "downloads": "1,000,000+",
+  "rating": "4.6",
+  "icon": "https://play-lh.googleusercontent.com/3HEyxIx6IeURjl1NWin5QtdoV4Dm5K6MOyHrkl5O7SodsZYOn0wY_fNAGENh_0dMytU=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=photoeditor.enhancer.ai.photo",
+  "description": "PixLift is a powerful one-click AI photo enhancer and editor that instantly turns old, blurred, or low-res photos into crystal-clear HD selfies and 4K wallpapers. Use smart filters, effects, and editing tools—like HSL, brightness, contrast, cartoonizer, background, stickers, and doodles—to bring your images back to life with stunning detail and quality.",
+  "appabout": "<section>\n  <p><strong>AI Photo Enhancer – PixLift</strong> একটি ইনোভেটিভ স্মার্ট এআই ফটো এডিটর, যা মাত্র এক ক্লিকেই আপনার পুরনো ও ব্লারি ছবিগুলোকে HD ও 4K রেজোলিউশনে উন্নীত করতে পারে।</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>One-Click AI Enhance:</strong> পুরনো বা কম রেজোলিউশনের ছবিগুলোকে সহসাই উন্নত করে স্পষ্ট ও জীবন্ত করে তোলে।</li>\n    <li><strong>High-Resolution Upscale:</strong> ছবিগুলোকে 200%, 500% বা 800% পর্যন্ত রেজোলিউশন বৃদ্ধি করুন, কোনো গুণগত ক্ষতি ছাড়াই।</li>\n    <li><strong>Advanced Editing Tools:</strong> HSL, ব্রাইটনেস, কন্ট্রাস্ট, শ্যাডো, হাইলাইট, ফিল্টার, স্টিকার, ফন্ট ও ডুডল ব্যবহার করে কাস্টম এডিট তৈরি করুন।</li>\n    <li><strong>Cartoonizer:</strong> আপনার ফটোকে ডিজিটাল আর্ট বা এনিমে স্টাইলে রূপান্তর করুন।</li>\n    <li><strong>100+ Layouts:</strong> ব্যাকগ্রাউন্ড, কোলাজ ও স্টিকারের বিশাল কালেকশন।</li>\n  </ul>\n  <h3>User Experience:</h3>\n  <p>সহজ ইন্টারফেস, দ্রুত রেন্ডারিং এবং HD আউটপুট PixLift-কে করে তুলেছে ব্যবহারকারীদের প্রিয়।</p>\n  <h3>Data Safety & Permissions:</h3>\n  <p>স্টোরেজ ও ক্যামেরা পারমিশন প্রয়োজন হতে পারে। ইন-অ্যাপ পারচেস ও বিজ্ঞাপনও রয়েছে।</p>\n</section>",
+  "seo_title": "PixLift – AI Photo Enhancer & HD Upscaler",
+  "seo_description": "PixLift দিয়ে এক ক্লিকে পুরনো ছবি HD বা 4K-তে উন্নীত করুন। AI-এইচডি, Cartoonizer, 100+ ফিল্টার ও কোলাজ টুল—সব এক অ্যাপে।",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/Xs_uxewLL5AgceD9Gqw0uhZ_o6M-Wi8vyNCv7161tRPQEHqUWgtSO2-GxL7IXpprFA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Dkc4qPdjTJpCX2xKC701iCdrWqUxonjU8EZ0SCgioYfkKC4ZzIoifr7xDl9oU4Qm4A=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/UgP8LaQV5hX8718DtFhQauNpR3fA6szqlVqlBx4CDWZ48uUy_-mwpHcHFmDhXOSGlg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Vs66JAmZNAs_2sw37rv24xqEHLJ6xYo_st6PoLe1LI-vULGLpV2aQ19acATfFx-wO69m=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/wvLHAL2tRsrVbymQo7r8LnYhhc2Zujt8Y_4FpuDhPEREjAi0bFu3MGvdh6nOd5xYTR4=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/EctJZpdUczOMZ18GV8LF0TCwbqGFLKxO_dqnf8aY0kd3pAd-e1LpsQvKlz6V2dVSmDo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/sNYmAhCYD4hkqM9Yn9R7eIHJ178KdPyPBLIPWswqv941SsndtRMXbYDcUXu1aybCgpQ=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "August 12, 2025"
 }
+
+
 
     ]
   }
