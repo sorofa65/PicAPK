@@ -2452,8 +2452,60 @@
   ],
   "category": "Photography",
   "updated": "August 12, 2025"
+},
+{
+  "id": 103,
+  "name": "Vizia: Video Face Swap AI",
+  "slug": "vizia-video-face-swap-ai",
+  "package": "co.okapitech.faceswapai",
+  "version": "1.3.5",
+  "size": "90 MB",
+  "downloads": "100,000+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/3HEyxIx6IeURjl1NWin5QtdoV4Dm5K6MOyHrkl5O7SodsZYOn0wY_fNAGENh_0dMytU=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=co.okapitech.faceswapai&hl=en",
+  "description": "Vizia is your all-in-one AI face swap app that lets you transform selfies into AI avatars, swap faces in videos, and create dynamic AI videos effortlessly. Perfect for social media, content creation, and fun.",
+  "appabout": "<section>\n  <p><strong>Vizia: Video Face Swap AI</strong> is a powerful AI-driven app that enables users to swap faces in videos, create AI avatars, and generate dynamic AI videos—all from their selfies.</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Instant Face Swap:</strong> Upload any video, choose a face, and let AI do the magic. Your face swap video is ready in seconds.</li>\n    <li><strong>Face Analysis:</strong> Select exactly which faces to swap, giving you full control over the transformation.</li>\n    <li><strong>In-App Video Trimming:</strong> Trim your videos directly within the app without the need for additional tools.</li>\n    <li><strong>Long Video Support:</strong> Swap faces in videos up to 10 minutes long.</li>\n    <li><strong>Ultra HD Enhancement:</strong> Enjoy hyper-realistic face swap magic in every frame.</li>\n    <li><strong>Custom Upload Options:</strong> Add clips from your gallery, YouTube, TikTok, or X.</li>\n    <li><strong>Fun Filters:</strong> Explore gender swap and hair filters to enhance your creativity.</li>\n  </ul>\n  <h3>AI Avatars:</h3>\n  <p>Transform 8 selfies into over 30 AI-generated avatars in styles like modeling photoshoots, cultural weddings, old money aesthetics, curriculum headshots, and AI hair salons.</p>\n  <h3>AI Videos:</h3>\n  <p>Bring your avatars to life by generating cinematic, AI-powered videos. Become the Hulk, transform your style, or surround yourself with cute puppies—it's all possible.</p>\n  <h3>Sharing Made Easy:</h3>\n  <p>Share your creations directly to TikTok, Instagram, Facebook, or Snapchat with just a tap.</p>\n  <h3>Data Safety & Permissions:</h3>\n  <p>Vizia prioritizes user privacy and data security. The app requires access to your device's storage and camera for optimal functionality. In-app purchases and advertisements are present.</p>\n</section>",
+  "seo_title": "Vizia: Video Face Swap AI – Swap Faces, Create Avatars & AI Videos",
+  "seo_description": "Vizia lets you swap faces in videos, create AI avatars, and generate dynamic AI videos from your selfies. Perfect for social media and content creation.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/Xs_uxewLL5AgceD9Gqw0uhZ_o6M-Wi8vyNCv7161tRPQEHqUWgtSO2-GxL7IXpprFA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Dkc4qPdjTJpCX2xKC701iCdrWqUxonjU8EZ0SCgioYfkKC4ZzIoifr7xDl9oU4Qm4A=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/UgP8LaQV5hX8718DtFhQauNpR3fA6szqlVqlBx4CDWZ48uUy_-mwpHcHFmDhXOSGlg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Vs66JAmZNAs_2sw37rv24xqEHLJ6xYo_st6PoLe1LI-vULGLpV2aQ19acATfFx-wO69m=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/wvLHAL2tRsrVbymQo7r8LnYhhc2Zujt8Y_4FpuDhPEREjAi0bFu3MGvdh6nOd5xYTR4=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/EctJZpdUczOMZ18GV8LF0TCwbqGFLKxO_dqnf8aY0kd3pAd-e1LpsQvKlz6V2dVSmDo=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/sNYmAhCYD4hkqM9Yn9R7eIHJ178KdPyPBLIPWswqv941SsndtRMXbYDcUXu1aybCgpQ=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "May 8, 2025"
+},
+{
+  "id": 104,
+  "name": "Sketch Logo AI – Logo Maker",
+  "slug": "sketch-logo-ai-logo-maker",
+  "package": "co.okapitech.sketchlogoai",
+  "version": "1.2.5",
+  "size": "35 MB",
+  "downloads": "10,000+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/oLHr_Lacvrv5eL0AXTqqh1_xMIiIPgtz2njVHdBEJIMAt-z4apxPU_TRyGkYPR5JQUFi=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=co.okapitech.sketchlogoai&hl=en",
+  "description": "Sketch Logo AI is the ultimate AI-powered logo and tattoo maker that lets you transform sketches and ideas into professional, high-quality designs. Quickly generate unique logos, symbols, and tattoos with advanced AI tools. Ideal for entrepreneurs, designers, and creative enthusiasts who want to bring their imagination to life effortlessly.",
+  "appabout": "<section>\n  <p><strong>Sketch Logo AI – Logo Maker</strong> is a smart and easy-to-use app designed to help users create unique logos and tattoo designs instantly using AI technology. Simply sketch your idea or type keywords, and the AI converts it into professional-grade designs ready for branding or personal use.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>AI Logo & Tattoo Designer:</strong> Generate unique logos and tattoo designs from sketches or text prompts in seconds.</li>\n    <li><strong>Customizable Designs:</strong> Modify colors, fonts, layouts, and styles to match your vision.</li>\n    <li><strong>High-Resolution Export:</strong> Save designs in HD quality for social media, branding, or tattoo references.</li>\n    <li><strong>Easy-to-Use Editor:</strong> Intuitive interface allows seamless refinement and editing of designs.</li>\n    <li><strong>Instant Preview:</strong> View your logo or tattoo in real-time with accurate colors and details.</li>\n  </ul>\n\n  <h3>User Experience:</h3>\n  <p>Sketch Logo AI offers a professional design experience for everyone, whether you're a beginner, entrepreneur, or graphic designer. The app simplifies the design process, making it fast and enjoyable to create logos or tattoos.</p>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may request permissions for storage access to save your designs. Data is handled securely, and privacy is maintained.</p>\n</section>",
+  "seo_title": "Sketch Logo AI – AI Logo & Tattoo Maker",
+  "seo_description": "Create unique logos and tattoo designs instantly with Sketch Logo AI. AI-powered logo maker with customizable high-resolution output for branding and creative projects.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/k55pgAF1XJJwYJGEj4XG5xSIrnh3OWe9ztDfYGJq4vaFDaspNahO_YTh7W4M-3qVUD0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/IxJTbnwrYJ6qazqXDwG15tiWPR-_yUJxB4t_Bs9Iwz6UBRvbT8AZJ0oW5osc08qlyg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/l9Ef2tMpmZBLMPT8H87r5nHChpNaiDkeGcXB3dz_Xlu_qIGPhFg3FcvRwcJSB1NM8tHC=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/HTPgQhXheL8PmmNKsXObw86mVwXllGqg2s0VYx8f8plkbcD5QZQWHRe3Vi0P2GOIFyEa=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/EVcb6wUfN1W0eYs0GgQsfpQNPPpdA21ah1Ayh8_AO4ErZTHruA60F5Zu0USHwb4qJA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/LVZAX8wvwVCnMtvMmmlii0dvIs41qz3Vhb4-j9kAhVriZxtdDU2zlAb8DsxCqySTuuY=w2560-h1440-rw"
+  ],
+  "category": "Art & Design",
+  "updated": "March 18, 2025"
 }
-
 
 
 
