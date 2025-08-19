@@ -2713,7 +2713,7 @@
   "updated": "August 13, 2025"
 },
 {
-  "id" 113,
+  "id": 113,
   "name": "Canon Camera Connect",
   "slug": "canon-camera-connect",
   "package": "jp.co.canon.ic.cameraconnect",
@@ -2842,6 +2842,84 @@
   ],
   "category": "Photography",
   "updated": "August 13, 2025"
+},
+
+{
+  "id": 118,
+  "name": "Motionleap by Lightricks",
+  "slug": "motionleap-by-lightricks",
+  "package": "com.lightricks.pixaloop",
+  "version": "1.6.1",
+  "size": "104.6 MB",
+  "downloads": "50,000,000+",
+  "rating": "4.0",
+  "icon": "https://play-lh.googleusercontent.com/WiHPPOpxewi8n6VMxj3p02QYAgkQWuACtWGq78DJx1dsWR24wTC5W3QbtzuaYpRFml4y=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.lightricks.pixaloop",
+  "description": "Motionleap by Lightricks is a powerful photo editor that adds a magical touch to your images. Create captivating, professional-quality images with the world's most advanced AI text-to-image features. With Motionleap, you can animate pictures, create live photos, edit in photo overlays, and apply amazing 3D photo effects.",
+  "appabout": "<section>\n  <p><strong>Motionleap by Lightricks</strong> is an innovative mobile application designed for those who love breathing life into their images. Known for its user-friendly interface and powerful features, this app allows users of all skill levels to create stunning animations and bring static photos to life effortlessly.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Animate Pictures:</strong> Bring still photos to life by adding motion and creating animations to tell a story.</li>\n    <li><strong>Create Live Photos:</strong> Transform static images into stunning live photos with mesmerizing visual effects.</li>\n    <li><strong>Edit in Photo Overlays:</strong> Enhance your images and apply overlays to create awesome designs and double exposures.</li>\n    <li><strong>AI Art & Digital Art:</strong> Experience the power of AI with Motionleap's text-to-image capabilities. Turn words into visuals and take your images to the next level.</li>\n    <li><strong>3D Photo Effects:</strong> Play with 3D photo effects and add a unique flair to your pictures. Take your creative expression to the next level.</li>\n  </ul>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may collect and share personal information and app activity data. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
+  "seo_title": "Motionleap by Lightricks – Animate Your Photos with AI",
+  "seo_description": "Motionleap by Lightricks is a powerful photo editor that adds a magical touch to your images. Create captivating, professional-quality images with the world's most advanced AI text-to-image features.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/rjfEHDtRbwbNEqDeSB-mT9l5j_Q9WJG1I_ttRPn-V6X6FQRb-B8CEVNqpPEBYunjDqg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/hkZwvupQ7KgSTlZY0Xj7I-v5l7bJE6j4xe-8TbyYkI0m33SfT9Gtdh2psvMt820ZD_Q=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/Sl4N9pSvLnX6eJ2P_vKdYQDk40esdFGOsWomNkK2gdVV8P9vEkllC60SNb8e8ZMu5j8=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/amWd613ARiq62QsFqKx_GkjDvdkGuwcYaQR7NDZPQbL2t7gmD-2kHkRW9KFMQ0CBBU4=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/NJDXy4u0VZH4PZscC9zLGLw7BrBfOKK0I9x0iJivmPBwQmpb0-GQNiN16KZElPvobg=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "August 13, 2025"
+},
+{
+  "id": 119,
+  "name": "ReLens Camera – Focus & DSLR Blur",
+  "slug": "relens-camera-dslr-blur",
+  "package": "com.accordion.pro.camera",
+  "version": "4.1.2",
+  "size": "162.8 MB",
+  "downloads": "10,000,000+",
+  "rating": "4.4",
+  "icon": "https://play-lh.googleusercontent.com/iyvUOQ2pnETVT1I-Xy2Q-0vaK0qZf4lKHrBDnI9zRiqyOWZLQ8_WAJbY-5M2FHIowRw=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.accordion.pro.camera",
+  "description": "ReLens Camera – Focus & DSLR Blur is a professional manual camera app that transforms your smartphone into a DSLR-like camera. Utilizing advanced AI computational photography, it offers features like a large F1.4 aperture for background bokeh effects, classic SLR lens simulations, and manual controls for exposure, shutter, ISO, focus, and white balance. Capture cinematic shots with ease.",
+  "appabout": "<section>\n  <p><strong>ReLens Camera – Focus & DSLR Blur</strong> is a professional manual camera app designed to transform your smartphone into a DSLR-like camera. Utilizing advanced AI computational photography, it offers features like a large F1.4 aperture for background bokeh effects, classic SLR lens simulations, and manual controls for exposure, shutter, ISO, focus, and white balance. Capture cinematic shots with ease.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>F1.4 Large Aperture:</strong> Achieve background bokeh effects essential for portrait photography.</li>\n    <li><strong>Classic SLR Lens Simulations:</strong> Reproduce several classic SLR lenses, such as the 50mm f/1.4 fixed focal length lens, M35mm f/1.4 “the King of Bokeh”, and Burn 35, the Swirly bokeh effect lens.</li>\n    <li><strong>Manual Controls:</strong> Adjust exposure, shutter, ISO, focus, and white balance for precise control over your shots.</li>\n    <li><strong>AI Depth of Field Adjustment:</strong> Recalculate the depth of field and add realistic portrait camera bokeh effects.</li>\n    <li><strong>Professional Camera Lens Effects:</strong> Apply various optical effects such as eclipse, Smooth Trans Focus, out-of-focus reflex, out-of-focus rotation, lens distortions, and color shift.</li>\n    <li><strong>Shutter Blade Simulation:</strong> Simulate over twenty realistic focus camera bokeh shapes such as pentagon, hexagon, octagon, heart, etc.</li>\n    <li><strong>Classic Lens Effects:</strong> Reproduce unique spots, textures, and light effects characteristic of classic lenses.</li>\n    <li><strong>Professional Photo Editor:</strong> Utilize AI intelligent zone adjustment, specialized color grading tools, and hundreds of filters crafted by professional photographers.</li>\n    <li><strong>Privacy Protection:</strong> Image processing runs locally on your device, ensuring your images are not uploaded to the server.</li>\n  </ul>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may collect and share personal information and app activity data. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
+  "seo_title": "ReLens Camera – Focus & DSLR Blur – Professional Manual Camera App",
+  "seo_description": "ReLens Camera – Focus & DSLR Blur is a professional manual camera app that transforms your smartphone into a DSLR-like camera. Utilize advanced AI computational photography for cinematic shots.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/HPsF13aTSzGiz-Zm4O31AdERg-1-HxmJx1MeKOfY1DEYwDbWXdpMpWNxFZonRyWmuw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/uLRmJAQF7ZDjmW2Aa-XZbkhtIbsFfmJjcJ8L4lD1xMiB3jYNyeUZocRYHejZUQxgOic=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/vQgOTkBbRx-hiFRGDjCelf_B8Fw_GFYG-6N18p1952Dn4h47jgsLO30hHu_hI-75UNUu=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/gHcOE_e-mUB_3JGIXQn7uGqmLYXrUtPuqIhd7ph9DbdrRoMzWnOad93BPF-s8zB8D6s=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/TOlI0_BoS0g7F-9lvqp2TBwglHhMdOvBJGrUCnRjGO0fzxVYvwYbJsNhae2Liue6dzs=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/x8fO6p7-PZEKeOdNCRn_KIV5n51xH6lyZB8kISckxsYvhzCDQWzNuPckCykU8sTj2Q=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "August 13, 2025"
+},
+{
+  "id": 120,
+  "name": "PrettyUp – Video Body Editor",
+  "slug": "prettyup-video-body-editor",
+  "package": "com.accordion.prettyo",
+  "version": "6.7.1.1",
+  "size": "136.6 MB",
+  "downloads": "10,000,000+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/A8y7L-C8NS73so535rFgJ8IQpzu3DHxnde9PV8yQPRshfAha6KJ2JDAZ9vz0mRtsUiQ=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.accordion.prettyo",
+  "description": "PrettyUp is a powerful video and photo editor that allows you to retouch your body and face with ease. With features like slimming, body reshaping, skin smoothing, and makeup application, you can enhance your selfies and videos to achieve a flawless look.",
+  "appabout": "<section>\n  <p><strong>PrettyUp – Video Body Editor</strong> is a comprehensive editing tool designed to enhance your photos and videos effortlessly. Whether you're looking to slim your waist, smooth your skin, or apply makeup, PrettyUp offers a range of features to help you achieve your desired look.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>AI Beauty Filters:</strong> Switch between Natural, Young, Delicate, and Glamour for instant refinement.</li>\n    <li><strong>Facelift Tools:</strong> Lift and shape areas like the jawline, cheekbones, forehead, and lips.</li>\n    <li><strong>Body Reshaping:</strong> Slim waist, elongate legs, and enhance curves with ease.</li>\n    <li><strong>Skin Smoothing:</strong> Remove wrinkles, acne, and dark circles for a flawless complexion.</li>\n    <li><strong>Makeup Application:</strong> Apply virtual makeup including lipstick, eyeshadow, and contour.</li>\n    <li><strong>Video Editing:</strong> Edit multiple faces and bodies in videos, adjust segments separately, and correct camera distortions.</li>\n  </ul>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may collect and share personal information and app activity data. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
+  "seo_title": "PrettyUp – Video Body Editor – Enhance Your Photos and Videos",
+  "seo_description": "PrettyUp is a powerful video and photo editor that allows you to retouch your body and face with ease. With features like slimming, body reshaping, skin smoothing, and makeup application, you can enhance your selfies and videos to achieve a flawless look.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/pb1Y_xyBxJ6Sa09OUZ93Z4p9bPFhl8PmJzH_ALkektzqtZM4U4FTY_YjFVWRRgI0Kdk=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/-DubVvPfJ1Em6mtXJNAv6skSBWVk2jqYqXbtTh0p8vIV6Ky-3Th5zJ8SgggGPOfAW9i5=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/0YyfBE99bB1NprFGdFza28rUUYL5ue1UbUC7hFD7dBea8-uFVR_8nlDQXhH63RqxKL0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/IwefMN6QALukYk566T-_2gTpGySSJYUjyGh82aa32TbUBEK0JT38ogBQNXSy797VoO8=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/FlVXsNDkWZAA0SEYt70o3B8Nvq2pNkwawM4WWo34fh80M58jn_1iCZW37PvVNlQcxw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/pxvjYbmRbXYtJyWoYOCdYw_smpp7yk_b-dI2kpfy7VW_Bi9QuAAZx4xCZO3wmtxr0soK=w2560-h1440-rw"
+  ],
+  "category": "Photography",
+  "updated": "August 4, 2025"
 }
     
     ]
