@@ -2767,7 +2767,7 @@
 },
 {
   "id": 115,
-  "name": "Gallery - Photo Gallery, Album",
+  "name": "Gallery - Photo Gallery Album",
   "slug": "gallery-photo-gallery-album",
   "package": "gallery.photomanager.picturegalleryapp.imagegallery",
   "version": "6.0.3",
