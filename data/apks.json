@@ -2505,9 +2505,86 @@
   ],
   "category": "Art & Design",
   "updated": "March 18, 2025"
+},
+{
+  "id": 105,
+  "name": "ToMoviee AI – All-in-One AI Creative Studio",
+  "slug": "tomoviee-ai-creative-studio",
+  "package": "com.tomoviee.ai.i18n1",
+  "version": "1.0.15",
+  "size": "31 MB",
+  "downloads": "500+",
+  "rating": "4.5",
+  "icon": "https://play-lh.googleusercontent.com/Lg1lhWCYUqFRZIfb8AN9qNYjGNSg91GPKxx7FqxtJ0_Uc2hlXhU-yFYVyG1kWGUhUdVG=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.tomoviee.ai.i18n1&hl=en",
+  "description": "ToMoviee AI is an all-in-one platform for AI-powered video, image, audio, and voice generation. Designed for content creators, designers, and media professionals, ToMoviee delivers professional, flexible, and efficient creative solutions across diverse scenarios. Whether you're generating videos from text, animating photos, or synthesizing AI sound effects and voiceovers, everything can be done with a single click—unleashing your full creative potential.",
+  "appabout": "<section>\n  <p><strong>ToMoviee AI – All-in-One AI Creative Studio</strong> is an advanced AI-powered tool that allows users to create videos, images, audio, and voiceovers instantly. Using powerful AI technology, it provides a fast and simple way to generate multimedia content for videos, animations, and soundtracks.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Text-to-Video & Image-to-Video:</strong> Create dynamic videos from text or images with cinematic camera controls.</li>\n    <li><strong>Text-to-Image & Reference-Based Image Generation:</strong> Generate high-resolution images from text descriptions or reference images.</li>\n    <li><strong>Audio Generation:</strong> Convert text into original music or sound effects, including background scores and emotional cues.</li>\n    <li><strong>Inpainting (Local Redraw):</strong> Edit images by regenerating specific regions using natural language input or manual selection.</li>\n    <li><strong>AI Smart Soundtrack:</strong> Automatically match background music to video style and fine-tune using text prompts.</li>\n    <li><strong>AI Video Extension:</strong> Extend video duration beyond time limits while maintaining stylistic consistency.</li>\n    <li><strong>Text-to-Speech (TTS):</strong> Create lifelike, customizable voices for narration and digital avatars.</li>\n    <li><strong>Inspiration Hub:</strong> Access curated content across images, videos, and audio to spark your creativity.</li>\n  </ul>\n\n  <h3>User Experience:</h3>\n  <p>Designed for content creators, video makers, and designers, ToMoviee AI simplifies the creative process. Whether you are producing videos, crafting images, or generating sounds, the app enables fast, seamless creation for every project.</p>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app requires access to your device storage to save your designs and files securely. Your privacy is maintained throughout the process.</p>\n</section>",
+  "seo_title": "ToMoviee AI – AI Video, Image & Sound Maker",
+  "seo_description": "Create videos, images, and soundtracks with AI-powered ToMoviee AI. An all-in-one creative studio for content creators, offering text-to-video, image generation, and custom audio creation.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/FWlLABKfnBRir9zxR5cotWYXZCUPwPyRCJrfNDEz3Ps2jZFddN3pRIAE38kYKOU6CPCB=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/DRZaO4OFtvjFjGWAIx5wSrmCJV0YboUIei17JSHFJc-y9RcGpRM8wP3QMZhmUknV__k=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/9kaZxIPCcGBI2BJI3ocLlsV4lMQAOQTx4S7BtOGaqndGU8wv57fwzXiusHtqnEXqYi0=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/AL5U80r3EGw-CRpf68exuZh7ZyTx_n2TTiTPredwVVT4g5-XteMTxTFWzm9vPZ5X0EaU_O7a7gW42Z7cVhJ2=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/7colV0572haLyauNu9AHttpov-k9JrYeKI_A-UP0QvvCFCxtS8sQ_BEtRHJG_8PZbw=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/4WGed2mnqYatzXgWyu6xgXR4pSQ9EjxyeveNyvxVE3-wTCTESREyu8qhlyTj3qieVCRLJrFf9N67l5KdKinVxg=w2560-h1440-rw"
+  ],
+  "category": "Art & Design",
+  "updated": "August 18, 2025"
+},
+{
+  "id": 106,
+  "name": "Tensor Art – AI Image Generator & Model Hosting",
+  "slug": "tensor-art-ai-image-generator",
+  "package": "tech.echoing.tensor",
+  "version": "1.33.0",
+  "size": "121.3 MB",
+  "downloads": "100,000+",
+  "rating": "4.4",
+  "icon": "https://play-lh.googleusercontent.com/xkc1KD4fmch-GKlTZfsXKDvLwW91sYzsI527lM0wVFPYmZb_g-CbfVu7C1mEQ7b2V64=s512-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=tech.echoing.tensor&hl=en",
+  "description": "Tensor Art is a free AI-powered platform that allows users to generate images and host AI models online. With support for various models like Stable Diffusion, LoRA, and ControlNet, Tensor Art offers a creative environment for users to explore and create unique artworks.",
+  "appabout": "<section>\n  <p><strong>Tensor Art – AI Image Generator & Model Hosting</strong> is a comprehensive platform that enables users to generate images using advanced AI models and host their own models for community use. Whether you're an artist, designer, or AI enthusiast, Tensor Art provides the tools to bring your creative ideas to life.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Free AI Model Hosting:</strong> Run various AI models online without any cost.</li>\n    <li><strong>Image Generation:</strong> Create images using different AI models.</li>\n    <li><strong>Model Sharing:</strong> Share and discover models within the community.</li>\n    <li><strong>Daily Credits:</strong> Receive daily credits for generating images.</li>\n    <li><strong>Subscription Plans:</strong> Access premium features with subscription plans.</li>\n  </ul>\n\n  <h3>User Experience:</h3>\n  <p>Tensor Art offers a seamless experience for users to generate AI art. The app's interface is intuitive, and the community aspect encourages sharing and collaboration.</p>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app requires access to device storage to save generated images. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
+  "seo_title": "Tensor Art – AI Image Generator & Model Hosting",
+  "seo_description": "Create AI-generated images and explore a variety of AI models with Tensor Art. A free platform offering model hosting and a community for sharing and discovering AI art.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/-CFBqabVsNWxylDENQdTfeN7MqbDYIQULWw3h0osgqhMogk9FWIIPOC7kUWMLBoIwMc=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/ByeEv3yLy74zBe9wRSJoCrfo7KNqj52pF8D0lbhwysyLTMrBmGNB8ub0IR4OTOgwGS-J=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/sP6EK81KyZWMYq8fqa49fF7FN_nuTAg_Au9y2oWTNcaFlF-FDWV8zW3yWLZq-MQdzAlg=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/MnA3Ei3twmDGQsU8X34s4hPD98zf9X_1kpGUTxCdHcTO_JMnPsauUFl6wIJnEuU5UQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/iYe5vs4nFMGFrVtjnQCPs7xSnPx-L08SKQXfywROn-uzJnPuSJMUQriWcJe-Oe7VWQ=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/YO4XCH75K9I6xiE6PzQBDpExbNvV1KiBPRg_xxOBMUIBvxTeMZ70Pl6L8aFSGTMAob4X=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/sb9OnIuBbeEpSaASzFoE1NqJ9di-5ZvbLVKXIRX8616poOGfLaZfSW3nuFgm2XT2ng=w2560-h1440-rw"
+  ],
+  "category": "Lifestyle",
+  "updated": "August 12, 2025"
+},
+{
+  "id": 107,
+  "name": "AI Video Generator – Virbo",
+  "slug": "ai-video-generator-virbo",
+  "package": "com.virtual.video.i18n",
+  "version": "3.0.10",
+  "size": "64 MB",
+  "downloads": "1,000,000+",
+  "rating": "4.0",
+  "icon": "https://play-lh.googleusercontent.com/Jp8q29tfBCDAWRGk5ogLOrebfyQMHwpBpvBxnFknuovZ8sn9a5PUPpXEz1xEOMJgcw=w240-h480-rw",
+  "apk_file": "https://play.google.com/store/apps/details?id=com.virtual.video.i18n",
+  "description": "Virbo is a powerful AI video generator that transforms your photos into engaging talking videos. Whether for fun, business, e-commerce, or social media, Virbo brings your ideas to life in seconds. Upload a 10-second video to create a personalized AI avatar, animate your photos with lifelike movements and expressions, and convert text to speech in over 30 languages with natural-sounding voices. Translate your videos into 80+ languages with accurate lip-syncing, add stylish captions and generate closed captions in 29 languages. With Virbo, create stunning videos effortlessly.",
+  "appabout": "<section>\n  <p><strong>AI Video Generator – Virbo</strong> is a powerful AI video maker that transforms your photos into engaging talking videos. Whether for fun, business, e-commerce, or social media, Virbo brings your ideas to life in seconds.</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Quick Avatar Customization:</strong> Upload a 10-second video to create a personalized AI avatar.</li>\n    <li><strong>Talking Videos:</strong> Animate your photos with lifelike movements and expressions.</li>\n    <li><strong>AI Voiceover:</strong> Convert text to speech in over 30 languages with natural-sounding voices.</li>\n    <li><strong>Video Translation:</strong> Translate your videos into 80+ languages with accurate lip-syncing.</li>\n    <li><strong>Captions & Subtitles:</strong> Add stylish captions and generate closed captions in 29 languages.</li>\n  </ul>\n  <h3>Data Safety:</h3>\n  <p>The developer states that this app doesn't collect or share any user data.</p>\n  <p><em>Developer:</em> Wondershare Technology Hunan Co.,Ltd.</p>\n</section>",
+  "seo_title": "Virbo – AI Video Generator & Talking Avatars",
+  "seo_description": "Virbo is a powerful AI video generator that transforms your photos into engaging talking videos. Create personalized AI avatars, animate your photos, and convert text to speech in over 30 languages.",
+  "screenshots": [
+    "https://play-lh.googleusercontent.com/8j4oMafriWEg4qqVw9I0g3QeUBi_5eK1iNh6tZybXF4xKo70EWHuiJUSCJfrUM6CY5k=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/U8io7cbMNM3FmkAPcIWOH584_4oN-Wz4s3mwSPYid-pWd_kDvD1rrZhrPSRyYU5kF27S=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/O4TEXnBBw5NnHBwvw_8RmzdGiiHiknlLDTyJ4AKw_ZTH7WodeWtlhxmOukNfzbn8_lM=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/0fWmvqTvc8L6cB5AI0PhzkFIC_qGwxqZvPrI0QawH552qI6rEssrVdIyuRFrIsEvQA=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/pJO1bhKUArYQadAJW1S5sK1fJzDwn1S09rB35_IYdph6fVa3HVyM_T4axAct3jGdrPRS=w2560-h1440-rw",
+    "https://play-lh.googleusercontent.com/myT3tN-0B_tkodrcUekbOf1C41pFHPMIQ8GEbdIeupyCQ_3UBc2yPa11ZR5yorIB_es=w2560-h1440-rw"
+  ],
+  "category": "Video Players & Editors",
+  "updated": "July 30, 2025"
 }
-
-
 
     ]
   }
