@@ -2662,7 +2662,6 @@
   "category": "Lifestyle",
   "updated": "February 1, 2024"
 },
-
 {
   "id": 111,
   "name": "Sekai: Roleplay Your Own Story",
@@ -2689,81 +2688,6 @@
   ],
   "category": "Entertainment",
   "updated": "August 9, 2025"
-},
-{
-  "id": 112,
-  "name": "Google Photos",
-  "slug": "google-photos",
-  "package": "com.google.android.apps.photos",
-  "version": "7.41.0",
-  "size": "Varies by device",
-  "downloads": "1B+",
-  "rating": "4.4",
-  "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Google_Photos_icon_%282020%29.svg",
-  "apk_file": "https://play.google.com/store/apps/details?id=com.google.android.apps.photos",
-  "description": "Google Photos is the home for all your photos and videos, automatically organized and easy to share. It offers powerful search capabilities, advanced editing tools, and seamless integration across devices.",
-  "appabout": "<section>\n  <p><strong>Google Photos</strong> is a cloud-based photo and video storage service developed by Google. It allows users to store, organize, and share their photos and videos across devices. The app offers features like automatic backup, powerful search, and advanced editing tools.</p>\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>15 GB of Free Storage:</strong> Every Google Account comes with 15 GB of storage shared across Google Photos, Gmail, and Google Drive.</li>\n    <li><strong>Automatic Backup:</strong> Photos and videos are automatically backed up from your device to the cloud.</li>\n    <li><strong>Advanced Search:</strong> Easily search your photos by people, places, and things using Google's powerful search engine.</li>\n    <li><strong>Editing Tools:</strong> Enhance your photos with built-in editing tools, including filters, cropping, and adjustments.</li>\n    <li><strong>Sharing:</strong> Share photos and albums with friends and family, even if they don't have the app.</li>\n  </ul>\n  <p><em>Developer:</em> Google LLC</p>\n</section>",
-  "seo_title": "Google Photos – Cloud Storage & Photo Sharing",
-  "seo_description": "Google Photos offers cloud storage for your photos and videos, with features like automatic backup, advanced search, and editing tools. Access your memories from any device.",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/0fWmvqTvc8L6cB5AI0PhzkFIC_qGwxqZvPrI0QawH552qI6rEssrVdIyuRFrIsEvQA=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/pJO1bhKUArYQadAJW1S5sK1fJzDwn1S09rB35_IYdph6fVa3HVyM_T4axAct3jGdrPRS=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/myT3tN-0B_tkodrcUekbOf1C41pFHPMIQ8GEbdIeupyCQ_3UBc2yPa11ZR5yorIB_es=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "August 13, 2025"
-},
-{
-  "id" 113,
-  "name": "Canon Camera Connect",
-  "slug": "canon-camera-connect",
-  "package": "jp.co.canon.ic.cameraconnect",
-  "version": "3.4.10.12",
-  "size": "20.52 MB",
-  "downloads": "10M+",
-  "rating": "4.1",
-  "icon": "https://play-lh.googleusercontent.com/lYuxVI5-DRwlTDhEHDYfoMpLrkZkfvS9tYQoPHlb65K5xW7wLjoRFoEhoATzV2wSXt0=s512-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=jp.co.canon.ic.cameraconnect&hl=en",
-  "description": "Canon Camera Connect is an application to transfer images shot with compatible Canon cameras to smartphones or tablets. By connecting to a camera with Wi-Fi (direct connection or via wireless router), this application provides the following features: transfer and save camera images to a smartphone, remote shoot with live view imaging of the camera from a smartphone, and connect with Canon's various services.",
-  "appabout": "<section>\n  <p><strong>Canon Camera Connect</strong> is an application designed to transfer images shot with compatible Canon cameras to smartphones or tablets. By connecting to a camera with Wi-Fi (direct connection or via wireless router), this application provides the following features:</p>\n  <ul>\n    <li><strong>Transfer and save camera images to a smartphone.</strong></li>\n    <li><strong>Remote shoot with live view imaging of the camera from a smartphone.</strong></li>\n    <li><strong>Connect with Canon's various services.</strong></li>\n  </ul>\n  <p><em>Developer:</em> Canon Inc.</p>\n</section>",
-  "seo_title": "Canon Camera Connect – Wireless Photo Transfer & Remote Shooting",
-  "seo_description": "Canon Camera Connect allows you to wirelessly transfer photos from your Canon camera to your smartphone or tablet, and remotely control your camera for convenient shooting.",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/dlQ_bDMW_uY67HvE9Ywj_tGXD11fiSWS9ZM5q03Jotq-Nn0DTcwWJp4NPaZznsdLZVs=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/GaUg9oimo8qhPdghWxDWzvB3oVV_XgGrMSePa4idzk0x1T3w_L9bTKUjyo8N2hjKW9A=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/s-C3IA7VRvv40WkiSodPongkPGyv7XqcFH24E_F0871TdMRYLjmfiHe2eglRy_X9G3fu=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/oUcvsaKAISqk4OoHmXwMy0mvTzRI-7FruVIs1sxSwulrEGkiAm8wMy4SejJ0vQ_g3zk=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/ScMPctez0NdEsRYTYvY25DhNDDl3M-gpS-uHBsBFezPKoB16oYpeHO_hBxWiu6xmAw=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/s9HKB_eGx7ptOomOg6WQK6IrcECoquRCD4_pC9SPchri0CvWEPpEynDDDth6lCHAGB-E=w2560-h1440-rw"
-  ],
-  "category": "Photography",
-  "updated": "June 30, 2025"
-},
-{
-  "id": 114,
-  "name": "Hailuo AI: AI Video Generator",
-  "slug": "hailuo-ai-ai-video-generator",
-  "package": "ai.hailuo.video",
-  "version": "1.0.9",
-  "size": "Varies with device",
-  "downloads": "1,000,000+",
-  "rating": "4.3",
-  "icon": "https://play-lh.googleusercontent.com/m8sS0x1-yScLCN_0mGtxWlRpp6rEd8z71c23RbeAD0KA3rS6GPpDp25VxQfjHRFAXJE=s512-rw",
-  "apk_file": "https://play.google.com/store/apps/details?id=ai.hailuo.video",
-  "description": "Hailuo AI is a powerful text-to-video and image-to-video generator that transforms your ideas into captivating videos with just a few clicks. Harnessing advanced AI technology, Hailuo AI delivers high-quality videos from text descriptions or images, making video creation effortless and accessible.",
-  "appabout": "<section>\n  <p><strong>Hailuo AI: AI Video Generator</strong> is an advanced AI-powered video creation tool that enables users to generate high-quality videos from text prompts or images. Whether you're a content creator, marketer, or storyteller, Hailuo AI offers an intuitive platform to bring your ideas to life.</p>\n\n  <h3>Key Features:</h3>\n  <ul>\n    <li><strong>Text-to-Video Generation:</strong> Convert written descriptions into dynamic video content with natural motion and cinematic effects.</li>\n    <li><strong>Image-to-Video Transformation:</strong> Animate still images by adding movement and effects, creating engaging video sequences.</li>\n    <li><strong>Subject Reference Consistency:</strong> Maintain consistent character appearances across scenes, ensuring continuity in storytelling.</li>\n    <li><strong>Director Model (T2V-01):</strong> Control camera angles and movements within your video prompts, enhancing the dynamism of generated videos.</li>\n    <li><strong>High-Quality Output:</strong> Generate videos in 1080p HD resolution with smooth playback, suitable for professional use.</li>\n  </ul>\n\n  <h3>Subscription Plans:</h3>\n  <p>Hailuo AI offers optional premium subscriptions for enhanced features. Subscription plans include:</p>\n  <ul>\n    <li>Pro Weekly: $9.99</li>\n    <li>Pro Monthly: $29.99</li>\n  </ul>\n  <p>Manage your subscription in your account settings.</p>\n\n  <h3>Data Safety & Permissions:</h3>\n  <p>The app may collect and share personal information and app activity data. Data is encrypted in transit, and users can request data deletion as per the app's privacy policy.</p>\n</section>",
-  "seo_title": "Hailuo AI: AI Video Generator – Transform Text and Images into Stunning Videos",
-  "seo_description": "Create high-quality videos effortlessly with Hailuo AI. Convert text prompts and images into dynamic videos with advanced AI technology, suitable for content creators and marketers.",
-  "screenshots": [
-    "https://play-lh.googleusercontent.com/gw_VoOUGynKygOSCifubECYIm8a5NReENlPwlZ-BZNcY_wOZlEkGW6wX6ttwcPmjtQ=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/xaJQ9aAh5ycoYfM4eRxr5PQIsSGAgXvM7hINk1yRwHftkyd6Xae9stgNq7Rb_wqDdw=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/RW7Mi7Wys5RY7Tt_up9MfuHxhwFkpuR5F9Dp0WsHQZ6RH-GIJKvIU-gqzlbFh5UyvkAn=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/IDkSS4mIrZ8_2HlYhX90jSz0g51YFaY4fCWU8wfP7vxFEVNpw74GDmZ_8rJUU4D9VeP7=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/yFnd8-EVD2VfRyzl42h10KQN6FFuWuBFvdyZXrVx5lkkAf8NYxKdnP_ZM_g6XpNqSGE=w2560-h1440-rw",
-    "https://play-lh.googleusercontent.com/_aaaa7kx5RFQnf6Z3X19ir89oVZQINNBsyF9qKlQ2Exr3djkgHeRrFY6re2AVA-aPpZG=w2560-h1440-rw"
-  ],
-  "category": "Video Players & Editors",
-  "updated": "August 19, 2025"
 }
         
     ]
